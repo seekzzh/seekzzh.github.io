@@ -1,0 +1,1408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Eating &amp; Drinking in the Netherlands</title>
+    <url>/posts/837e479b/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><img data-src="/posts/837e479b/Dutch-food.jpg" class="">
+<a id="more"></a>
+<p>The Netherlands may not be Europe’s gastronomic epicenter, but the food in the average Dutch restaurant has improved by leaps and bounds in recent years, and there are any number of places serving a good, inventive take on home-grown cuisine. All the larger cities also have a decent assortment of ethnic restaurants, especially Indonesian, Chinese and Thai, plus lots of cafés and bars – often known as eetcafés – that serve adventurous, reasonably priced food in a relaxed and unpretentious setting. The Netherlands is also a great country to go drinking, with a wide selection of bars, ranging from the chic and urbane to the rough and ready.</p>
+<h1 id="eating">EATING</h1>
+<h2 id="local-habits">Local habits</h2>
+<p>Dinners at homes are served around 6pm and will only take half an hour. The kitchens in restaurants normally close at 9pm. At a restaurant, a tip of 5-10% is appropriate if the meal was good. When two people go out for dinner, they usually split the bill ('going Dutch'). In a larger group, everyone pays their own share. If a Dutch person is to pay for the meal, they will let you know when you are invited.</p>
+<p>In general, the Dutch have three meals a day. In the past, they had meat, vegetables, and potatoes for dinner, but nowadays, they are influenced by other culinary tastes. This is also reflected in the variety of restaurants. Lunch will normally consist of bread and cheese or light spread and will be taken between 12:00 and 1:00.</p>
+<p>A very traditional dinner dish is <em>stamppot</em> - the name for several variations of a winter dish with mashed potatoes and vegetables, such as <em>hutspot</em> with carrots and onions, <em>stamppot boerenkool</em> with green kale, or <em>stamppot zuurkool</em> with sauerkraut. <em>Erwtensoep</em> or <em>snert</em> (two different types of pea soup) are well known and traditionally eaten after ice skating or working hard in the cold.</p>
+<p>The Dutch eat a lot of cheese(on bread). Another typical bread topping is <em>hageslag</em> (chocolate sprinkles) that is not only eaten by children but by adults as well. A surprisingly wide variety of hagelslag is available in the supermarket.</p>
+<p>There are vending machines built into the walls of snack bars where you can purchase a snack (<em>kroketten</em>, <em>frikandellen</em>, etc.) without a shop assistant. They call it "eten uit de muur" (eating from the wall).</p>
+<p>Some other typical foods include:</p>
+<ul>
+<li><em>Haring</em>: raw herring; it's seasonal and the first barrel in June is auctioned for charity. You eat them by hand with raw onion at stands on the street or at the fish shop.</li>
+<li><em>Pofferties</em>: mini pancakes. You can buy them at special stalls, and they are served with butter and icing sugar.</li>
+<li><em>Pannekoeken</em>: plate-sized thin crepe-like pancakes, with either sweet or savory fillings/toppings.</li>
+<li><em>Drop</em>: Licorice</li>
+<li><em>Stroopwafel</em>: Waffle cookies with a syrup or caramel middle.</li>
+<li><em>Taart</em>: typically fruit-filled pies with cookie-like crust.</li>
+</ul>
+<h2 id="social-dinners---dos-and-donts">Social Dinners - Dos and Don'ts</h2>
+<p>If you invite Dutch people for dinner, prepare your own type of food and style as they love to try something different. They are not used to potluck dinners and buffets. They will not help themselves to drinks as it is considered rude, unless specifically invited to do so.</p>
+<p>If you are invited, make sure you are on time. If they say 8pm, they mean 8pm. Most of the time, they will only invite you when they know you well. It is very considerate to bring a small gift like a bunch of flowers, a bottle of wine, or a box of chocolates. They won't open the wine, but they might serve the chocolates with coffee.</p>
+<p>Don't offer to bring a plate of food, to help prepare the meal, or to take a doggy bag home. Wait with starting to drink wine until the host has raised his or her glass. Only start eating when your host has taken the first bite. Expect that you will be offered seconds, but only after everyone has finished their plates.</p>
+<h1 id="drinking">Drinking</h1>
+<p>The tap water in the Netherlands is of high quality and therefore considered drinkable.</p>
+<h2 id="after-work-drinks-or-borrel">After-work Drinks, or Borrel</h2>
+<p>The Dutch usually don't socialize with other colleagues and will keep work and private life separate. They don't like working late or coming in over the weekend as they like to keep this their personal time. They might go for drinks after work (<em>borrel</em>) but tend to go home after 1.5 hours for dinner. The drinks take place at a "<em>bruin cafe</em>" where they serve Dutch and Belgian beer, wine and spirits such as Dutch jenever, and of course, soft drinks. No meals are served, but snacks like "<em>bitterballen</em>" and cubes of cheese may be present.</p>
+<h2 id="coffee-and-tea-time">Coffee and Tea Time</h2>
+<p>If people invite you for coffee, ask if they mean in the morning or in the evening. Coffee in the morning is around 10:00 - 10:30 and in the evening, at 8:00. Tea time is around 3pm. Be aware that it is not a light meal, but normally cake is served.</p>
+]]></content>
+      <categories>
+        <category>Life</category>
+      </categories>
+      <tags>
+        <tag>Dutch</tag>
+        <tag>Food</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Abaqus-Common Commands</title>
+    <url>/posts/c0718fce/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol type="1">
+<li><strong>提交任务：</strong> <code>abaqus job=jobname1 int</code> 或 <code>abaqus job=jobname1 int</code></li>
+<li><strong>双精度提交：</strong> <code>abaqus job=jobname1 double int</code></li>
+<li><strong>任务暂停：</strong> <code>abaqus suspend job=jobname1 int</code> (可恢复)</li>
+<li><strong>恢复运算：</strong> <code>abaqus resume job=jobname1 int</code></li>
+<li><strong>结束任务：</strong> <code>abaqus terminate job=jobname1 int</code> <a id="more"></a></li>
+<li><strong>Restart 重启动计算：</strong> <code>abaqus job=jobname1 oldjob=jobname2 int</code></li>
+<li><strong>打开 CAE 界面：</strong> <code>abaqus cae</code></li>
+<li><strong>打开 VIEWER 后处理界面：</strong> <code>abaqus viewer</code></li>
+<li><strong>查看 ABAQUS 帮助文件：</strong> <code>abaqus doc</code></li>
+<li><strong>查看 cmd 命令帮助：</strong> <code>abaqus help</code></li>
+<li><strong>顺次运行几个 inp 后自动关机：</strong>
+<ul>
+<li><code>Call abaqus job=job_1 int</code></li>
+<li><code>Call abaqus job=job_2 int</code></li>
+<li><code>Shutdown -s</code></li>
+</ul></li>
+<li><strong>运算之前 datacheck:</strong> <code>abaqus job=xxx datcheck</code></li>
+<li><strong>定义所需的最大内存：</strong> <code>abaqus job=xxx memory=memory-size</code></li>
+<li><strong>提交一个子程序、双精度、多 CPU 运算：</strong>
+<ul>
+<li><code>Abaqus job=jobname user=user_xxx.for cpus=4</code></li>
+<li><code>Abaqus job=jobname user= user_xxx.for cpus=8 int</code></li>
+</ul></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Study</category>
+      </categories>
+      <tags>
+        <tag>Abaqus</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Memory of Taipei</title>
+    <url>/posts/977b8b8c/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><img data-src="/posts/977b8b8c/9.jpg" class="" title="西門町">
+<a id="more"></a>
+<img data-src="/posts/977b8b8c/1.jpg" class="" title="浦東機場">
+<img data-src="/posts/977b8b8c/2.jpg" class="" title="桃園機場">
+<img data-src="/posts/977b8b8c/3.jpg" class="" title="慈佑宮">
+<img data-src="/posts/977b8b8c/5.jpg" class="" title="天后宮">
+<img data-src="/posts/977b8b8c/7.jpg" class="" title="商業街">
+<img data-src="/posts/977b8b8c/8.jpg" class="" title="街頭小吃">
+<img data-src="/posts/977b8b8c/10.jpg" class="" title="自由廣場">
+<img data-src="/posts/977b8b8c/11.jpg" class="" title="台北地鐵">
+<img data-src="/posts/977b8b8c/12.jpg" class="" title="機車牌照">
+<img data-src="/posts/977b8b8c/13.jpg" class="" title="颱風過後">
+<img data-src="/posts/977b8b8c/14.jpg" class="" title="保齡球">
+<img data-src="/posts/977b8b8c/15.jpg" class="" title="台科校園">
+<img data-src="/posts/977b8b8c/16.jpg" class="" title="PBL">
+<img data-src="/posts/977b8b8c/17.jpg" class="" title="PBL">
+<img data-src="/posts/977b8b8c/18.jpg" class="" title="PBL">
+<img data-src="/posts/977b8b8c/19.JPG" class="" title="PBL">
+<img data-src="/posts/977b8b8c/20.jpg" class="" title="PBL">
+]]></content>
+      <categories>
+        <category>Life</category>
+      </categories>
+      <tags>
+        <tag>Travel</tag>
+        <tag>Taiwan</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Useful Dutch Words in Daily Life</title>
+    <url>/posts/3cda8bc5/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><img data-src="/posts/3cda8bc5/Dutch-words.jpg" class="">
+<a id="more"></a>
+<h1 id="house-words">House words</h1>
+<table>
+<thead>
+<tr class="header">
+<th>Dutch</th>
+<th>English</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>gemeubileerd</td>
+<td>fully furnished<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="The house may have everything from pots and pans to a dishwasher. It is recommended to ask for an inventory list.
+">[1]</span></a></sup></td>
+</tr>
+<tr class="even">
+<td>gestoffeerd</td>
+<td>partly or soft-furnished<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="There will usually be flooring, window coverings, celling lights and/or major kitchen appliances
+">[2]</span></a></sup></td>
+</tr>
+<tr class="odd">
+<td>kaal or ongemeubileerd</td>
+<td>unfurnished or bare<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="This means no flooring, window covering, light fixtures, etc.">[3]</span></a></sup></td>
+</tr>
+<tr class="even">
+<td>de makelaar</td>
+<td>real estate agent</td>
+</tr>
+<tr class="odd">
+<td>te koop</td>
+<td>to buy</td>
+</tr>
+<tr class="even">
+<td>te huur</td>
+<td>to rent</td>
+</tr>
+<tr class="odd">
+<td>beschikbaar</td>
+<td>available</td>
+</tr>
+<tr class="even">
+<td>verkocht</td>
+<td>sold</td>
+</tr>
+<tr class="odd">
+<td>de vraagprijs</td>
+<td>the asking price</td>
+</tr>
+<tr class="even">
+<td>de wijk</td>
+<td>neighborhood, district</td>
+</tr>
+<tr class="odd">
+<td>de buurt</td>
+<td>neighborhood, area</td>
+</tr>
+<tr class="even">
+<td>het huis</td>
+<td>house</td>
+</tr>
+<tr class="odd">
+<td>het flatgebouw</td>
+<td>apartment house</td>
+</tr>
+<tr class="even">
+<td>de flat / het appartment</td>
+<td>apartment</td>
+</tr>
+<tr class="odd">
+<td>de eenkamer / tweekamerflat</td>
+<td>a flat with 1 / 2 rooms</td>
+</tr>
+<tr class="even">
+<td>de eengezinswoning</td>
+<td>a single-family home</td>
+</tr>
+<tr class="odd">
+<td>aantal slaapkamers</td>
+<td>quantity, number of rooms</td>
+</tr>
+<tr class="even">
+<td>de tuin</td>
+<td>garden</td>
+</tr>
+<tr class="odd">
+<td>de verwarming</td>
+<td>heating</td>
+</tr>
+<tr class="even">
+<td>de parkeerplaats</td>
+<td>parking lot</td>
+</tr>
+<tr class="odd">
+<td>de keuken</td>
+<td>kitchen</td>
+</tr>
+<tr class="even">
+<td>de slaapkamer</td>
+<td>bedroom</td>
+</tr>
+<tr class="odd">
+<td>het toilet / de wc</td>
+<td>toilet</td>
+</tr>
+<tr class="even">
+<td>de badkamer</td>
+<td>bathroom</td>
+</tr>
+<tr class="odd">
+<td>de inventarislijst</td>
+<td>the inventory list</td>
+</tr>
+<tr class="even">
+<td>de waarborgsom</td>
+<td>deposit, guarantee</td>
+</tr>
+<tr class="odd">
+<td>de huurder</td>
+<td>the tenant, the renter</td>
+</tr>
+<tr class="even">
+<td>de verhuurder</td>
+<td>the landlord/landlady</td>
+</tr>
+<tr class="odd">
+<td>de huurprijs</td>
+<td>the rental price</td>
+</tr>
+<tr class="even">
+<td>de huurperiode</td>
+<td>rental period</td>
+</tr>
+<tr class="odd">
+<td>minimale huurperiode</td>
+<td>minimum rental period</td>
+</tr>
+<tr class="even">
+<td>de ingangsdatum</td>
+<td>the effective date (for moving in)</td>
+</tr>
+<tr class="odd">
+<td>de einddatum</td>
+<td>end date, moving out date</td>
+</tr>
+<tr class="even">
+<td>de periode van</td>
+<td>a period form</td>
+</tr>
+<tr class="odd">
+<td>betaalperiode</td>
+<td>paying period</td>
+</tr>
+<tr class="even">
+<td>prijsklasse</td>
+<td>price range</td>
+</tr>
+<tr class="odd">
+<td>stoffering</td>
+<td>furniture</td>
+</tr>
+<tr class="even">
+<td>kaart en streetview</td>
+<td>map and street view</td>
+</tr>
+</tbody>
+</table>
+<h1 id="laundry-words">Laundry words</h1>
+<table>
+<thead>
+<tr class="header">
+<th>Dutch</th>
+<th>English</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>was</td>
+<td>wash/laundry</td>
+</tr>
+<tr class="even">
+<td>wasmachine</td>
+<td>washing mechine</td>
+</tr>
+<tr class="odd">
+<td>voorwas</td>
+<td>pre-wash</td>
+</tr>
+<tr class="even">
+<td>wasmiddel</td>
+<td>laundry detergent</td>
+</tr>
+<tr class="odd">
+<td>wasverzachter</td>
+<td>fabric softener</td>
+</tr>
+<tr class="even">
+<td>katoen</td>
+<td>cotton</td>
+</tr>
+<tr class="odd">
+<td>synthentisch</td>
+<td>synthetic</td>
+</tr>
+<tr class="even">
+<td>centrifugeren</td>
+<td>spin</td>
+</tr>
+<tr class="odd">
+<td>spoelen</td>
+<td>rinse</td>
+</tr>
+<tr class="even">
+<td>kort programma</td>
+<td>short / express program</td>
+</tr>
+<tr class="odd">
+<td>kleur</td>
+<td>color</td>
+</tr>
+<tr class="even">
+<td>wit / witte</td>
+<td>white</td>
+</tr>
+<tr class="odd">
+<td>zwart</td>
+<td>black</td>
+</tr>
+<tr class="even">
+<td>kleding</td>
+<td>clothing / clothes</td>
+</tr>
+</tbody>
+</table>
+<h1 id="post-words">Post words</h1>
+<table>
+<thead>
+<tr class="header">
+<th>Dutch</th>
+<th>English</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>brief</td>
+<td>letter</td>
+</tr>
+<tr class="even">
+<td>pakket</td>
+<td>parcel</td>
+</tr>
+<tr class="odd">
+<td>bestemming</td>
+<td>destination</td>
+</tr>
+<tr class="even">
+<td>gewicht</td>
+<td>weight</td>
+</tr>
+<tr class="odd">
+<td>aangetekend</td>
+<td>registered</td>
+</tr>
+<tr class="even">
+<td>brievenbus</td>
+<td>post box</td>
+</tr>
+<tr class="odd">
+<td>postzegel</td>
+<td>postage stamp</td>
+</tr>
+<tr class="even">
+<td>postzegelverkooppunt</td>
+<td>postage stamp selling point</td>
+</tr>
+<tr class="odd">
+<td>postkantoor</td>
+<td>post office</td>
+</tr>
+<tr class="even">
+<td>pakketpunt</td>
+<td>package point</td>
+</tr>
+</tbody>
+</table>
+<h1 id="train-words">Train words</h1>
+<table>
+<thead>
+<tr class="header">
+<th>Dutch</th>
+<th>English</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>trein</td>
+<td>train</td>
+</tr>
+<tr class="even">
+<td>journey</td>
+<td>reis</td>
+</tr>
+<tr class="odd">
+<td>Vertrek</td>
+<td>Departure</td>
+</tr>
+<tr class="even">
+<td>Aankomst</td>
+<td>Arrival</td>
+</tr>
+<tr class="odd">
+<td>Vandaag</td>
+<td>Today</td>
+</tr>
+<tr class="even">
+<td>Nu</td>
+<td>Now</td>
+</tr>
+<tr class="odd">
+<td>Plannen</td>
+<td>Plan</td>
+</tr>
+<tr class="even">
+<td>enkele reis</td>
+<td>single way</td>
+</tr>
+<tr class="odd">
+<td>2e klas</td>
+<td>2nd class</td>
+</tr>
+<tr class="even">
+<td>abonnement</td>
+<td>subscription</td>
+</tr>
+</tbody>
+</table>
+<div id="footnotes">
+<hr>
+<div id="footnotelist">
+<ol style="list-style: none; padding-left: 0; margin-left: 40px">
+<li id="fn:1">
+<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">The house may have everything from pots and pans to a dishwasher. It is recommended to ask for an inventory list.<a href="#fnref:1" rev="footnote"> ↩︎</a></span>
+</li>
+<li id="fn:2">
+<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">There will usually be flooring, window coverings, celling lights and/or major kitchen appliances<a href="#fnref:2" rev="footnote"> ↩︎</a></span>
+</li>
+<li id="fn:3">
+<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">This means no flooring, window covering, light fixtures, etc.<a href="#fnref:3" rev="footnote"> ↩︎</a></span>
+</li>
+</ol>
+</div>
+</div>
+]]></content>
+      <categories>
+        <category>Life</category>
+      </categories>
+      <tags>
+        <tag>Dutch</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Abaqus-Compatibility With Fortran and Visual Studio</title>
+    <url>/posts/813e3d74/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Abaqus如果需要使用用户子程序必须调用Intel Fortran，而Intel Fortran又必须在Visual Studio的环境下运行。三者之间存在两两兼容的问题，必须引起注意。</p>
+<h1 id="abaqus与intel-fortran及visual-studio的兼容关系">Abaqus与Intel Fortran及Visual Studio的兼容关系</h1>
+<table>
+<thead>
+<tr class="header">
+<th>Abaqus 版本</th>
+<th>兼容的 Intel Fortran</th>
+<th>兼容的 Visual Studio</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>6.8</td>
+<td>v9.1, v10.0, v10.1及以上</td>
+<td>2005</td>
+</tr>
+<tr class="even">
+<td>6.9</td>
+<td>v9.1, v10.0, v10.1及以上</td>
+<td>2005, 2008</td>
+</tr>
+<tr class="odd">
+<td>6.10</td>
+<td>v10.1, v11.0, v11.1及以上</td>
+<td>2008, 2010</td>
+</tr>
+<tr class="even">
+<td>6.11</td>
+<td>v10.1, v11.0, v11.1及以上</td>
+<td>2008, 2010</td>
+</tr>
+<tr class="odd">
+<td>6.12</td>
+<td>v10.1, v11.0, v11.1及以上</td>
+<td>2008, 2010</td>
+</tr>
+<tr class="even">
+<td>6.13</td>
+<td>v10.1, v11.0, v11.1及以上</td>
+<td>2008, 2010, 2012</td>
+</tr>
+</tbody>
+</table>
+<a id="more"></a>
+<h1 id="visual-studio各版本代号的对应关系">Visual Studio各版本代号的对应关系</h1>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">名字</th>
+<th style="text-align: center;">版本号</th>
+<th style="text-align: center;">简称</th>
+<th style="text-align: center;">全称</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">msvc70</td>
+<td style="text-align: center;">VC7.0</td>
+<td style="text-align: center;">VS2002</td>
+<td style="text-align: center;">Microsoft Visual Studio <strong>2002</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">msvc71</td>
+<td style="text-align: center;">VC7.1</td>
+<td style="text-align: center;">VS2003</td>
+<td style="text-align: center;">Microsoft Visual Studio <strong>2003</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">msvc80</td>
+<td style="text-align: center;">VC8.0</td>
+<td style="text-align: center;">VS2005</td>
+<td style="text-align: center;">Microsoft Visual Studio <strong>2005</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">msvc90</td>
+<td style="text-align: center;">VC9.0</td>
+<td style="text-align: center;">VS2008</td>
+<td style="text-align: center;">Microsoft Visual Studio <strong>2008</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"></td>
+<td style="text-align: center;">VC10.0</td>
+<td style="text-align: center;">VS2010</td>
+<td style="text-align: center;">Microsoft Visual Studio <strong>2010</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"></td>
+<td style="text-align: center;">VC11.0</td>
+<td style="text-align: center;">VS2012</td>
+<td style="text-align: center;">Microsoft Visual Studio <strong>2012</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"></td>
+<td style="text-align: center;">VC12.0</td>
+<td style="text-align: center;">VS2013</td>
+<td style="text-align: center;">Microsoft Visual Studio <strong>2013</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"></td>
+<td style="text-align: center;">VC13.0</td>
+<td style="text-align: center;">VS2014</td>
+<td style="text-align: center;">Microsoft Visual Studio <strong>2014</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"></td>
+<td style="text-align: center;">VC14.0</td>
+<td style="text-align: center;">VS2015</td>
+<td style="text-align: center;">Microsoft Visual Studio <strong>2015</strong></td>
+</tr>
+</tbody>
+</table>
+<h1 id="fortran与visual-studio的兼容关系">Fortran与Visual Studio的兼容关系</h1>
+<table>
+<thead>
+<tr class="header">
+<th>Intel Fortran 版本</th>
+<th>兼容的Visual Studio</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>v10.0</td>
+<td>2003, 2005</td>
+</tr>
+<tr class="even">
+<td>v10.1 (10.1.019之后)</td>
+<td>2003, 2005, 2008</td>
+</tr>
+<tr class="odd">
+<td>v11.0, v11.1</td>
+<td>2003, 2005, 2008</td>
+</tr>
+<tr class="even">
+<td>v12.0, v12.1 (XE2011)</td>
+<td>2005, 2008, 2010</td>
+</tr>
+<tr class="odd">
+<td>v13.0 (XE2013)</td>
+<td>2008, 2010, 2012</td>
+</tr>
+</tbody>
+</table>
+<h3 id="推荐搭配">推荐搭配</h3>
+<ul>
+<li><code>Abaqus 6.9</code> + <code>VS2005</code> + <code>Intel Fortran 9.1/10.0/10.1</code></li>
+<li><code>Abaqus 6.10/6.11/6.12</code> + <code>VS2008</code> + <code>Intel Fortran 10.1</code></li>
+<li><code>Abaqus 6.13/6.14</code> + <code>VS2012</code> + <code>Intel Fortran XE2013 SP1</code></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Study</category>
+      </categories>
+      <tags>
+        <tag>Abaqus</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Environment Construction of PyQt5 &amp; VTK</title>
+    <url>/posts/8767258e/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="vtk-简介及安装">VTK 简介及安装</h1>
+<h2 id="vtk-介绍">VTK 介绍</h2>
+<p>VTK（<strong>visualization toolkit</strong>）是一个开源的免费软件系统，主要用于三维计算机图形学、图像处理和可视化。Vtk 是在面向对象原理的基础上设计和实现的，它的内核是用 C++ 构建的，包含有大约 250,000 行代码，2000 多个类，还包含有几个转换界面，因此也可以自由的通过 Java，Tcl/Tk 和 Python 各种语言使用 VTK。</p>
+<a id="more"></a>
+<p>VTK 是一个开放源码、自由获取的软件系统，全世界的数以千计的研究人员和开发人员用它来进行 3D 计算机图形，图像处理，可视化。VTK 包含一个 c++类库，众多的翻译接口层，包括 Tcl/Tk，Java,Python。 Visualization Toolkit 是一个用于可视化应用程序构造与运行的支撑环境，它是在三维函数库 OpenGL 的基础上采用面向对象的设计方法发展起来的，它将我们在可视化开发过程中会经常遇到的细节屏蔽起来，并将一些常用的算法封装起来。比如 Visualization Toolkit 将我们在表面重建中比较常见的 MarchingCubes 算法封装起来，以类的形式给我们以支持，这样我们在对三维规则点阵数据进行表面重建时就不必再重复编写 MarchingCubes 算法的代码，而直接使用 Visualization Toolkit 中已经提供的 vtkMarchingCubes 类。Visualization Toolkit 是给从事可视化应用程序开发工作的研究人员提供直接的技术支持的一个强大的可视化开发工具。</p>
+<h2 id="vtk-在-python-环境下安装">VTK 在 Python 环境下安装</h2>
+<h3 id="方法一-安装-anaconda使用-conda-install-安装">方法一 安装 anaconda，使用 conda install 安装：</h3>
+<p>注意不同版本的 Python 对应不同的命令。</p>
+<h4 id="适用于-python3">适用于 python3</h4>
+<p><code>install -n envA -c menpo vtk=7 python=3</code></p>
+<p>or if you want to be more specific:</p>
+<p><code>conda install -n envB -c menpo vtk=7 python=3.5</code></p>
+<h4 id="适用于-python-2">适用于 python 2</h4>
+<p><code>conda install -n envC vtk python=2</code></p>
+<p>适用于 3.6：</p>
+<p><code>conda install -c clinicalgraphics vtk=7.1.0</code></p>
+<p>以上的命令都可以不加版本号</p>
+<h3 id="方法二镜像安装">方法二：镜像安装</h3>
+<p>由于国内的镜像里没有 vtk，所以直接用 conda 安装会非常慢，推荐下载 whl 文件后使用 pip 安装。</p>
+<p>提供一个下载 VTK 的 whl 文件的网址：<span class="exturl" data-url="aHR0cHM6Ly93d3cubGZkLnVjaS5lZHUvfmdvaGxrZS9weXRob25saWJzLyN2dGs=">https://www.lfd.uci.edu/~gohlke/pythonlibs/#vtk<i class="fa fa-external-link-alt"></i></span></p>
+<p>我是 win10 系统 64 位下，使用的 python3.7，下载的是：VTK‑8.1.2‑cp37‑cp37m‑win32.whl</p>
+<p>然后进入下载目录，启动 cmd, window power shell 或者 git bash，输入命令： <code>pip install VTK-7.1.1-cp36-cp36m-win_amd64.whl</code> 完成安装。</p>
+<p>安装完成后，在使用处导入vtk包即可。</p>
+<h3 id="检测安装成功">检测安装成功</h3>
+<p>示例代码：</p>
+<figure class="highlight py"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> vtk</span><br><span class="line"></span><br><span class="line">cone_a = vtk.vtkConeSource()</span><br><span class="line"></span><br><span class="line">coneMapper = vtk.vtkPolyDataMapper()</span><br><span class="line">coneMapper.SetInputConnection(cone_a.GetOutputPort())</span><br><span class="line"></span><br><span class="line">coneActor = vtk.vtkActor()</span><br><span class="line">coneActor.SetMapper(coneMapper)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">ren1 = vtk.vtkRenderer()</span><br><span class="line">ren1.AddActor(coneActor)</span><br><span class="line">ren1.SetBackground(<span class="number">1.0</span>, <span class="number">1.0</span>, <span class="number">1.0</span>)  </span><br><span class="line">ren1.SetBackground2(<span class="number">0.1</span>, <span class="number">0.2</span>, <span class="number">0.4</span>)</span><br><span class="line">ren1.SetGradientBackground(<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line">renWin = vtk.vtkRenderWindow()</span><br><span class="line">renWin.AddRenderer(ren1)</span><br><span class="line">renWin.SetSize(<span class="number">300</span>, <span class="number">300</span>)</span><br><span class="line">renWin.Render()</span><br><span class="line"></span><br><span class="line">iren = vtk.vtkRenderWindowInteractor()</span><br><span class="line">iren.SetRenderWindow(renWin)</span><br><span class="line"></span><br><span class="line">iren.Initialize()</span><br><span class="line">iren.Start()</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>运行结果如图所示：</p>
+
+<h1 id="vtk简单示例">VTK简单示例</h1>
+<h2 id="绘制立方体">绘制立方体</h2>
+<figure class="highlight py"><table><tr><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/env python</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># This is (almost) a direct C++ to Python transliteration of</span></span><br><span class="line"><span class="comment"># &lt;VTK-root&gt;/Examples/DataManipulation/Cxx/Cube.cxx from the VTK</span></span><br><span class="line"><span class="comment"># source distribution, which &quot;shows how to manually create vtkPolyData&quot;</span></span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="comment"># A convenience function, mkVtkIdList(), has been added and one if/else</span></span><br><span class="line"><span class="comment"># so the example also works in version 6 or later.</span></span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="comment"># Lines like `obj-&gt;Delete()` have been transliterated as `del obj` to,</span></span><br><span class="line"><span class="comment"># preserve the resemblance to the original C++ example, although I</span></span><br><span class="line"><span class="comment"># doubt this achieves anything beyond what Python&#x27;s garbage collection</span></span><br><span class="line"><span class="comment"># would do anyway.</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> vtk</span><br><span class="line"></span><br><span class="line"><span class="comment"># Makes a vtkIdList from a Python iterable. I&#x27;m kinda surprised that</span></span><br><span class="line"><span class="comment"># this is necessary, since I assumed that this kind of thing would</span></span><br><span class="line"><span class="comment"># have been built into the wrapper and happen transparently, but it</span></span><br><span class="line"><span class="comment"># seems not.</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">mkVtkIdList</span>(<span class="params">it</span>):</span></span><br><span class="line">    vil = vtk.vtkIdList()</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> it:</span><br><span class="line">        vil.InsertNextId(<span class="built_in">int</span>(i))</span><br><span class="line">    <span class="keyword">return</span> vil</span><br><span class="line"></span><br><span class="line"><span class="comment"># 绘制通用方法</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">myShow</span>(<span class="params">cube</span>):</span></span><br><span class="line">    <span class="comment"># Now we&#x27;ll look at it.</span></span><br><span class="line">    cubeMapper = vtk.vtkPolyDataMapper()</span><br><span class="line">    <span class="keyword">if</span> vtk.VTK_MAJOR_VERSION &lt;= <span class="number">5</span>:</span><br><span class="line">        cubeMapper.SetInput(cube)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        cubeMapper.SetInputData(cube)</span><br><span class="line">    cubeMapper.SetScalarRange(<span class="number">0</span>, <span class="number">7</span>)</span><br><span class="line">    cubeActor = vtk.vtkActor()</span><br><span class="line">    cubeActor.SetMapper(cubeMapper)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># The usual rendering stuff.</span></span><br><span class="line">    camera = vtk.vtkCamera()</span><br><span class="line">    camera.SetPosition(<span class="number">1</span>, <span class="number">1</span>, <span class="number">1</span>)</span><br><span class="line">    camera.SetFocalPoint(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>)</span><br><span class="line"></span><br><span class="line">    renderer = vtk.vtkRenderer()</span><br><span class="line">    renWin = vtk.vtkRenderWindow()</span><br><span class="line">    renWin.AddRenderer(renderer)</span><br><span class="line"></span><br><span class="line">    iren = vtk.vtkRenderWindowInteractor()</span><br><span class="line">    iren.SetRenderWindow(renWin)</span><br><span class="line"></span><br><span class="line">    renderer.AddActor(cubeActor)</span><br><span class="line">    renderer.SetActiveCamera(camera)</span><br><span class="line">    renderer.ResetCamera()</span><br><span class="line">    renderer.SetBackground(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>)</span><br><span class="line">    renderer.SetBackground(<span class="number">1.0</span>, <span class="number">1.0</span>, <span class="number">1.0</span>)</span><br><span class="line">    renderer.SetBackground2(<span class="number">0.1</span>, <span class="number">0.2</span>, <span class="number">0.4</span>)</span><br><span class="line">    renderer.SetGradientBackground(<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line">    renWin.SetSize(<span class="number">300</span>, <span class="number">300</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># interact with data</span></span><br><span class="line">    renWin.Render()</span><br><span class="line">    iren.Start()</span><br><span class="line">    <span class="keyword">del</span> cubeMapper</span><br><span class="line">    <span class="keyword">del</span> cubeActor</span><br><span class="line">    <span class="keyword">del</span> camera</span><br><span class="line">    <span class="keyword">del</span> renderer</span><br><span class="line">    <span class="keyword">del</span> renWin</span><br><span class="line">    <span class="keyword">del</span> iren</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">main</span>():</span></span><br><span class="line">    <span class="comment"># x = array of 8 3-tuples of float representing the vertices of a cube:</span></span><br><span class="line">    <span class="comment"># 8个三维值代表长方体的8个顶点</span></span><br><span class="line">    x = [(<span class="number">0.0</span>, <span class="number">0.0</span>, <span class="number">0.0</span>), (<span class="number">1.0</span>, <span class="number">0.0</span>, <span class="number">0.0</span>), (<span class="number">1.0</span>, <span class="number">1.0</span>, <span class="number">0.0</span>), (<span class="number">0.0</span>, <span class="number">1.0</span>, <span class="number">0.0</span>),</span><br><span class="line">         (<span class="number">0.0</span>, <span class="number">0.0</span>, <span class="number">1.0</span>), (<span class="number">1.0</span>, <span class="number">0.0</span>, <span class="number">1.0</span>), (<span class="number">1.0</span>, <span class="number">1.0</span>, <span class="number">1.0</span>), (<span class="number">0.0</span>, <span class="number">1.0</span>, <span class="number">1.0</span>)]</span><br><span class="line"></span><br><span class="line">    <span class="comment"># pts = array of 6 4-tuples of vtkIdType (int) representing the faces</span></span><br><span class="line">    <span class="comment">#     of the cube in terms of the above vertices</span></span><br><span class="line">    <span class="comment"># 点的编号0-7，每个面由4个点组成</span></span><br><span class="line">    pts = [(<span class="number">0</span>, <span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>), (<span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>, <span class="number">7</span>), (<span class="number">0</span>, <span class="number">1</span>, <span class="number">5</span>, <span class="number">4</span>),</span><br><span class="line">           (<span class="number">1</span>, <span class="number">2</span>, <span class="number">6</span>, <span class="number">5</span>), (<span class="number">2</span>, <span class="number">3</span>, <span class="number">7</span>, <span class="number">6</span>), (<span class="number">3</span>, <span class="number">0</span>, <span class="number">4</span>, <span class="number">7</span>)]</span><br><span class="line"></span><br><span class="line">    <span class="comment"># We&#x27;ll create the building blocks of polydata including data attributes.</span></span><br><span class="line">    cube = vtk.vtkPolyData()</span><br><span class="line">    points = vtk.vtkPoints()</span><br><span class="line">    polys = vtk.vtkCellArray()</span><br><span class="line">    scalars = vtk.vtkFloatArray()</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Load the point, cell, and data attributes.</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">8</span>):</span><br><span class="line">        points.InsertPoint(i, x[i])</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">6</span>):</span><br><span class="line">        polys.InsertNextCell(mkVtkIdList(pts[i]))</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">8</span>):</span><br><span class="line">        scalars.InsertTuple1(i, i)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># We now assign the pieces to the vtkPolyData.</span></span><br><span class="line">    cube.SetPoints(points)</span><br><span class="line">    <span class="keyword">del</span> points</span><br><span class="line">    cube.SetPolys(polys)</span><br><span class="line">    <span class="keyword">del</span> polys</span><br><span class="line">    cube.GetPointData().SetScalars(scalars)</span><br><span class="line">    <span class="keyword">del</span> scalars</span><br><span class="line"></span><br><span class="line">    myShow(cube)</span><br><span class="line">    <span class="comment"># Clean up</span></span><br><span class="line">    <span class="keyword">del</span> cube</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">main()</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>运行结果如图所示：</p>
+
+<h1 id="pyqt5中引入vtk渲染窗口">PyQt5中引入VTK渲染窗口</h1>
+<figure class="highlight py"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> PyQt5.QtWidgets <span class="keyword">import</span> QApplication, QMainWindow</span><br><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"><span class="keyword">import</span> vtk</span><br><span class="line"><span class="keyword">from</span> PyQt5 <span class="keyword">import</span> QtCore, QtGui, QtWidgets</span><br><span class="line"><span class="keyword">from</span> vtk.qt.QVTKRenderWindowInteractor <span class="keyword">import</span> QVTKRenderWindowInteractor</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">myMainWindow</span>(<span class="params">QtWidgets.QMainWindow</span>):</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self, parent=<span class="literal">None</span></span>):</span></span><br><span class="line">        QtWidgets.QMainWindow.__init__(self, parent)</span><br><span class="line"></span><br><span class="line">        self.frame = QtWidgets.QFrame()</span><br><span class="line"></span><br><span class="line">        self.vl = QtWidgets.QVBoxLayout()</span><br><span class="line">        self.vtkWidget = QVTKRenderWindowInteractor(self.frame)</span><br><span class="line">        self.vl.addWidget(self.vtkWidget)</span><br><span class="line"></span><br><span class="line">        self.ren = vtk.vtkRenderer()</span><br><span class="line">        self.vtkWidget.GetRenderWindow().AddRenderer(self.ren)</span><br><span class="line">        self.iren = self.vtkWidget.GetRenderWindow().GetInteractor()</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Create source</span></span><br><span class="line">        source = vtk.vtkConeSource()</span><br><span class="line">        source.SetCenter(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>)</span><br><span class="line">        source.SetRadius(<span class="number">0.1</span>)</span><br><span class="line"></span><br><span class="line">        source1 = vtk.vtkSphereSource()</span><br><span class="line">        source1.SetCenter(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>)</span><br><span class="line">        source1.SetRadius(<span class="number">0.3</span>)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Create a mapper</span></span><br><span class="line">        mapper = vtk.vtkPolyDataMapper()</span><br><span class="line">        mapper.SetInputConnection(source.GetOutputPort())</span><br><span class="line"></span><br><span class="line">        mapper1 = vtk.vtkPolyDataMapper()</span><br><span class="line">        mapper1.SetInputConnection(source1.GetOutputPort())</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Create an actor</span></span><br><span class="line">        actor = vtk.vtkActor()</span><br><span class="line">        actor.SetMapper(mapper)</span><br><span class="line"></span><br><span class="line">        actor1 = vtk.vtkActor()</span><br><span class="line">        actor1.SetMapper(mapper1)</span><br><span class="line"></span><br><span class="line">        self.ren.AddActor(actor)</span><br><span class="line">        self.ren.AddActor(actor1)</span><br><span class="line"></span><br><span class="line">        self.ren.ResetCamera()</span><br><span class="line"></span><br><span class="line">        self.frame.setLayout(self.vl)</span><br><span class="line">        self.setCentralWidget(self.frame)</span><br><span class="line"></span><br><span class="line">        self.show()</span><br><span class="line">        self.iren.Initialize()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&quot;__main__&quot;</span>:</span><br><span class="line">    app = QApplication(sys.argv)</span><br><span class="line">    window = myMainWindow()</span><br><span class="line">    sys.exit(app.exec_())</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>运行结果：</p>
+
+<h1 id="pyqt5中使用vtk读取stl文件">PyQt5中使用VTK读取STL文件</h1>
+<figure class="highlight py"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 部分代码，在PyQt主程序中以addWidget形式嵌入到主窗口中</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># 添加VTK显示窗读取STL文件===============================================</span></span><br><span class="line">    self.vtkWidget = QVTKRenderWindowInteractor(self.centralwidget) <span class="comment"># 提供平台独立的响应鼠标、键盘和时钟事件的交互机制</span></span><br><span class="line">    self.verticalLayout_3.addWidget(self.vtkWidget)</span><br><span class="line"></span><br><span class="line">    self.ren = vtk.vtkRenderer() <span class="comment"># 负责管理场景的渲染过程</span></span><br><span class="line">    self.ren.SetBackground(<span class="number">1.0</span>, <span class="number">1.0</span>, <span class="number">1.0</span>) <span class="comment"># 设置页面底部颜色值</span></span><br><span class="line">    self.ren.SetBackground2(<span class="number">0.1</span>, <span class="number">0.2</span>, <span class="number">0.4</span>) <span class="comment"># 设置页面顶部颜色值</span></span><br><span class="line">    self.ren.SetGradientBackground(<span class="number">1</span>) <span class="comment"># 开启渐变色背景设置</span></span><br><span class="line"></span><br><span class="line">    self.vtkWidget.GetRenderWindow().AddRenderer(self.ren)</span><br><span class="line">    self.iren = self.vtkWidget.GetRenderWindow().GetInteractor()</span><br><span class="line">    <span class="comment"># 交互器样式的一种，该样式下，用户是通过控制相机对物体作旋转、放大、缩小等操作</span></span><br><span class="line">    style = vtk.vtkInteractorStyleTrackballCamera()</span><br><span class="line">    self.iren.SetInteractorStyle(style)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Read from STL file</span></span><br><span class="line">    stlreader = vtk.vtkSTLReader()</span><br><span class="line">    stlreader.SetFileName(<span class="string">&quot;test.stl&quot;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Read from OBJ file</span></span><br><span class="line">    <span class="comment"># objReader = vtk.vtkOBJReader()</span></span><br><span class="line">	<span class="comment"># objReader.SetFileName(&quot;test.obj&quot;)</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># Create a mapper</span></span><br><span class="line">    mapper = vtk.vtkPolyDataMapper() <span class="comment"># 渲染多边形几何数据</span></span><br><span class="line">    mapper.SetInputConnection(stlreader.GetOutputPort()) </span><br><span class="line">    <span class="comment"># VTK可视化管线的输入数据接口 ，对应的可视化管线输出数据的接口为GetOutputPort()；</span></span><br><span class="line">    <span class="comment"># mapper.SetInputConnection(objReader.GetOutputPort())</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># Create an actor</span></span><br><span class="line">    actor = vtk.vtkActor()</span><br><span class="line">    actor.SetMapper(mapper)</span><br><span class="line">    <span class="comment"># 设置生成几何图元的Mapper。即连接一个Actor到可视化管线的末端(可视化管线的末端就是Mapper)。</span></span><br><span class="line"></span><br><span class="line">    self.ren.AddActor(actor)</span><br><span class="line">    self.ren.ResetCamera()</span><br><span class="line"></span><br><span class="line">    self.centralwidget.setLayout(self.verticalLayout_3)</span><br><span class="line">    self.setCentralWidget(self.centralwidget)</span><br><span class="line"></span><br><span class="line">    self.vtkWidget.show()</span><br><span class="line">    self.iren.Initialize()</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>运行结果：</p>
+
+
+<h2 id="vtk支持的3d文件格式">VTK支持的3D文件格式</h2>
+<p>VTK中可以导入/导出或读/写多种三维格式的文件，可以参考<span class="exturl" data-url="aHR0cHM6Ly93d3cudnRrLm9yZy9XaWtpL1ZUSy9GQVEjV2hhdF8zRF9maWxlX2Zvcm1hdHNfY2FuX1ZUS19pbXBvcnRfYW5kX2V4cG9ydC4zRg==">What 3D file formats can VTK import and export?<i class="fa fa-external-link-alt"></i></span> The following table identifies the file formats that VTK can read and write. Importer and Exporter classes move full scene information into or out of VTK. Reader and Writer classes move just geometry.</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">File Format</th>
+<th style="text-align: left;">Read</th>
+<th>Write</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">3D Studio</td>
+<td style="text-align: left;">vtk3DSImporter</td>
+<td></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">AVS "UCD" format</td>
+<td style="text-align: left;">vtkAVSucdReader</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Movie BYU</td>
+<td style="text-align: left;">vtkBYUReader</td>
+<td>vtkBYUWriter</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Renderman</td>
+<td style="text-align: left;"></td>
+<td>vtkRIBExporter</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Open Inventor 2.0</td>
+<td style="text-align: left;"></td>
+<td>vtkIVExporter/vtkIVWriter</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">CAD STL</td>
+<td style="text-align: left;">vtkSTLReader</td>
+<td>vtkSTLWriter</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Fluent GAMBIT ASCII</td>
+<td style="text-align: left;">vtkGAMBITReader</td>
+<td></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Unigraphics Facet Files</td>
+<td style="text-align: left;">vtkUGFacetReader</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Marching Cubes</td>
+<td style="text-align: left;">vtkMCubesReader</td>
+<td>vtkMCubesWriter</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Wavefront OBJ</td>
+<td style="text-align: left;"></td>
+<td>vtkOBJExporter</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">VRML 2.0</td>
+<td style="text-align: left;"></td>
+<td>vtkVRMLExporter</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">VTK Structured Grid †</td>
+<td style="text-align: left;">vtkStructuredGridReader</td>
+<td>vtkStructuredWriter</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">VTK Poly Data †</td>
+<td style="text-align: left;">vtkPolyDataReader</td>
+<td>vtkPolyDataWriter</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PLOT3D</td>
+<td style="text-align: left;">vtkPLOT3DReader</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">CGM</td>
+<td style="text-align: left;"></td>
+<td>vtkCGMWriter</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">OBJ</td>
+<td style="text-align: left;">vtkOBJReader</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Particle</td>
+<td style="text-align: left;">vtkParticleReader</td>
+<td></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PDB</td>
+<td style="text-align: left;">vtkPDBReader</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PLY</td>
+<td style="text-align: left;">vtkPLYReader</td>
+<td>vtkPLYWriter</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Gaussian</td>
+<td style="text-align: left;">vtkGaussianCubeReader</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Facet</td>
+<td style="text-align: left;">vtkFacetReader</td>
+<td>vtkFacetWriter</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">XYZ</td>
+<td style="text-align: left;">vtkXYZMolReader</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Ensight ‡</td>
+<td style="text-align: left;">vtkGenericEnSightReader</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+]]></content>
+      <categories>
+        <category>Program</category>
+      </categories>
+      <tags>
+        <tag>VTK</tag>
+        <tag>PyQt5</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Sakura of Tongji University</title>
+    <url>/posts/b674a5b4/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="http://wx2.sinaimg.cn/large/005Awdnjly1fxmzlr51u5j318t0u0npj.jpg" alt="Sakura Road" /></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="http://wx3.sinaimg.cn/large/005Awdnjly1fxmzjwvefhj318t0u07wl.jpg" alt="Sakura" /></div><div class="group-picture-column"><img data-src="http://wx2.sinaimg.cn/large/005Awdnjly1fxmzmbmpuhj318t0u0npg.jpg" alt="Sakura Cluster" /></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="http://wx1.sinaimg.cn/large/005Awdnjly1fxmzmwrsfnj318t0u07wn.jpg" alt="Sakura" /></div><div class="group-picture-column"><img data-src="http://wx2.sinaimg.cn/large/005Awdnjly1fxmzmhfepnj318t0u0hdy.jpg" alt="Malus Halliana" /></div><div class="group-picture-column"><img data-src="http://wx3.sinaimg.cn/large/005Awdnjly1fxmzmldzsij31400u0wzo.jpg" alt="Cat" /></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="http://wx3.sinaimg.cn/large/005Awdnjly1fxmzmr9nklj318t0u0b2d.jpg" alt="Bauhinia" /></div><div class="group-picture-column"><img data-src="http://wx4.sinaimg.cn/large/005Awdnjly1fxmzniqcg0j318t0u0hdy.jpg" alt="Honeysuckle" /></div><div class="group-picture-column"><img data-src="http://wx4.sinaimg.cn/large/005Awdnjly1fxmznnp1s8j318t0u0b2e.jpg" alt="Honeysuckle" /></div></div></div>
+]]></content>
+      <categories>
+        <category>Photograph</category>
+      </categories>
+      <tags>
+        <tag>TJU</tag>
+        <tag>Photos</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Abaqus-Unit</title>
+    <url>/posts/364e06ce/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><table>
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 14%" />
+<col style="width: 21%" />
+<col style="width: 14%" />
+<col style="width: 17%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Quantity</strong></th>
+<th style="text-align: center;"><strong>SI</strong></th>
+<th style="text-align: center;"><strong>SI (mm)</strong></th>
+<th style="text-align: center;"><strong>US Unit (ft)</strong></th>
+<th style="text-align: center;"><strong>US Unit (inch)</strong></th>
+<th style="text-align: center;"><strong>(Lxcad)cm</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Length</strong></td>
+<td style="text-align: center;"><span class="math display">\[m\]</span></td>
+<td style="text-align: center;"><span class="math display">\[mm\]</span></td>
+<td style="text-align: center;"><span class="math display">\[ft\]</span></td>
+<td style="text-align: center;"><span class="math display">\[in\]</span></td>
+<td style="text-align: center;"><span class="math display">\[cm\]</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Force</strong></td>
+<td style="text-align: center;"><span class="math display">\[N\]</span></td>
+<td style="text-align: center;"><span class="math display">\[N\]</span></td>
+<td style="text-align: center;"><span class="math display">\[lbf\]</span></td>
+<td style="text-align: center;"><span class="math display">\[lbf\]</span></td>
+<td style="text-align: center;"><span class="math display">\[N\]</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Mass</strong></td>
+<td style="text-align: center;"><span class="math display">\[kg\]</span></td>
+<td style="text-align: center;"><span class="math display">\[tonne   (10^3 kg)\]</span></td>
+<td style="text-align: center;"><span class="math display">\[slug\]</span></td>
+<td style="text-align: center;"><span class="math display">\[lbf\ s^2/in\]</span></td>
+<td style="text-align: center;"><span class="math display">\[(10^2 kg)\]</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Time</strong></td>
+<td style="text-align: center;"><span class="math display">\[s\]</span></td>
+<td style="text-align: center;"><span class="math display">\[s\]</span></td>
+<td style="text-align: center;"><span class="math display">\[s\]</span></td>
+<td style="text-align: center;"><span class="math display">\[s\]</span></td>
+<td style="text-align: center;"><span class="math display">\[s\]</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Stress</strong></td>
+<td style="text-align: center;"><span class="math display">\[Pa   (N/m^2)\]</span></td>
+<td style="text-align: center;"><span class="math display">\[MPa   (N/mm^2)\]</span></td>
+<td style="text-align: center;"><span class="math display">\[lbf/ft^2\]</span></td>
+<td style="text-align: center;"><span class="math display">\[psi (lbf/in^2)\]</span></td>
+<td style="text-align: center;"><span class="math display">\[N/cm^2\]</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Energy</strong></td>
+<td style="text-align: center;"><span class="math display">\[J\]</span></td>
+<td style="text-align: center;"><span class="math display">\[mJ   (10^{–3 }J)\]</span></td>
+<td style="text-align: center;"><span class="math display">\[ft\   lbf\]</span></td>
+<td style="text-align: center;"><span class="math display">\[in\   lbf\]</span></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Density</strong></td>
+<td style="text-align: center;"><span class="math display">\[kg/m^3\]</span></td>
+<td style="text-align: center;"><span class="math display">\[tonne/mm^3(10^{12})\]</span></td>
+<td style="text-align: center;"><span class="math display">\[slug/ft^3\]</span></td>
+<td style="text-align: center;"><span class="math display">\[lbf\   s^2/in^4\]</span></td>
+<td style="text-align: center;"><span class="math display">\[10^2 kg/cm^3(10^8)\]</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Ace</strong></td>
+<td style="text-align: center;"><span class="math display">\[m/s^2\]</span></td>
+<td style="text-align: center;"><span class="math display">\[mm/s^2\]</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><span class="math display">\[cm/s^2\]</span></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>建议采用国际单位制</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Study</category>
+      </categories>
+      <tags>
+        <tag>Abaqus</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Beauty of Kyoto</title>
+    <url>/posts/598cdc45/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><img data-src='http://wx3.sinaimg.cn/large/005Awdnjly1fdp0sixoq8j32zk200b2f.jpg' alt="Snow of Shokoku-ji"></p>
+<a id="more"></a>
+<p><img data-src="http://wx1.sinaimg.cn/large/005Awdnjly1fdp0spbwkpj32zk200qv8.jpg" alt="Plum flower of Tenmangu"/></p>
+<p><img data-src="http://wx2.sinaimg.cn/large/005Awdnjly1fdp0u2n6etj32zk200qva.jpg" alt="Arashiyama"/></p>
+<p><img data-src="http://wx1.sinaimg.cn/large/005Awdnjly1fdp0ud0lmaj32zk200b2g.jpg" alt="Kimono"/></p>
+<p><img data-src="http://wx4.sinaimg.cn/large/005Awdnjly1fdp0uj5kihj32zk2007wk.jpg" alt="Nara deer"/></p>
+<p><img data-src="http://wx2.sinaimg.cn/large/005Awdnjly1fdp0th5e1cj32zk200b2e.jpg" alt="Fushimi Inari"/></p>
+<p><img data-src="http://wx1.sinaimg.cn/large/005Awdnjly1fdp0s8w1s9j32zk2007wo.jpg" alt="Doshisha University"/></p>
+<p><img data-src="http://wx4.sinaimg.cn/large/005Awdnjly1fdp0ryeg3tj32zk2004qv.jpg" alt="Matsuya"/></p>
+<p><img data-src="http://wx1.sinaimg.cn/large/005Awdnjly1fdp0rojp2hj32zk200u15.jpg" alt="Fate" /></p>
+<p><img data-src="http://wx4.sinaimg.cn/large/005Awdnjly1fdp0rba6o6j32zk200b2e.jpg" alt="Tatami"/></p>
+<p><img data-src="http://wx2.sinaimg.cn/large/005Awdnjly1fdp0sxwcauj32002zke86.jpg" alt="Mountain"/></p>
+<!-- # --------------------------------- -->
+<!-- <img data-src="http://wx2.sinaimg.cn/large/005Awdnjly1fdp0sxwcauj32002zke86.jpg" alt="雪后鸭川" style="width:94%;border:none;"/> -->
+<!-- ![梅](http://wx1.sinaimg.cn/large/005Awdnjly1fdp0spbwkpj32zk200qv8.jpg "梅")
+!["岚山"](http://wx2.sinaimg.cn/large/005Awdnjly1fdp0u2n6etj32zk200qva.jpg "岚山")
+![金阁寺の雪](http://wx3.sinaimg.cn/large/005Awdnjly1fdp0sixoq8j32zk200b2f.jpg "金阁寺の雪")  -->
+<!-- 
+.image-caption {
+    margin: -20px auto 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    font-weight: bold;
+    line-height: 1;
+} 
+-->
+]]></content>
+      <categories>
+        <category>Photograph</category>
+      </categories>
+      <tags>
+        <tag>Travel</tag>
+        <tag>Photots</tag>
+        <tag>Kyoto</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Introduction to VTK (Visualization Toolkit)</title>
+    <url>/posts/676d6fe2/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="概述">概述</h1>
+<p>VTK<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="W.J.Schroeder,K.M.Martin,W.E.Lorensen,The Visualization Toolkit—An 0bject Oriented Approach to 3D Graphics,Prentice Hall,Upper Saddle River,NJ,1996.
+">[1]</span></a></sup> (visualization Toolkit)可视化类库是一套免费的、 源代码公开的软件工具包，是美国 Kitware 公司基于面向对象的编程技术设计和开发的，可用于图像处理、三维图形学及可视化程序设计。 VTK 被设计成一个工具包(Toolkit)而非一个系统，它是一个独立的目标库，可以很容易嵌入到任何一种开发工具中，并在此基础上开发自己的库函数，从而建立独立的大型应用系统。 VTK 由 C++类库和包括 Tcl/Tk， Java 以及 Python 的编译界面层组成。这种层次结构使得开发人员能够根据需要选择自己熟悉的工具语言进行开发，并且这些语言都有自己的 GUI 开发支持。</p>
+<a id="more"></a>
+<p>VTK 把图形图像和可视化领域内许多常用的算法封装起来， 并屏蔽了可视化开发过程中经常遇到的一些细节，这极大地方便了广大研究人员和开发人员。在图像处理和可视化方面， VTK 具有其他软件包无法比拟的优点。它作为一种流行的图像应用软件开发平台广泛应用于科学研究和工程领域。</p>
+<h1 id="特点">特点</h1>
+<p>VTK 是一套优秀的三维可视化图形系统，近年来广泛受到重视和应用。它具有如下一些鲜明的技术特点<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="石玉.基于 VTK 的可视化技术研究与实现[D].西安建筑科技大学,2009.6.
+">[2]</span></a></sup> ：</p>
+<ol type="1">
+<li>VTK 最引入注目的特点是源代码公开，它可满足不同用户的需求。由于它的源代码开放，世界各地的许多研究机构和个人在用它进行教学、研究和可视化系统的开发，使它受到广泛的支持，促使其代码持续更新，因此得到了不断的完善和改进。</li>
+<li>VTK 支持 c++、 Tcl、 Java、 Python 等多种语言环境，并具有多种程序语言之间的代码转换功能。</li>
+<li>VTK 封装了目前许多优秀的三维数据场可视化算法，提供了全面的功能支持，可方便地实现对数据集进行各种操作和变换。用户可用 VTK 实现任何图像的处理功能，如二维和三维图形图像的可视化计算、体绘制、图像分割、图像配准等。</li>
+<li>VTK 生成的三维图像方便交互，代码编写量少，而且代码重用性好。</li>
+<li>VTK 既可以在 Windows 系统中使用，也可以在 Unix 系统中使用，具有平台无关性和良好的可移植性。</li>
+<li>VTK 支持丰富的数据类型，可以对多种数据类型进行处理。</li>
+</ol>
+<h1 id="框架结构">框架结构</h1>
+<p>VTK 采用面向对象的设计方法， 它包括图形模型和可视化模型两种不同的对象模型。图形模型是三维图形的抽象，可视化模型是可视化的数据流程模型<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="Schroeder W,Martin K,Lorensen B.The Visualization Toolkit an Object-oriented Approach to 3D Graphics[M].Prentice Hall:Kitware Inc,2002.
+">[3]</span></a></sup>。</p>
+<p>图形模型表现了三维图形系统的本质特征， 主要用来将数据集的几何形状展示为直观的三维图形，并对属性、照相机、灯光、渲染窗口等属性进行设置和操作，实现图像生成和用户交互的功能。可用于二维、三维等一般图形的处理，它主要有 9 种基本对象<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="许庆功,李昌华.VTK 框架结构与运行机制的探讨[J].洛阳理工学院学报(自然科学版),2008,18(1):67-70.
+">[4]</span></a></sup>：</p>
+<ol type="1">
+<li><strong>属性</strong>：说明几何物体的一些特性，如光照特性、反射强度、物体的灰度、物体的绘制样式、着色模式等，以实现具有真实感的三维图形的绘制。</li>
+<li><strong>角色</strong>：代表渲染场景中的绘制对象实体，可以实现对角色的缩放，而且角色的位置、方向、渲染特性、引用、纹理映射等属性可以通过参数调节来设置。</li>
+<li><strong>变换</strong>：是一个堆栈，里面放置了 4×4 的变换矩阵，可以对堆栈进行平移、缩放、旋转等各种操作，一般在栈的顶部进行。</li>
+<li><strong>映射</strong>：指定了图形库中基本图元和渲染数据之间的联系，它的主要任务是把可视化过程中的数据对象转换为几何图元， 一个或多个角色可使用相同的映射，有多个参数对映射进行控制。</li>
+<li><strong>照相机</strong>：用来定义视点位置、聚焦点位置和其他一些相关属性，调用者可根据需要来设置参数。</li>
+<li><strong>灯光</strong>：可在场景中照亮绘制对象，可通过调用参数对灯光的位置、灯光的状态、照射角度、光照强度以及颜色等进行改变，并支持点光源和平行光源。当场景中的角色与光线发生作用时，就可以通过照相机进行观察。</li>
+<li><strong>渲染控制器</strong>：创建渲染窗口，定义坐标计算方法，此方法与设备无关。</li>
+<li><strong>渲染器</strong>：主要用于控制目标的渲染过程，对光源、照相机和绘制对象的位置、属性等进行管理，提供了观察坐标系、显示坐标系和世界坐标系三者之间的转换。完成渲染后，需要把渲染器加载到渲染窗口中进行显示。</li>
+<li><strong>渲染窗口</strong>：是用户图形界面，用于在显示设备上生成一个窗口，可以设置渲染窗口的大小、产生立体显示效果等，多个图像渲染器可以绘制到单个图像渲染窗口中，同时也可以创建多个图像渲染窗口。</li>
+</ol>
+<p>可视化模型采用了数据流程模型<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="黄姗姗,王博亮,闵小平.基于 VTK 的可视化技术的研究[J].中国数字医学,2008,3(1): 31-34.
+">[5]</span></a></sup>，在此模型中，各个模块是在网络中连接的，对数据的一系列操作利用模块来实现。这种模型的特点是适用于不同的数据类型和不同的算法，所以灵活性很强。 VTK 使用数据流方法把原始信息转换成图形数据。在此方法中有两个基本对象：数据对象(Data Object)和流程对象(Process Object)。</p>
+<p>VTK 采用的是流水线(pipe line)机制，支持有规则或无规则的点阵(Point sets)、图像(Image)、体元数据(Volume)等多种数据类型，并且可以很方便地实现这些数据类型之间的相互转换。在 VTK 类库中，提供了灵活丰富的用于读取各种数据格式的文件及其相互转换的类，如 vtkBmpReader( 位图读取类 ) ，vtkJpegReader(Jpeg 图像读取类)等从 vtkimageReader 继承而来的用于读取图像的类<sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="吴松峻，彭复员． 基于 VTK 的二维轮廓线的三维可视化重建[J].计算机与现代化,2004,(10):111-113.
+">[6]</span></a></sup>。</p>
+
+<p>大体框架如图所示。其中， Source 是整个流水线的开始，首先通过读入文件等方式产生源数据。滤波器(Filter)可以有若干个数据输入，并可以产生若干个数据输出，是一个相对独立的计算模块，功能是对数据作各种变换。 Mapper 将 Filter 处理后的数据转换为图形数据，实现由数据到图形的映射关系，是可视化流水线和图形模型之间的接口。只有映射关系很明显是不行的，要想看到真实的图像，还需要 Actor，其作用就是实体化由 Mapper 得到的映射关系，使人们能够看到最终的绘制结果。 Actor 还可以控制图像的显示属性，以使图像显示地更为逼真，这是通过调用属性对象(VTKProperty)来实现的。下一步就是由 Render 和 Renderwindow 来将图像显示在电脑窗口上。 通过调用它们提供的图形引擎和电脑视窗系统之间的接口，绘制出的图形就可以在窗口中得以显示。 RenderWindowInteractor 用来实现使用者与图像的交互，这样就可以通过鼠标操作使图像旋转，方便从各个角度对图像进行观察。</p>
+<div id="footnotes">
+<hr>
+<div id="footnotelist">
+<ol style="list-style: none; padding-left: 0; margin-left: 40px">
+<li id="fn:1">
+<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">W.J.Schroeder,K.M.Martin,W.E.Lorensen,The Visualization Toolkit—An 0bject Oriented Approach to 3D Graphics,Prentice Hall,Upper Saddle River,NJ,1996.<a href="#fnref:1" rev="footnote"> ↩︎</a></span>
+</li>
+<li id="fn:2">
+<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">石玉.基于 VTK 的可视化技术研究与实现[D].西安建筑科技大学,2009.6.<a href="#fnref:2" rev="footnote"> ↩︎</a></span>
+</li>
+<li id="fn:3">
+<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Schroeder W,Martin K,Lorensen B.The Visualization Toolkit an Object-oriented Approach to 3D Graphics[M].Prentice Hall:Kitware Inc,2002.<a href="#fnref:3" rev="footnote"> ↩︎</a></span>
+</li>
+<li id="fn:4">
+<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">许庆功,李昌华.VTK 框架结构与运行机制的探讨[J].洛阳理工学院学报(自然科学版),2008,18(1):67-70.<a href="#fnref:4" rev="footnote"> ↩︎</a></span>
+</li>
+<li id="fn:5">
+<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">黄姗姗,王博亮,闵小平.基于 VTK 的可视化技术的研究[J].中国数字医学,2008,3(1): 31-34.<a href="#fnref:5" rev="footnote"> ↩︎</a></span>
+</li>
+<li id="fn:6">
+<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">吴松峻，彭复员． 基于 VTK 的二维轮廓线的三维可视化重建[J].计算机与现代化,2004,(10):111-113.<a href="#fnref:6" rev="footnote"> ↩︎</a></span>
+</li>
+</ol>
+</div>
+</div>
+]]></content>
+      <categories>
+        <category>Program</category>
+      </categories>
+      <tags>
+        <tag>VTK</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Keyboard Shortcuts in Windows 10</title>
+    <url>/posts/faece5a4/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><img data-src="/posts/faece5a4/keyboard.jpg" class="">
+<p>Keyboard shortcuts are keys or combinations of keys that provide an alternative way to do something that you’d typically do with a mouse.</p>
+<a id="more"></a>
+<h1 id="general-keyboard-shortcuts">General keyboard shortcuts</h1>
+<table>
+<colgroup>
+<col style="width: 44%" />
+<col style="width: 55%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Press this key</th>
+<th style="text-align: left;">To do this</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Ctrl + X </strong></td>
+<td style="text-align: left;">Cut the selected item.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Ctrl + C (or Ctrl + Insert)</td>
+<td style="text-align: left;">Copy the selected item.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Ctrl + V (or Shift + Insert)</td>
+<td style="text-align: left;">Paste the selected item.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Ctrl + Z</td>
+<td style="text-align: left;">Undo an action.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Alt + Tab</td>
+<td style="text-align: left;">Switch between open apps.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Alt + F4</td>
+<td style="text-align: left;">Close the active item, or exit the active app.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Windows logo key + L</td>
+<td style="text-align: left;">Lock your PC.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Windows logo key + D</td>
+<td style="text-align: left;">Display and hide the desktop.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">F2</td>
+<td style="text-align: left;">Rename the selected item.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">F3</td>
+<td style="text-align: left;">Search for a file or folder in File Explorer.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">F4</td>
+<td style="text-align: left;">Display the address bar list in File Explorer.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">F5</td>
+<td style="text-align: left;">Refresh the active window.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">F6</td>
+<td style="text-align: left;">Cycle through screen elements in a window or on the desktop.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">F10</td>
+<td style="text-align: left;">Activate the Menu bar in the active app.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Alt + F8</td>
+<td style="text-align: left;">Show your password on the sign-in screen.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Alt + Esc</td>
+<td style="text-align: left;">Cycle through items in the order in which they were opened.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Alt + underlined letter</td>
+<td style="text-align: left;">Perform the command for that letter.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Alt + Enter</td>
+<td style="text-align: left;">Display properties for the selected item.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Alt + Spacebar</td>
+<td style="text-align: left;">Open the shortcut menu for the active window.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Alt + Left arrow</td>
+<td style="text-align: left;">Go back.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Alt + Right arrow</td>
+<td style="text-align: left;">Go forward.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Alt + Page Up</td>
+<td style="text-align: left;">Move up one screen.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Alt + Page Down</td>
+<td style="text-align: left;">Move down one screen.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Ctrl + F4</td>
+<td style="text-align: left;">Close the active document (in apps that are full-screen and let you have multiple documents open at the same time).</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Ctrl + A</td>
+<td style="text-align: left;">Select all items in a document or window.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Ctrl + D (or Delete)</td>
+<td style="text-align: left;">Delete the selected item and move it to the Recycle Bin.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Ctrl + R (or F5)</td>
+<td style="text-align: left;">Refresh the active window.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Ctrl + Y</td>
+<td style="text-align: left;">Redo an action.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Ctrl + Right arrow</td>
+<td style="text-align: left;">Move the cursor to the beginning of the next word.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Ctrl + Left arrow</td>
+<td style="text-align: left;">Move the cursor to the beginning of the previous word.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Ctrl + Down arrow</td>
+<td style="text-align: left;">Move the cursor to the beginning of the next paragraph.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Ctrl + Up arrow</td>
+<td style="text-align: left;">Move the cursor to the beginning of the previous paragraph.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Ctrl + Alt + Tab</td>
+<td style="text-align: left;">Use the arrow keys to switch between all open apps.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Alt + Shift + arrow keys</td>
+<td style="text-align: left;">When a group or tile is in focus on the Start menu, move it in the direction specified.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Ctrl + Shift + arrow keys</td>
+<td style="text-align: left;">When a tile is in focus on the Start menu, move it into another tile to create a folder.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Ctrl + arrow keys</td>
+<td style="text-align: left;">Resize the Start menu when it's open.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Ctrl + arrow key (to move to an item) + Spacebar</td>
+<td style="text-align: left;">Select multiple individual items in a window or on the desktop.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Ctrl + Shift with an arrow key</td>
+<td style="text-align: left;">Select a block of text.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Ctrl + Esc</td>
+<td style="text-align: left;">Open Start.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Ctrl + Shift + Esc</td>
+<td style="text-align: left;">Open Task Manager.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Ctrl + Shift</td>
+<td style="text-align: left;">Switch the keyboard layout when multiple keyboard layouts are available.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Ctrl + Spacebar</td>
+<td style="text-align: left;">Turn the Chinese input method editor (IME) on or off.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Shift + F10</td>
+<td style="text-align: left;">Display the shortcut menu for the selected item.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Shift with any arrow key</td>
+<td style="text-align: left;">Select more than one item in a window or on the desktop, or select text in a document.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Shift + Delete</td>
+<td style="text-align: left;">Delete the selected item without moving it to the Recycle Bin first.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Right arrow</td>
+<td style="text-align: left;">Open the next menu to the right, or open a submenu.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Left arrow</td>
+<td style="text-align: left;">Open the next menu to the left, or close a submenu.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Esc</td>
+<td style="text-align: left;">Stop or leave the current task.</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+      <categories>
+        <category>Tools</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>Shortcuts</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>How to Change the Export Resolution of a PowerPoint Slide</title>
+    <url>/posts/3b673594/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="question">Question:</h1>
+<p>By default, the export resolution of a PowerPoint slide that you want to save as a picture is only 96 dots per inch (dpi), which is much lower than the 300 dpi required by most journal papers. However, you can easily change the default resolution setting to 300 dpi, or even 1000 dpi, using the system registry.</p>
+<a id="more"></a>
+<img data-src="/posts/3b673594/01-export_image.png" class="" width="900">
+<img data-src="/posts/3b673594/02-default_resolution.png" class="" width="900">
+<h1 id="solution">Solution</h1>
+<h2 id="step-1-change-the-export-resolution-setting">Step 1: Change the export resolution setting</h2>
+<ol type="1">
+<li><p>Exit all Windows-based programs.</p></li>
+<li><p>Right-click the <strong>Start</strong> button and then <strong>Run</strong>.</p></li>
+<li><p>In the <strong>Open</strong> box, type <code>regedit</code>, and then select <strong>OK</strong>.</p></li>
+</ol>
+<img data-src="/posts/3b673594/03-open_regedit.png" class="" width="900">
+<div class="note info"><p>You can also type <code>regedit</code> in <strong>Command Prompt (cmd)</strong> to open <strong>Registry Editor</strong>.</p>
+</div>
+<ol type="1">
+<li><p>Locate one of the following registry subkeys, depending on the version of PowerPoint that you're using:</p>
+<ul>
+<li><p>PowerPoint 2016, 2019, PowerPoint for Office 365</p>
+<p><code>HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\PowerPoint\Options</code></p></li>
+<li><p>PowerPoint 2013</p>
+<p><code>HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\PowerPoint\Options</code></p></li>
+</ul></li>
+</ol>
+<img data-src="/posts/3b673594/04-locate_registry.png" class="" width="900">
+<ol start="5" type="1">
+<li>Click the <strong>Options</strong> subkey, point to <strong>New</strong> on the <strong>Edit</strong> menu, and then click <strong>DWORD (32-bit) Value</strong>.</li>
+</ol>
+<img data-src="/posts/3b673594/05-new_value.png" class="" width="900">
+<ol start="6" type="1">
+<li><p>Type <strong>ExportBitmapResolution</strong>, and then press Enter.</p></li>
+<li><p>Make sure that <strong>ExportBitmapResolution</strong> is selected, and then click <strong>Modify</strong> on the <strong>Edit</strong> menu.</p></li>
+<li><p>In the Edit DWORD Value dialog box, select <strong>Decimal</strong>.</p></li>
+<li><p>In the <strong>Value data</strong> box, type the value of the resolution that you want such as 300. Or, use the parameters in the following table.</p></li>
+</ol>
+<table>
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 31%" />
+<col style="width: 30%" />
+<col style="width: 28%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Decimal value</th>
+<th style="text-align: left;">Full-screen pixels (horizontal × vertical)</th>
+<th style="text-align: left;">Widescreen pixels (horizontal × vertical)</th>
+<th style="text-align: left;">Dots per inch (horizontal and vertical)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">50</td>
+<td style="text-align: left;">500 × 375</td>
+<td style="text-align: left;">667 × 375</td>
+<td style="text-align: left;">50 dpi</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">96 (default)</td>
+<td style="text-align: left;">960 × 720</td>
+<td style="text-align: left;">1280 × 720</td>
+<td style="text-align: left;">96 dpi</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">100</td>
+<td style="text-align: left;">1000 × 750</td>
+<td style="text-align: left;">1333 × 750</td>
+<td style="text-align: left;">100 dpi</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">150</td>
+<td style="text-align: left;">1500 × 1125</td>
+<td style="text-align: left;">2000 × 1125</td>
+<td style="text-align: left;">150 dpi</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">200</td>
+<td style="text-align: left;">2000 × 1500</td>
+<td style="text-align: left;">2667 × 1500</td>
+<td style="text-align: left;">200 dpi</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">250</td>
+<td style="text-align: left;">2500 × 1875</td>
+<td style="text-align: left;">3333 × 1875</td>
+<td style="text-align: left;">250 dpi</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">300</td>
+<td style="text-align: left;">3000 × 2250</td>
+<td style="text-align: left;">4000 × 2250</td>
+<td style="text-align: left;">300 dpi</td>
+</tr>
+</tbody>
+</table>
+<div class="note info"><p>See the <strong>Limitations</strong> section for more information when you set this value.</p>
+</div>
+<ol start="10" type="1">
+<li>Select <strong>OK</strong>.</li>
+</ol>
+<img data-src="/posts/3b673594/06-set_value.png" class="" width="900">
+<ol start="11" type="1">
+<li>On the <strong>File</strong> menu, select <strong>Exit</strong> to exit Registry Editor.</li>
+</ol>
+<h2 id="step-2-export-the-slide-as-a-picture">Step 2: Export the slide as a picture</h2>
+<ol type="1">
+<li><p>In PowerPoint, open your slide presentation, and then open the slide that you want to export.</p></li>
+<li><p>On the File menu, select <strong>Save As</strong>.</p></li>
+<li><p>In the <strong>Save as type</strong> box, select one of the following picture formats:</p>
+<ul>
+<li>GIF Graphics Interchange Format (*<strong>.gif</strong>)</li>
+<li>JPEG File Interchange Format (*<strong>.jpg</strong>)</li>
+<li>PNG Portable Network Graphics Format (*<strong>.png</strong>)</li>
+<li>TIFF Tag Image File Format (*<strong>.tif</strong>)</li>
+<li>Device Independent Bitmap (*<strong>.bmp</strong>)</li>
+<li>Windows Metafile (*<strong>.wmf</strong>)</li>
+<li>Enhanced Windows Metafile (*<strong>.emf</strong>)</li>
+</ul></li>
+<li><p>Select <strong>Save</strong>. You will be prompted with the following dialog box:</p></li>
+</ol>
+<img data-src="/posts/3b673594/07-save_as.png" class="" width="500">
+<p>Select <strong>Current Slide Only</strong>. The slide is saved in the new format and resolution, in the location that you specified in the <strong>Save in</strong> box.</p>
+<ol start="5" type="1">
+<li>To verify that the slide is saved in the resolution that you specified, right-click the picture, and then select <strong>Properties</strong>.</li>
+</ol>
+
+<h2 id="limitations">Limitations</h2>
+<h3 id="powerpoint-2019-2016-2013-and-365">PowerPoint 2019, 2016, 2013, and 365</h3>
+<p>There is no fixed DPI limit. Slide export is only limited by how big the resulting bitmap gets. PowerPoint can support creating bitmaps up to ~100,000,000 pixels (width x height). For standard widescreen slides (13.3" x 7.5") this means a maximum DPI of 1000. For the old style 10" x 7.5" slides this means a maximum of 1155 DPI, but depending on slide size, this can be more or less.</p>
+<h3 id="powerpoint-2010-and-older">PowerPoint 2010 and older</h3>
+<p>The maximum resolution that PowerPoint can export is 3072 pixels, based on the longest edge of the slide. For example, the standard 10" × 7.5" slide has a maximum effective DPI value of 307. The 3070-pixel result (10 × 307 = 3070) falls within the 3072 limit. However, any DPI setting that's greater than 307 for a standard slide reverts to the limit of 3072.</p>
+<h2 id="reference">Reference</h2>
+<p>https://docs.microsoft.com/en-us/office/troubleshoot/powerpoint/change-export-slide-resolution</p>
+]]></content>
+      <categories>
+        <category>Tools</category>
+      </categories>
+      <tags>
+        <tag>PowerPoint</tag>
+      </tags>
+  </entry>
+</search>

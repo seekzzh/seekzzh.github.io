@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+Allow: /about/
+Allow: /posts/
+
+Disallow: /assets/
+Disallow: /js/
+Disallow: /css/
+Disallow: /lib/
+
+Sitemap: https://seekzzh.site/sitemap.xml
+Sitemap: https://seekzzh.site/baidusitemap.xml
