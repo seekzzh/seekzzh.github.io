@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://seekzzh.site/posts/3b673594/</loc>
+    
+    <lastmod>2020-12-25</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://seekzzh.site/posts/b21c482c/</loc>
     
     <lastmod>2020-12-25</lastmod>
@@ -31,13 +38,6 @@
   
   <url>
     <loc>https://seekzzh.site/about/</loc>
-    
-    <lastmod>2020-12-24</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://seekzzh.site/posts/3b673594/</loc>
     
     <lastmod>2020-12-24</lastmod>
     
@@ -172,6 +172,13 @@
   </url>
   
   <url>
+    <loc>https://seekzzh.site/tags/Git/</loc>
+    <lastmod>2020-12-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://seekzzh.site/tags/TJU/</loc>
     <lastmod>2020-12-25</lastmod>
     <changefreq>daily</changefreq>
@@ -215,13 +222,6 @@
   
   <url>
     <loc>https://seekzzh.site/tags/PowerPoint/</loc>
-    <lastmod>2020-12-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://seekzzh.site/tags/Git/</loc>
     <lastmod>2020-12-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
