@@ -1405,4 +1405,48 @@
         <tag>PowerPoint</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Migrating Code Repository but Retaining Commit History</title>
+    <url>/posts/b21c482c/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="作用">作用</h2>
+<p>​ 把在A托管平台的仓库完全的迁移到B托管平台，保留commit历史记录。</p>
+<h2 id="解决">解决</h2>
+<ul>
+<li>如何将 coding上的仓库导入Github[保留commit历史记录]</li>
+<li>如何将 coding上的仓库导入gitee[保留commit历史记录]</li>
+<li>如何将 gitee上的仓库导入Github[保留commit历史记录]</li>
+<li>​如何将 Github 上的仓库导入腾讯开发者平台[保留commit历史记录]</li>
+</ul>
+<a id="more"></a>
+<h2 id="步骤">步骤</h2>
+<ol type="1">
+<li>新建</li>
+<li>克隆</li>
+<li>提交</li>
+<li>推送</li>
+</ol>
+<p>以Coding（腾讯开发者平台）迁移到Github 为例</p>
+<h2 id="git-操作">Git 操作</h2>
+<h3 id="新建项目">新建项目</h3>
+<p>在GitHub中新建一个同名项目(不同命也可以)，不选择 启用 README.md 文件初始化项目，以及任何 License 和 .gitignore 文件。</p>
+<div class="note danger"><p>不选择 启用 README.md 文件初始化项目，以及任何 License和 .gitignore文件。</p>
+</div>
+<h3 id="克隆腾讯开发者平台上的项目">克隆腾讯开发者平台上的项目</h3>
+<p>将 腾讯开发者平台 上想要导入的项目完整克隆到本地。</p>
+<p>本地执行</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://git.dev.tencent.com/abc/xyz.git --bare</span><br></pre></td></tr></table></figure>
+<h3 id="将克隆下来的仓库推送到开发者平台">将克隆下来的仓库推送到开发者平台</h3>
+<p>克隆完成后，将仓库推送到 开发者平台上。 使用仓库页面提供的 URL。推送所有的分支和对象</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> xyz.git</span><br><span class="line">git push https://github.com/abc/xyz.git --all</span><br></pre></td></tr></table></figure>
+<h3 id="完成后再执行推送所有的标签">完成后，再执行推送所有的标签。</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git push https://github.com/abc/xyz.git --tags</span><br></pre></td></tr></table></figure>
+<p>这样，整个仓库就全部导入到 开发者平台中了。</p>
+]]></content>
+      <categories>
+        <category>Program</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
 </search>
