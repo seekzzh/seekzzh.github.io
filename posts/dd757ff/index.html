@@ -31,21 +31,33 @@
     var NexT = window.NexT || {};
     var CONFIG = {"hostname":"seekzzh.site","root":"/","images":"/images","scheme":"Gemini","version":"8.1.0","exturl":true,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
   </script>
+<meta name="description" content="NONMEM® is a nonlinear mixed effects modelling tool used in population pharmacokinetic&#x2F;pharmacodynamic analysis. NONMEM stands for NONlinear Mixed Effects Modeling. NONMEM is a computer program that i">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Useful Dutch Words in Daily Life">
-<meta property="og:url" content="https://seekzzh.site/posts/3cda8bc5/">
+<meta property="og:title" content="在Windows上安装NONMEM+PsN+Pirana">
+<meta property="og:url" content="https://seekzzh.site/posts/dd757ff/">
 <meta property="og:site_name" content="HiT Site">
+<meta property="og:description" content="NONMEM® is a nonlinear mixed effects modelling tool used in population pharmacokinetic&#x2F;pharmacodynamic analysis. NONMEM stands for NONlinear Mixed Effects Modeling. NONMEM is a computer program that i">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://seekzzh.site/posts/3cda8bc5/Dutch-words.jpg">
-<meta property="article:published_time" content="2020-11-08T19:20:54.000Z">
-<meta property="article:modified_time" content="2020-12-24T15:43:55.654Z">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200630221352653.png#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200630221528772.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200630221749465.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200630222550546.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200630223047742.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200630223355883.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200630223612491.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200630223755163.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200630224005599.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200630224557900.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200630224710775.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center">
+<meta property="article:published_time" content="2020-12-26T08:21:56.000Z">
+<meta property="article:modified_time" content="2020-12-26T08:29:01.428Z">
 <meta property="article:author" content="seekzzh">
-<meta property="article:tag" content="Dutch">
+<meta property="article:tag" content="NONMEM">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://seekzzh.site/posts/3cda8bc5/Dutch-words.jpg">
+<meta name="twitter:image" content="https://img-blog.csdnimg.cn/20200630221352653.png#pic_center">
 
 
-<link rel="canonical" href="https://seekzzh.site/posts/3cda8bc5/">
+<link rel="canonical" href="https://seekzzh.site/posts/dd757ff/">
 
 
 <script data-pjax class="page-configurations">
@@ -57,7 +69,7 @@
     lang   : 'en'
   };
 </script>
-<title>Useful Dutch Words in Daily Life | HiT Site</title>
+<title>在Windows上安装NONMEM+PsN+Pirana | HiT Site</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130210864-1"></script>
     <script data-pjax>
@@ -231,7 +243,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <section class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#house-words"><span class="nav-number">1.</span> <span class="nav-text">House words</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#laundry-words"><span class="nav-number">2.</span> <span class="nav-text">Laundry words</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#post-words"><span class="nav-number">3.</span> <span class="nav-text">Post words</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#train-words"><span class="nav-number">4.</span> <span class="nav-text">Train words</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#windows%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE-1"><span class="nav-number">1.</span> <span class="nav-text">Windows环境配置 [1]</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85fortran%E7%BC%96%E8%AF%91%E5%99%A8"><span class="nav-number">1.1.</span> <span class="nav-text">安装Fortran编译器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%85%8D%E7%BD%AEperl%E7%8E%AF%E5%A2%83"><span class="nav-number">1.2.</span> <span class="nav-text">配置Perl环境</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85perl%E8%A7%A3%E9%87%8A%E5%99%A8"><span class="nav-number">1.2.1.</span> <span class="nav-text">安装Perl解释器</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#nonmem%E5%AE%89%E8%A3%85"><span class="nav-number">2.</span> <span class="nav-text">NONMEM安装</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#nonmem%E5%AE%89%E8%A3%85%E6%BA%90%E6%96%87%E4%BB%B6"><span class="nav-number">2.1.</span> <span class="nav-text">NONMEM安装源文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#pirana%E5%AE%89%E8%A3%85"><span class="nav-number">2.2.</span> <span class="nav-text">Pirana安装</span></a></li></ol></li></ol></div>
         </section>
         <!--/noindex-->
 
@@ -327,7 +339,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
-    <link itemprop="mainEntityOfPage" href="https://seekzzh.site/posts/3cda8bc5/">
+    <link itemprop="mainEntityOfPage" href="https://seekzzh.site/posts/dd757ff/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -340,7 +352,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Useful Dutch Words in Daily Life
+          在Windows上安装NONMEM+PsN+Pirana
         </h1>
 
         <div class="post-meta-container">
@@ -351,7 +363,7 @@
       </span>
       <span class="post-meta-item-text">Posted on</span>
 
-      <time title="Created: 2020-11-08 20:20:54" itemprop="dateCreated datePublished" datetime="2020-11-08T20:20:54+01:00">2020-11-08</time>
+      <time title="Created: 2020-12-26 09:21:56" itemprop="dateCreated datePublished" datetime="2020-12-26T09:21:56+01:00">2020-12-26</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -359,7 +371,7 @@
       </span>
       <span class="post-meta-item-text">In</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/Life/" itemprop="url" rel="index"><span itemprop="name">Life</span></a>
+          <a href="/categories/Study/" itemprop="url" rel="index"><span itemprop="name">Study</span></a>
         </span>
     </span>
 
@@ -371,17 +383,18 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>1.9k</span>
+      <span>3.6k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>2 mins.</span>
+      <span>3 mins.</span>
     </span>
 </div>
 
+            <div class="post-description">NONMEM® is a nonlinear mixed effects modelling tool used in population pharmacokinetic/pharmacodynamic analysis. NONMEM stands for NONlinear Mixed Effects Modeling. NONMEM is a computer program that is implemented in Fortran90/95. It solves pharmaceutical statistical problems in which within subject and between subjects variability is taken into account when fitting a pharmacokinetic and/or pharmacodynamic (PK/PD) model to data. The appropriate statistical analysis using the appropriate model helps pharmaceutical companies determine appropriate dosing strategies for their products, and increases their understanding of drug mechanisms and interactions.</div>
         </div>
       </header>
 
@@ -389,354 +402,50 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><img data-src="/posts/3cda8bc5/Dutch-words.jpg" class>
-<a id="more"></a>
-<h1 id="house-words">House words</h1>
-<table>
-<thead>
-<tr class="header">
-<th>Dutch</th>
-<th>English</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>gemeubileerd</td>
-<td>fully furnished<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="The house may have everything from pots and pans to a dishwasher. It is recommended to ask for an inventory list.
-">[1]</span></a></sup></td>
-</tr>
-<tr class="even">
-<td>gestoffeerd</td>
-<td>partly or soft-furnished<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="There will usually be flooring, window coverings, celling lights and/or major kitchen appliances
-">[2]</span></a></sup></td>
-</tr>
-<tr class="odd">
-<td>kaal or ongemeubileerd</td>
-<td>unfurnished or bare<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="This means no flooring, window covering, light fixtures, etc.">[3]</span></a></sup></td>
-</tr>
-<tr class="even">
-<td>de makelaar</td>
-<td>real estate agent</td>
-</tr>
-<tr class="odd">
-<td>te koop</td>
-<td>to buy</td>
-</tr>
-<tr class="even">
-<td>te huur</td>
-<td>to rent</td>
-</tr>
-<tr class="odd">
-<td>beschikbaar</td>
-<td>available</td>
-</tr>
-<tr class="even">
-<td>verkocht</td>
-<td>sold</td>
-</tr>
-<tr class="odd">
-<td>de vraagprijs</td>
-<td>the asking price</td>
-</tr>
-<tr class="even">
-<td>de wijk</td>
-<td>neighborhood, district</td>
-</tr>
-<tr class="odd">
-<td>de buurt</td>
-<td>neighborhood, area</td>
-</tr>
-<tr class="even">
-<td>het huis</td>
-<td>house</td>
-</tr>
-<tr class="odd">
-<td>het flatgebouw</td>
-<td>apartment house</td>
-</tr>
-<tr class="even">
-<td>de flat / het appartment</td>
-<td>apartment</td>
-</tr>
-<tr class="odd">
-<td>de eenkamer / tweekamerflat</td>
-<td>a flat with 1 / 2 rooms</td>
-</tr>
-<tr class="even">
-<td>de eengezinswoning</td>
-<td>a single-family home</td>
-</tr>
-<tr class="odd">
-<td>aantal slaapkamers</td>
-<td>quantity, number of rooms</td>
-</tr>
-<tr class="even">
-<td>de tuin</td>
-<td>garden</td>
-</tr>
-<tr class="odd">
-<td>de verwarming</td>
-<td>heating</td>
-</tr>
-<tr class="even">
-<td>de parkeerplaats</td>
-<td>parking lot</td>
-</tr>
-<tr class="odd">
-<td>de keuken</td>
-<td>kitchen</td>
-</tr>
-<tr class="even">
-<td>de slaapkamer</td>
-<td>bedroom</td>
-</tr>
-<tr class="odd">
-<td>het toilet / de wc</td>
-<td>toilet</td>
-</tr>
-<tr class="even">
-<td>de badkamer</td>
-<td>bathroom</td>
-</tr>
-<tr class="odd">
-<td>de inventarislijst</td>
-<td>the inventory list</td>
-</tr>
-<tr class="even">
-<td>de waarborgsom</td>
-<td>deposit, guarantee</td>
-</tr>
-<tr class="odd">
-<td>de huurder</td>
-<td>the tenant, the renter</td>
-</tr>
-<tr class="even">
-<td>de verhuurder</td>
-<td>the landlord/landlady</td>
-</tr>
-<tr class="odd">
-<td>de huurprijs</td>
-<td>the rental price</td>
-</tr>
-<tr class="even">
-<td>de huurperiode</td>
-<td>rental period</td>
-</tr>
-<tr class="odd">
-<td>minimale huurperiode</td>
-<td>minimum rental period</td>
-</tr>
-<tr class="even">
-<td>de ingangsdatum</td>
-<td>the effective date (for moving in)</td>
-</tr>
-<tr class="odd">
-<td>de einddatum</td>
-<td>end date, moving out date</td>
-</tr>
-<tr class="even">
-<td>de periode van</td>
-<td>a period form</td>
-</tr>
-<tr class="odd">
-<td>betaalperiode</td>
-<td>paying period</td>
-</tr>
-<tr class="even">
-<td>prijsklasse</td>
-<td>price range</td>
-</tr>
-<tr class="odd">
-<td>stoffering</td>
-<td>furniture</td>
-</tr>
-<tr class="even">
-<td>kaart en streetview</td>
-<td>map and street view</td>
-</tr>
-</tbody>
-</table>
-<h1 id="laundry-words">Laundry words</h1>
-<table>
-<thead>
-<tr class="header">
-<th>Dutch</th>
-<th>English</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>was</td>
-<td>wash/laundry</td>
-</tr>
-<tr class="even">
-<td>wasmachine</td>
-<td>washing mechine</td>
-</tr>
-<tr class="odd">
-<td>voorwas</td>
-<td>pre-wash</td>
-</tr>
-<tr class="even">
-<td>wasmiddel</td>
-<td>laundry detergent</td>
-</tr>
-<tr class="odd">
-<td>wasverzachter</td>
-<td>fabric softener</td>
-</tr>
-<tr class="even">
-<td>katoen</td>
-<td>cotton</td>
-</tr>
-<tr class="odd">
-<td>synthentisch</td>
-<td>synthetic</td>
-</tr>
-<tr class="even">
-<td>centrifugeren</td>
-<td>spin</td>
-</tr>
-<tr class="odd">
-<td>spoelen</td>
-<td>rinse</td>
-</tr>
-<tr class="even">
-<td>kort programma</td>
-<td>short / express program</td>
-</tr>
-<tr class="odd">
-<td>kleur</td>
-<td>color</td>
-</tr>
-<tr class="even">
-<td>wit / witte</td>
-<td>white</td>
-</tr>
-<tr class="odd">
-<td>zwart</td>
-<td>black</td>
-</tr>
-<tr class="even">
-<td>kleding</td>
-<td>clothing / clothes</td>
-</tr>
-</tbody>
-</table>
-<h1 id="post-words">Post words</h1>
-<table>
-<thead>
-<tr class="header">
-<th>Dutch</th>
-<th>English</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>brief</td>
-<td>letter</td>
-</tr>
-<tr class="even">
-<td>pakket</td>
-<td>parcel</td>
-</tr>
-<tr class="odd">
-<td>bestemming</td>
-<td>destination</td>
-</tr>
-<tr class="even">
-<td>gewicht</td>
-<td>weight</td>
-</tr>
-<tr class="odd">
-<td>aangetekend</td>
-<td>registered</td>
-</tr>
-<tr class="even">
-<td>brievenbus</td>
-<td>post box</td>
-</tr>
-<tr class="odd">
-<td>postzegel</td>
-<td>postage stamp</td>
-</tr>
-<tr class="even">
-<td>postzegelverkooppunt</td>
-<td>postage stamp selling point</td>
-</tr>
-<tr class="odd">
-<td>postkantoor</td>
-<td>post office</td>
-</tr>
-<tr class="even">
-<td>pakketpunt</td>
-<td>package point</td>
-</tr>
-</tbody>
-</table>
-<h1 id="train-words">Train words</h1>
-<table>
-<thead>
-<tr class="header">
-<th>Dutch</th>
-<th>English</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>trein</td>
-<td>train</td>
-</tr>
-<tr class="even">
-<td>journey</td>
-<td>reis</td>
-</tr>
-<tr class="odd">
-<td>Vertrek</td>
-<td>Departure</td>
-</tr>
-<tr class="even">
-<td>Aankomst</td>
-<td>Arrival</td>
-</tr>
-<tr class="odd">
-<td>Vandaag</td>
-<td>Today</td>
-</tr>
-<tr class="even">
-<td>Nu</td>
-<td>Now</td>
-</tr>
-<tr class="odd">
-<td>Plannen</td>
-<td>Plan</td>
-</tr>
-<tr class="even">
-<td>enkele reis</td>
-<td>single way</td>
-</tr>
-<tr class="odd">
-<td>2e klas</td>
-<td>2nd class</td>
-</tr>
-<tr class="even">
-<td>abonnement</td>
-<td>subscription</td>
-</tr>
-</tbody>
-</table>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="windows环境配置-1">Windows环境配置 <sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[GINPP计划](https://ginpp.tingjieguo.com/docs/env/win/)">[1]</span></a></sup></h1>
+<h2 id="安装fortran编译器">安装Fortran编译器</h2>
+<blockquote>
+<p>  编译，是指从源代码（通常为高级语言）到能直接被计算机或虚拟机执行的目标代码（通常为低级语言或机器语言）的翻译过程。顾名思义，Fortran编译器是用来编译Fortran语言的程序。（注：Fortran是Formula Translation的缩写，即数学公式翻译器，是出现很早的一门语言，主要面向数值计算。）目前有许多不同版本的Fortran编译器，Windows平台上最常用的是基于微软Visual Studio并集成了一整套IDE的商业Fortran编译器，如CVF(Compad Visual Fortran)与IVF(Intel Visual Fortran)等，此外还有一些非商业的、基于命令行的编译器，如gfortran/g95等。</p>
+<p>  这里推荐使用GCC (the GNU Compiler Collection)，它是由GNU计划推出的编译器套件，其中编译Fortran的子程序叫GFortran。NONMEM 7.4的安装包里也附带GCC安装程序，版本为4.6.0，建议初学者直接使用。注意：与最新版Strawberry Perl（从5.26.2.1版本开始）绑定安装的gfortran不能用于Windows 10 上运行NONMEM，在测试安装 NONMEM时会发生未知原因的崩溃 <sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[PsN官网](https://uupharmacometrics.github.io/PsN/install.html)">[2]</span></a></sup>。</p>
+</blockquote>
+<p><img data-src="https://img-blog.csdnimg.cn/20200630221352653.png#pic_center" alt="在这里插入图片描述">   NONMEM 7.4.3自带的GCC默认路径为<code>nm743CD/compilers</code>，安装过程非常简单，双击<code>gfortran-windows-460.exe</code>随后按提示操作即可。</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200630221528772.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述">   安装结束后，可以检查一下GCC是否安装成功。首先可以查看系统环境变量的Path项，如果安装成功则会将gfortran可执行文件的路径自动加入Path中，如：<code>C:\Program Files (x86)\gfortran\bin</code>。从Windows的搜索框中找到启动命令提示行cmd或Windows Powershell，输入命令：<code>gfortran --version</code>或<code>gfortran -v</code>，如果安装正确会出现类似下面的返回信息。第一行GNU Fortran后面数字即为版本号，NONMEM直到<code>7.4.4</code>版本自带的GCC版本均为<code>4.6.0</code>。</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200630221749465.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述">   <strong>注意</strong>：由于NONMEM在安装过程中需要使用gfortran编译源文件，之后尽量不要再更换GCC版本，GCC可能会不兼容不同版本GCC编译的程序。</p>
+<h2 id="配置perl环境">配置Perl环境</h2>
+<h3 id="安装perl解释器">安装Perl解释器</h3>
+<p>  </p>
+<blockquote>
+<p>  Perl常见的有ActivePerl和Strawberry Perl两大发行版，两个版本主要的使用区别是模块管理不同。其中ActivePerl（5.24版本之前）在Windows系统下使用ppm工具来管理Perl模块，但ppm的资源库在中国没有镜像，网络质量差的情况下容易出错；Strawberry Perl保持了Linux下的风格，采用cpan管理Perl模块，cpan在全球有丰富的镜像，在中国大陆也有10多个镜像，使用体验会好很多，但缺点是某些模块管理不够高效，忽略网络质量的情况下不如ppm快。PsN网站上推荐初学者使用Strawberry Perl，但是5.26.2.1版本以后自带的gfortran与NONMEM不兼容，因此接下来内容还是以ActivePerl为例。</p>
+</blockquote>
+<p>  ActivePerl也有许多版本，PsN官方要求Perl版本不低于<code>5.10.1</code>，但是因为<code>5.26</code>及以后版本不再绑定安装ppm (Perl Package Manager)，因此为了便于后续的包安装，这里从ActivePerl官网下载5.24.2版本的ActivePerl进行安装。安装好Perl之后，也可以测试一下安装是否成功，打开cmd，输入命令：<code>perl --version与ppm --version</code>，如果安装成功则会返回如下信息：</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200630222550546.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"> ### 安装Perl模块   安装好ActivePerl之后，还需要再额外安装一些Perl的模块，PsN的某些功能需要调用这些模块。以管理员身份运行cmd，依次输入以下命令：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">ppm install Math-Random</span><br><span class="line">ppm install MooseX-Params-Validate</span><br><span class="line">ppm install Statistics-Distributions</span><br><span class="line">ppm install XML-LibXML</span><br></pre></td></tr></table></figure>
+<p>安装成功或失败后均有相应返回信息提示。</p>
+<h1 id="nonmem安装">NONMEM安装</h1>
+<h2 id="nonmem安装源文件">NONMEM安装源文件</h2>
+<p>  NONMEM在安装过程中需要调用gfortran编译源文件，因此在开始安装之前，必须确认gfortran已经正确安装。首先认识一下NONMEM安装文件夹里的一些内容：根目录下有许多文件名以install开头的文件，这些是对应不同操作系统安装NONMEM时需要直接运行的程序。对Windows而言，需要运行的是<code>SETUP74.bat</code>，这其实是一个批处理文件。<code>nonmem.lic</code>是NONMEM的授权文件，即使用许可证，建议在安装NONMEM前先将授权文件拷贝至安装文件根目录下。<code>readme_743.pdf</code>是官方的说明文档。剩下的文件或文件夹中，除了前面已经说过的compiler文件夹外，其余的可以暂时先不管。</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200630223047742.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"> ## 安装NONMEM   进入NONMEM安装文件的根目录，右击<code>SETUP74.bat</code>对其中的批处理脚本进行修改，其中：<code>defcdd</code>表示来源路径，即NONMEM安装文件根目录的地址，根据实际情况决定； <code>defh</code>表示目标路径，即安装NONMEM的位置，同样根据实际情况而决定；<code>deff</code>表示编译器。这里假设NONMEM安装源文件根目录路径为<code>c:\nm743CD</code>，目标文件夹为<code>c:\nm743</code>，编译器为gfortran，则<code>SETUP74.bat</code>做以下修改：</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200630223355883.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"> 修改完bat文件之后，右击<code>SETUP74.bat</code>文件管理员身份运行，如果运行成功则会如下图所显示，最后一行的提示<code>Continue (y/n)? [y]</code>，直接回车即可。之后的过程就比较简单了，大多时间是在等待以及根据提示的默认选项按回车。</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200630223612491.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述">   在进行到Step 9时，在目标路径的根目录下可以找到progress.txt文件，打开这个文件可以看到完成进度。这一步是在编译源文件，比较费时，这一步骤可以反映计算机CPU的性能。</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200630223755163.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述">   安装脚本的最后一步则是测试，会提示<code>Do you want to test the installation?</code>，建议输入<code>y</code>测试安装是否成功。最后，还需要将有效的授权文件<code>nonmem.lic</code>粘贴至license文件夹覆盖原许可证，否则在后续计算过程中会提示NONMEM许可证过期而无法启动运算。至此，NONMEM安装就全部结束了。</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200630224005599.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"> # NONMEM辅助软件安装 ## PsN(Perl speaks NONMEM)安装   在成功配置Perl环境后，就可以安装PsN了。从<span class="exturl" data-url="aHR0cHM6Ly91dXBoYXJtYWNvbWV0cmljcy5naXRodWIuaW8vUHNOL2Rvd25sb2FkLmh0bWw=">PsN官网<i class="fa fa-external-link-alt"></i></span>下载压缩包，解压后打开PsN的根目录（默认名为PsN-Source），启动文件为<code>setup.pl</code>，右键选择以管理员身份运行即开始安装。通常情况下此时是可以直接运行该文件的，但有时也会出现系统不识别该类型文件的情况，若之前已经测试过Perl成功安装的话，此时可以尝试命令行安装方式：以管理员身份打开<code>cmd</code>，进入PsN安装文件根目录<code>cd x:\..\PsN-Source</code>，输入命令：<code>perl setup.pl</code>。</p>
+<p>  在安装过程中，根据提示输入<code>y</code>或<code>n</code>，然后回车，多数情况下输入y。若之前在计算机上安装过PsN，可能会提示询问是否保留原有的psn.conf文件，建议输入n，让程序新建一个<code>psn.conf</code>，这个文件里记录了一些配置信息，包括NONMEM版本、路径以及计算模型时的选项。安装程序会自动搜索NONMEM所在的路径，并自动设置好<code>psn.conf</code>，但之前也发现如果NONMEM装在比较深的目录下，PsN安装程序可能搜索不到，需要手动输入NONMEM的安装路径。这样PsN就安装好了。</p>
+<h2 id="pirana安装">Pirana安装</h2>
+<p>  Pirana的安装较为简单，从<span class="exturl" data-url="aHR0cHM6Ly9scC5jZXJ0YXJhLmNvbS9XRkRvd25sb2FkUGlyYW5hLmh0bWw=">Pirana官网<i class="fa fa-external-link-alt"></i></span>下载安装程序<code>pirana_2.9.9_windows.exe</code>，运行然后按提示操作即可。通常情况下在安装过后无需配置就可以直接使用了，但是还是需要进一步确认下。首先是将Pirana与NONMEM关联，选择File，如下图所示一般都是自动关联好。点击Local NONMEM installations栏目右上角的搜索按钮，即可让Pirana自动搜索或手动指定NONMEM的安装路径。</p>
+<figure>
+<img data-src="https://img-blog.csdnimg.cn/20200630224557900.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><figcaption aria-hidden="true">在这里插入图片描述</figcaption>
+</figure>
+<p>  有时还需要手动设置PsN可执行文件的路径，选择PsN栏目如果PsN executable location为空，则需要手动填写Perl安装目录下的bin文件夹路径。</p>
+<img data-src="https://img-blog.csdnimg.cn/20200630224710775.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述">   最后，如果Pirana提示许可证到期部分功能被限制，则需要点击Helplicence file，选择有效的pirana.lic文件路径，进行许可证安装。安装成功后，在HelpPirana即可查看过期时间等授权信息。
 <div id="footnotes">
 <hr>
 <div id="footnotelist">
 <ol style="list-style: none; padding-left: 0; margin-left: 40px">
 <li id="fn:1">
-<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">The house may have everything from pots and pans to a dishwasher. It is recommended to ask for an inventory list.<a href="#fnref:1" rev="footnote"> ↩︎</a></span>
+<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><span class="exturl" data-url="aHR0cHM6Ly9naW5wcC50aW5namllZ3VvLmNvbS9kb2NzL2Vudi93aW4v">GINPP计划<i class="fa fa-external-link-alt"></i></span><a href="#fnref:1" rev="footnote"> ↩︎</a></span>
 </li>
 <li id="fn:2">
-<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">There will usually be flooring, window coverings, celling lights and/or major kitchen appliances<a href="#fnref:2" rev="footnote"> ↩︎</a></span>
-</li>
-<li id="fn:3">
-<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">This means no flooring, window covering, light fixtures, etc.<a href="#fnref:3" rev="footnote"> ↩︎</a></span>
+<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><span class="exturl" data-url="aHR0cHM6Ly91dXBoYXJtYWNvbWV0cmljcy5naXRodWIuaW8vUHNOL2luc3RhbGwuaHRtbA==">PsN官网<i class="fa fa-external-link-alt"></i></span><a href="#fnref:2" rev="footnote"> ↩︎</a></span>
 </li>
 </ol>
 </div>
@@ -748,12 +457,6 @@
     
     
       
-  <div class="popular-posts-header">Related articles</div>
-  <ul class="popular-posts">
-    <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="\posts\837e479b\" rel="bookmark">Eating & Drinking in the Netherlands</a></div>
-    </li>
-  </ul>
 
 
     <footer class="post-footer">
@@ -766,7 +469,7 @@
   </li>
   <li class="post-copyright-link">
       <strong>Post link: </strong>
-      <a href="https://seekzzh.site/posts/3cda8bc5/" title="Useful Dutch Words in Daily Life">https://seekzzh.site/posts/3cda8bc5/</a>
+      <a href="https://seekzzh.site/posts/dd757ff/" title="在Windows上安装NONMEM+PsN+Pirana">https://seekzzh.site/posts/dd757ff/</a>
   </li>
   <li class="post-copyright-license">
     <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</span> unless stating additionally.
@@ -775,21 +478,18 @@
 </div>
 
           <div class="post-tags">
-              <a href="/tags/Dutch/" rel="tag"><i class="fa fa-tag"></i> Dutch</a>
+              <a href="/tags/NONMEM/" rel="tag"><i class="fa fa-tag"></i> NONMEM</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/posts/8767258e/" rel="prev" title="Environment Construction of PyQt5 & VTK">
-                  <i class="fa fa-chevron-left"></i> Environment Construction of PyQt5 & VTK
+                <a href="/posts/b21c482c/" rel="prev" title="Migrating Code Repository but Retaining Commit History">
+                  <i class="fa fa-chevron-left"></i> Migrating Code Repository but Retaining Commit History
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/posts/837e479b/" rel="next" title="Eating & Drinking in the Netherlands">
-                  Eating & Drinking in the Netherlands <i class="fa fa-chevron-right"></i>
-                </a>
             </div>
           </div>
     </footer>
@@ -1030,7 +730,7 @@ if (document.querySelectorAll('.mermaid').length) {
       quicklink.listen({
         timeout : 3000,
         priority: true,
-        ignores : [uri => uri.includes('#'),uri => uri === 'https://seekzzh.site/posts/3cda8bc5/',]
+        ignores : [uri => uri.includes('#'),uri => uri === 'https://seekzzh.site/posts/dd757ff/',]
       });
       });
   </script>
@@ -1046,7 +746,7 @@ NexT.utils.loadComments('#gitalk-container', () => {
       repo        : 'seekzzh.github.io',
       owner       : 'seekzzh',
       admin       : ['seekzzh'],
-      id          : '31339f5c39064bd9b7c2882a32caccae',
+      id          : '6812192020a4b7b6f189ce3ee63f44a7',
         language: 'en',
       distractionFreeMode: true
     });

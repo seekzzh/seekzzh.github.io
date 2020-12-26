@@ -1473,8 +1473,7 @@
   <entry>
     <title>你好，张先生</title>
     <url>/posts/10c5835/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><!-- <img data-src="http://wx3.sinaimg.cn/large/005Awdnjly1fxnqmupzdzj30k00b9tac.jpg" alt="珍爱时刻" style="width:94%; border:none;"/> -->
-<img data-src="/posts/10c5835/precious_moment.jpg" class="" width="1000">
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><img data-src="/posts/10c5835/precious_moment.jpg" class="" width="1000">
 <a id="more"></a>
 <p>没遇见张先生以前，一直觉得，一个人挺好。自由，洒脱，在自己的小世界里为所欲为。</p>
 <p>自己非常幸运，身边的朋友，老师，甚至许多陌生人，都投以最大的善意，让我并不觉得一个人会孤独。反而，身边朋友的分分合合或欲求而不得，让我对爱情充满畏惧。我会期待，但更多的是惶恐与谨慎，怕自己本就是拿得起放不下的人，历经折磨遍体鳞伤。</p>
@@ -1493,14 +1492,71 @@
 <p>女孩子心中的 Mr.Right，大抵都有这样温柔的一部分。因为爱你，所以成全你的小贪心。</p>
 <p>适逢北大 120 华诞，也是我们的一百天，张先生你好，给你打五十分，扣十分因你没有仪式感不够浪漫，扣十分因你不够幽默，扣十分因你纪念日刚好缺席，剩下二十分，怕你骄傲。</p>
 <p>你看，岁月，静好。</p>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&amp;id=27583241&amp;auto=1&amp;height=66">
-</iframe>
 ]]></content>
       <categories>
         <category>Essays</category>
       </categories>
       <tags>
         <tag>Life</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在Windows上安装NONMEM+PsN+Pirana</title>
+    <url>/posts/dd757ff/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="windows环境配置-1">Windows环境配置 <sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[GINPP计划](https://ginpp.tingjieguo.com/docs/env/win/)">[1]</span></a></sup></h1>
+<h2 id="安装fortran编译器">安装Fortran编译器</h2>
+<blockquote>
+<p>  编译，是指从源代码（通常为高级语言）到能直接被计算机或虚拟机执行的目标代码（通常为低级语言或机器语言）的翻译过程。顾名思义，Fortran编译器是用来编译Fortran语言的程序。（注：Fortran是Formula Translation的缩写，即数学公式翻译器，是出现很早的一门语言，主要面向数值计算。）目前有许多不同版本的Fortran编译器，Windows平台上最常用的是基于微软Visual Studio并集成了一整套IDE的商业Fortran编译器，如CVF(Compad Visual Fortran)与IVF(Intel Visual Fortran)等，此外还有一些非商业的、基于命令行的编译器，如gfortran/g95等。</p>
+<p>  这里推荐使用GCC (the GNU Compiler Collection)，它是由GNU计划推出的编译器套件，其中编译Fortran的子程序叫GFortran。NONMEM 7.4的安装包里也附带GCC安装程序，版本为4.6.0，建议初学者直接使用。注意：与最新版Strawberry Perl（从5.26.2.1版本开始）绑定安装的gfortran不能用于Windows 10 上运行NONMEM，在测试安装 NONMEM时会发生未知原因的崩溃 <sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[PsN官网](https://uupharmacometrics.github.io/PsN/install.html)">[2]</span></a></sup>。</p>
+</blockquote>
+<p><img data-src="https://img-blog.csdnimg.cn/20200630221352653.png#pic_center" alt="在这里插入图片描述" />   NONMEM 7.4.3自带的GCC默认路径为<code>nm743CD/compilers</code>，安装过程非常简单，双击<code>gfortran-windows-460.exe</code>随后按提示操作即可。</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200630221528772.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述" />   安装结束后，可以检查一下GCC是否安装成功。首先可以查看系统环境变量的Path项，如果安装成功则会将gfortran可执行文件的路径自动加入Path中，如：<code>C:\Program Files (x86)\gfortran\bin</code>。从Windows的搜索框中找到启动命令提示行cmd或Windows Powershell，输入命令：<code>gfortran --version</code>或<code>gfortran -v</code>，如果安装正确会出现类似下面的返回信息。第一行GNU Fortran后面数字即为版本号，NONMEM直到<code>7.4.4</code>版本自带的GCC版本均为<code>4.6.0</code>。</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200630221749465.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述" />   <strong>注意</strong>：由于NONMEM在安装过程中需要使用gfortran编译源文件，之后尽量不要再更换GCC版本，GCC可能会不兼容不同版本GCC编译的程序。</p>
+<h2 id="配置perl环境">配置Perl环境</h2>
+<h3 id="安装perl解释器">安装Perl解释器</h3>
+<p>  </p>
+<blockquote>
+<p>  Perl常见的有ActivePerl和Strawberry Perl两大发行版，两个版本主要的使用区别是模块管理不同。其中ActivePerl（5.24版本之前）在Windows系统下使用ppm工具来管理Perl模块，但ppm的资源库在中国没有镜像，网络质量差的情况下容易出错；Strawberry Perl保持了Linux下的风格，采用cpan管理Perl模块，cpan在全球有丰富的镜像，在中国大陆也有10多个镜像，使用体验会好很多，但缺点是某些模块管理不够高效，忽略网络质量的情况下不如ppm快。PsN网站上推荐初学者使用Strawberry Perl，但是5.26.2.1版本以后自带的gfortran与NONMEM不兼容，因此接下来内容还是以ActivePerl为例。</p>
+</blockquote>
+<p>  ActivePerl也有许多版本，PsN官方要求Perl版本不低于<code>5.10.1</code>，但是因为<code>5.26</code>及以后版本不再绑定安装ppm (Perl Package Manager)，因此为了便于后续的包安装，这里从ActivePerl官网下载5.24.2版本的ActivePerl进行安装。安装好Perl之后，也可以测试一下安装是否成功，打开cmd，输入命令：<code>perl --version与ppm --version</code>，如果安装成功则会返回如下信息：</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200630222550546.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述" /> ### 安装Perl模块   安装好ActivePerl之后，还需要再额外安装一些Perl的模块，PsN的某些功能需要调用这些模块。以管理员身份运行cmd，依次输入以下命令：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ppm install Math-Random</span><br><span class="line">ppm install MooseX-Params-Validate</span><br><span class="line">ppm install Statistics-Distributions</span><br><span class="line">ppm install XML-LibXML</span><br></pre></td></tr></table></figure>
+<p>安装成功或失败后均有相应返回信息提示。</p>
+<h1 id="nonmem安装">NONMEM安装</h1>
+<h2 id="nonmem安装源文件">NONMEM安装源文件</h2>
+<p>  NONMEM在安装过程中需要调用gfortran编译源文件，因此在开始安装之前，必须确认gfortran已经正确安装。首先认识一下NONMEM安装文件夹里的一些内容：根目录下有许多文件名以install开头的文件，这些是对应不同操作系统安装NONMEM时需要直接运行的程序。对Windows而言，需要运行的是<code>SETUP74.bat</code>，这其实是一个批处理文件。<code>nonmem.lic</code>是NONMEM的授权文件，即使用许可证，建议在安装NONMEM前先将授权文件拷贝至安装文件根目录下。<code>readme_743.pdf</code>是官方的说明文档。剩下的文件或文件夹中，除了前面已经说过的compiler文件夹外，其余的可以暂时先不管。</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200630223047742.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述" /> ## 安装NONMEM   进入NONMEM安装文件的根目录，右击<code>SETUP74.bat</code>对其中的批处理脚本进行修改，其中：<code>defcdd</code>表示来源路径，即NONMEM安装文件根目录的地址，根据实际情况决定； <code>defh</code>表示目标路径，即安装NONMEM的位置，同样根据实际情况而决定；<code>deff</code>表示编译器。这里假设NONMEM安装源文件根目录路径为<code>c:\nm743CD</code>，目标文件夹为<code>c:\nm743</code>，编译器为gfortran，则<code>SETUP74.bat</code>做以下修改：</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200630223355883.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述" /> 修改完bat文件之后，右击<code>SETUP74.bat</code>文件管理员身份运行，如果运行成功则会如下图所显示，最后一行的提示<code>Continue (y/n)? [y]</code>，直接回车即可。之后的过程就比较简单了，大多时间是在等待以及根据提示的默认选项按回车。</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200630223612491.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述" />   在进行到Step 9时，在目标路径的根目录下可以找到progress.txt文件，打开这个文件可以看到完成进度。这一步是在编译源文件，比较费时，这一步骤可以反映计算机CPU的性能。</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200630223755163.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述" />   安装脚本的最后一步则是测试，会提示<code>Do you want to test the installation?</code>，建议输入<code>y</code>测试安装是否成功。最后，还需要将有效的授权文件<code>nonmem.lic</code>粘贴至license文件夹覆盖原许可证，否则在后续计算过程中会提示NONMEM许可证过期而无法启动运算。至此，NONMEM安装就全部结束了。</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200630224005599.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述" /> # NONMEM辅助软件安装 ## PsN(Perl speaks NONMEM)安装   在成功配置Perl环境后，就可以安装PsN了。从<span class="exturl" data-url="aHR0cHM6Ly91dXBoYXJtYWNvbWV0cmljcy5naXRodWIuaW8vUHNOL2Rvd25sb2FkLmh0bWw=">PsN官网<i class="fa fa-external-link-alt"></i></span>下载压缩包，解压后打开PsN的根目录（默认名为PsN-Source），启动文件为<code>setup.pl</code>，右键选择以管理员身份运行即开始安装。通常情况下此时是可以直接运行该文件的，但有时也会出现系统不识别该类型文件的情况，若之前已经测试过Perl成功安装的话，此时可以尝试命令行安装方式：以管理员身份打开<code>cmd</code>，进入PsN安装文件根目录<code>cd x:\..\PsN-Source</code>，输入命令：<code>perl setup.pl</code>。</p>
+<p>  在安装过程中，根据提示输入<code>y</code>或<code>n</code>，然后回车，多数情况下输入y。若之前在计算机上安装过PsN，可能会提示询问是否保留原有的psn.conf文件，建议输入n，让程序新建一个<code>psn.conf</code>，这个文件里记录了一些配置信息，包括NONMEM版本、路径以及计算模型时的选项。安装程序会自动搜索NONMEM所在的路径，并自动设置好<code>psn.conf</code>，但之前也发现如果NONMEM装在比较深的目录下，PsN安装程序可能搜索不到，需要手动输入NONMEM的安装路径。这样PsN就安装好了。</p>
+<h2 id="pirana安装">Pirana安装</h2>
+<p>  Pirana的安装较为简单，从<span class="exturl" data-url="aHR0cHM6Ly9scC5jZXJ0YXJhLmNvbS9XRkRvd25sb2FkUGlyYW5hLmh0bWw=">Pirana官网<i class="fa fa-external-link-alt"></i></span>下载安装程序<code>pirana_2.9.9_windows.exe</code>，运行然后按提示操作即可。通常情况下在安装过后无需配置就可以直接使用了，但是还是需要进一步确认下。首先是将Pirana与NONMEM关联，选择File，如下图所示一般都是自动关联好。点击Local NONMEM installations栏目右上角的搜索按钮，即可让Pirana自动搜索或手动指定NONMEM的安装路径。</p>
+<figure>
+<img data-src="https://img-blog.csdnimg.cn/20200630224557900.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述" /><figcaption aria-hidden="true">在这里插入图片描述</figcaption>
+</figure>
+<p>  有时还需要手动设置PsN可执行文件的路径，选择PsN栏目如果PsN executable location为空，则需要手动填写Perl安装目录下的bin文件夹路径。</p>
+<img data-src="https://img-blog.csdnimg.cn/20200630224710775.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述" />   最后，如果Pirana提示许可证到期部分功能被限制，则需要点击Helplicence file，选择有效的pirana.lic文件路径，进行许可证安装。安装成功后，在HelpPirana即可查看过期时间等授权信息。
+<div id="footnotes">
+<hr>
+<div id="footnotelist">
+<ol style="list-style: none; padding-left: 0; margin-left: 40px">
+<li id="fn:1">
+<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><span class="exturl" data-url="aHR0cHM6Ly9naW5wcC50aW5namllZ3VvLmNvbS9kb2NzL2Vudi93aW4v">GINPP计划<i class="fa fa-external-link-alt"></i></span><a href="#fnref:1" rev="footnote"> ↩︎</a></span>
+</li>
+<li id="fn:2">
+<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><span class="exturl" data-url="aHR0cHM6Ly91dXBoYXJtYWNvbWV0cmljcy5naXRodWIuaW8vUHNOL2luc3RhbGwuaHRtbA==">PsN官网<i class="fa fa-external-link-alt"></i></span><a href="#fnref:2" rev="footnote"> ↩︎</a></span>
+</li>
+</ol>
+</div>
+</div>
+]]></content>
+      <categories>
+        <category>Study</category>
+      </categories>
+      <tags>
+        <tag>NONMEM</tag>
       </tags>
   </entry>
 </search>
