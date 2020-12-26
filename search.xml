@@ -631,7 +631,7 @@
       </tags>
   </entry>
   <entry>
-    <title>在Windows上安装NONMEM+PsN+Pirana</title>
+    <title>Install NONMEM+PsN+Pirana in Windows</title>
     <url>/posts/dd757ff/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="windows环境配置-1">Windows环境配置 <sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[GINPP计划](https://ginpp.tingjieguo.com/docs/env/win/)">[1]</span></a></sup></h1>
 <h2 id="安装fortran编译器">安装Fortran编译器</h2>
@@ -1558,6 +1558,970 @@
       </categories>
       <tags>
         <tag>Life</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>你为什么总比我走得快</title>
+    <url>/posts/6ba5afe6/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><img data-src="/posts/6ba5afe6/watch.jpg" class="">
+<a id="more"></a>
+<p>年幼时，我问他为什么走得比我快，他说他想成为我的奥特曼，时刻保护我，帮我打死小怪兽。</p>
+<p>青年时，我问他为什么走得比我快，他说他想让我知道，山外青山楼外楼，走在我前面、比我优秀的人还有很多。</p>
+<p>终于有一天，我长大了，跪在他的坟冢前，质问他为什么又走得比我快，隐约间我听到他说“因为这个世界太暗太冷，我想尽早过来为你照明点灯”。</p>
+]]></content>
+      <categories>
+        <category>Essays</category>
+      </categories>
+      <tags>
+        <tag>Life</tag>
+        <tag>Original</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Scientific Writing in English</title>
+    <url>/posts/bc970bce/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><img data-src="/posts/bc970bce/academic.jpg" class="">
+<a id="more"></a>
+<p>English is the language scientists from all countries use to communicate with each other and 80% of journals indexed in the Scopus database publish articles written entirely in English<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="van Weijen, Daphne “The Language of (Future) Scientific Communication” Research Trends Nov 2012 http://www.researchtrends.com/issue-31-november-2012/the-language-of-future-scientific-communication/
+">[1]</span></a></sup>. <strong>Publishing in English allows you to reach the broadest possible audience</strong> and will help you achieve the goal that led you to publish in the first place; to add to our understanding of the world by informing other scientists about your research.</p>
+<p>For many scientists, English is not their first language, and writing and publishing may be a challenge. We have designed this tutorial to help non-native English speakers avoid some of the common errors that occur when writing for scientific publication. Once complete you should understand the importance of good writing, be aware of common mistakes and know how to avoid them.</p>
+<h1 id="overview">Overview</h1>
+<p>Why is good writing important?</p>
+<p>Good writing is writing that <strong>clearly communicates</strong> your research. Scientists are busy people, so if your manuscript is poorly written and difficult to understand, they might not take the time to read it (or cite it later). Writing well helps others understand the work you’ve done and helps strengthen your own comprehension of your research.</p>
+<p>High-quality writing has the following benefits:</p>
+<ul>
+<li>increases the chances of <strong>acceptance</strong> for publication</li>
+<li>increases the <strong>impact</strong> of a manuscript within the research community</li>
+<li>accelerates <strong>understanding</strong> and <strong>acceptance</strong> of the research</li>
+<li>increases the faith of readers in the <strong>quality</strong> of the research</li>
+</ul>
+<p>Poorly written manuscripts annoy journal editors, peer reviewers and readers, and hinder their understanding of complex scientific concepts.</p>
+<h1 id="avoiding-common-language-issues">Avoiding common language issues</h1>
+<p>Without even realizing it, readers will expect certain information to appear at certain places within a manuscript. This includes where information is provided in a sentence, in a paragraph, and in the sections of an article. If this information is not provided where the readers expect to find it, they will likely become confused and will not understand your ideas clearly. By considering these reader expectations, you can greatly improve the readability of your manuscript.</p>
+<p>Gopen and Swan<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="Gopen, George D and Swan, Judith A “The Science of Scientific Writing” American Scientist Nov-Dec 1990: 550–558 http://www.or.org/files/Gropen,%20Science%20Writing.pdf">[2]</span></a></sup> outlined a logical way for organizing ideas within a manuscript that can improve the readability of your writing. The key concepts they proposed include the following:</p>
+<ul>
+<li>using short sentences</li>
+<li>keeping the verb and subject close together in sentences</li>
+<li>using the topic and stress positions to organize and link ideas within and between sentences</li>
+</ul>
+<p>The following pages provide further information about these three concepts and how to apply these to your manuscript. We also highlight issues that we see commonly appearing in manuscripts submitted from non-native English speakers and provide examples on correct usage.</p>
+<h2 id="concise-writing">Concise writing</h2>
+<p>When writing your manuscript, be as brief as possible without omitting essential details. A common mistake that authors make is trying to include too much information in their sentences. When sentences are long, most readers will have to read the sentence at least twice to understand the presented ideas.</p>
+<p>Your readers, like you, are busy and want to find the relevant information quickly and efficiently. To improve the readability of your writing, use short sentences. This can be achieved by presenting only one idea per sentence and limiting the sentence length to a maximum of <strong>20–25 words</strong>.</p>
+<p><strong>Keep it simple!</strong> Simple language is usually clearer; it is more precise and concise than complex language. Many authors incorrectly assume that they should use complicated language as they are often describing something that is sophisticated, when in fact it can confuse the reader and weaken your message.</p>
+<p>You can keep your manuscript concise and precise by adhering to the following guidelines:</p>
+<ul>
+<li>Only one idea per sentence</li>
+<li>Use the active voice, not the passive voice, when possible</li>
+<li>Delete unnecessary or vague words and replace them with more specific words</li>
+</ul>
+<p>Example: <div class="note warning"><p><strong>BAD</strong>: The company that economists considered to be a model of modern employee conditions was Shravers Publishing, which was established as a subsidiary of the Shravers Educational Group by Dr John Mitchems in 1923.</p>
+</div></p>
+<div class="note success"><p><strong>GOOD</strong>: Economists considered Shravers Publishing to be a model of modern employee conditions. Dr John Mitchems established this company as a subsidiary of the Shravers Education Group in 1923.</p>
+</div>
+<p>By presenting one idea per sentence, you can reduce the first long sentence (33 words) to two shorter and clearer sentences (12 and 16 words, respectively).</p>
+<p><strong>TIP</strong>: <em>The Purdue Online Writing Lab is a fantastic writing resource and has many more examples of how to make your writing concise. <strong><span class="exturl" data-url="aHR0cHM6Ly9vd2wucHVyZHVlLmVkdS9vd2wvcHVyZHVlX293bC5odG1s">Purdue Online Writing Lab<i class="fa fa-external-link-alt"></i></span></strong> </em>.</p>
+<h2 id="subject-and-verb-placement">Subject and verb placement</h2>
+<p>Readers expect the verb, a word that describes an action, in a sentence to be near the subject of that sentence. However, some authors tend to insert a lot of text that describes the subject between the subject and verb.</p>
+<p>In these cases, when the reader reaches the verb, they can forget what the subject was. They will then have to go back to the beginning of the sentence for clarification. Your reader should only have to read your writing once to understand your ideas. To improve the readability of your manuscript, keep subjects and verbs close together in your sentences.</p>
+<p>Example:</p>
+<div class="note warning"><p><strong>BAD: The patient’s liver readings</strong> [s] at 48 hours after exposure to the virus <strong>had increased</strong> [v] by 50%.</p>
+</div>
+<div class="note success"><p><strong>GOOD: The patient’s liver readings</strong> [s] <strong>had increased</strong> [v] by 50% at 48 hours after exposure to the virus.</p>
+</div>
+<h2 id="topic-position">Topic position</h2>
+<p>The topic position refers to the information provided at the beginning of a sentence. This information serves two functions for a reader. First, it should introduce to the reader what information will be presented in the sentence.</p>
+<p>We mentioned previously that each sentence should discuss one idea—the topic position should introduce this idea. To make this new idea familiar to the reader, it needs to link back to previously discussed information. That is the second function of the topic position—to serve as a topic link.</p>
+<p>Example:</p>
+<div class="note info"><p><strong>Avian influenza infection rates</strong> have been increasing worldwide. <strong>Transmission</strong> has been rapid owing to high levels of international travel. <strong>H5N1</strong> is one type of avian influenza currently being studied. <strong>Epidemiology</strong> studies have shown this virus to be especially pathogenic.</p>
+</div>
+<h2 id="stress-position">Stress position</h2>
+<p>A reader will unconsciously focus at the end of the sentence to identify what is important. This information can be referred to as the stress position of a sentence. With this expectation in mind, you can emphasize what is important about your presented idea by placing that information at the end of the sentence.</p>
+<p>Example:</p>
+<div class="note info"><p>1: Introduction of the new assembly line <strong>increased manufacturing</strong>. 2: Manufacturing increased after the <strong>introduction of the new assembly line</strong>.</p>
+</div>
+<p>In sentence <strong>(1)</strong> above, ‘increased manufacturing’ is in the stress position. A reader could assume that the authors looked at the various effects of the introduction of the new assembly line. The key effect that was observed was an increase in the manufacturing.</p>
+<p>In sentence <strong>(2)</strong>, however, ‘introduction of the new assembly line’ is in the stress position. In this case, a reader could assume that the authors looked at various ways to increase manufacturing. Of these, it was introduction of the new assembly line that had the greatest effect. Specifying the key information at the end of a sentence will change the reader's interpretation of that sentence.</p>
+<p>In addition to emphasizing what is important, the stress position also provides a clue as to what the next sentence will be about. By providing these clues, authors can help manage reader expectations and ensure that the presented ideas are communicated more effectively. In the following examples the stress positions are in <strong>bold</strong> and help introduce the subject of the next sentence.</p>
+<p>Examples:</p>
+<div class="note info"><p>To increase the number of student applicants, the university recently implemented a <strong>new program</strong>. An important part of this program is to first give seminars at top-ranking high schools <strong>in the region</strong>. Increasing the number of local students is the initial step for the <strong>program's success</strong>.</p>
+<p>The patient went to the hospital to see a <strong>gastroenterologist</strong>. The doctor then performed a series of diagnostic <strong>tests</strong>. The results showed the patient suffered from a bacterial <strong>infection</strong>. Antibiotics were prescribed to treat the infection before the patient developed an <strong>ulcer</strong>.</p>
+</div>
+<h2 id="comparisons">Comparisons</h2>
+<p>Comparisons are frequently made in the Results section of papers. These often involve the words “between," “among," “like," “with," and “than."</p>
+<p>When making a comparison, the following points should be adhered to:</p>
+<h3 id="only-compare-similar-things-that-can-be-compared-fairly">Only compare similar things that can be compared fairly</h3>
+<p>Examples:</p>
+<div class="note warning"><p><strong>BAD</strong>: The brain activity in Patient <strong>A</strong> was compared with Patient B.</p>
+</div>
+<div class="note success"><p><strong>GOOD</strong>: The brain activity in Patient <strong>A</strong> was compared with that of Patient B.</p>
+</div>
+<p>It doesn’t make sense to compare brain activity with a person. Instead, we need to compare like with like – that is, brain activity in Patient <strong>A</strong> with brain activity in Patient B.</p>
+<div class="note success"><p><strong>GOOD</strong>: Expression levels of p53 in smokers were compared with p53 levels in non-smokers.</p>
+</div>
+<div class="note primary"><p><strong>BETTER</strong>: Expression levels of p53 in smokers were compared with those in non-smokers.</p>
+</div>
+<p>Here "those" means "expression levels of p53." It’s best not to repeat the same words in a sentence, since it can bore readers.</p>
+<h3 id="avoid-being-vague-be-as-specific-as-possible">Avoid being vague – be as specific as possible</h3>
+<p>Example:</p>
+<div class="note warning"><p><strong>BAD</strong>: Reactions with the new machine were faster.</p>
+</div>
+<div class="note success"><p><strong>GOOD</strong>: Reactions with the new machine were faster than those with the old machine. The first sentence makes the reader wonder "Faster than what?"</p>
+</div>
+<h3 id="to-compare-two-different-things">To compare two different things</h3>
+<p>Words such as “reduced," “increased," and “decreased” can only be used to compare something to the way it was before, not to compare two different things. To compare two different things (e.g., groups of patients), use words such as “higher," “shorter," or “more”</p>
+<p>Example:</p>
+<div class="note warning"><p><strong>BAD</strong>: In our study, time until hibernation was reduced in the Experimental Group compared with the Control Group.</p>
+</div>
+<div class="note success"><p><strong>GOOD</strong>: In our study, time until hibernation was shorter in the Experimental Group than in the Control Group.</p>
+</div>
+<p>"Reduced" cannot be used to compare two different things; the Experimental Group and the Control Group</p>
+<h2 id="proper-nouns">Proper nouns</h2>
+<p>A noun is a word that refers to a person, thing, or idea. A proper noun is the specific name of a person, organization, or location. Proper nouns always have their first letter capitalized.</p>
+<h3 id="examples-of-when-to-capitalize">Examples of when to capitalize</h3>
+<ul>
+<li>The first and last names of a person</li>
+</ul>
+<div class="note info"><p>Examples: Gillian Welch, Steve Jobs, Francis Crick, Michael Jackson</p>
+</div>
+<ul>
+<li>Names of companies and organizations</li>
+</ul>
+<div class="note info"><p>Examples: World Wildlife Fund, United Nations, Volkswagen, Springer Nature</p>
+</div>
+<ul>
+<li>Countries and cities</li>
+</ul>
+<div class="note info"><p>Examples: Australia, India, Germany, New York, London, Beijing</p>
+</div>
+<ul>
+<li>Months of the year, days of the week</li>
+</ul>
+<div class="note info"><p>Examples: January, August, Monday, Saturday</p>
+</div>
+<h3 id="examples-of-when-not-to-capitalize">Examples of when not to capitalize</h3>
+<ul>
+<li>Names of chemicals or generic drugs</li>
+</ul>
+<div class="note info"><p>Example: benzene, acetaminophen</p>
+</div>
+<h2 id="articles">Articles</h2>
+<p>There are three articles in English: a, an, and the. These are classified as indefinite (a and an) or definite (the).</p>
+<p>Indefinite articles refer to something not specifically known to the person you are communicating with. In other words, <strong>a</strong> and <strong>an</strong> are used before nouns that introduce something or someone you have not mentioned before.</p>
+<p>Examples:</p>
+<div class="note info"><p>"I witnessed <strong>an</strong> eclipse this morning." "I wrote <strong>a</strong> laboratory report before lunch."</p>
+</div>
+<p><strong>A</strong> and <strong>an</strong> are also used when talking about your profession.</p>
+<p>Examples: <div class="note info"><p>"I am <strong>an</strong> ethicist." "I am <strong>a</strong> scientist."</p>
+</div></p>
+<p>Use <strong>a</strong> when the noun you are referring to starts with a consonant sound when pronounced.</p>
+<p>Examples: <div class="note info"><p>"<strong>a</strong> city", "<strong>a</strong> factory", "<strong>a</strong> hotel", "<strong>a</strong> university"</p>
+</div></p>
+<p>If the word begins with a vowel sound when pronounced, then use <strong>an</strong>.</p>
+<p>Examples: <div class="note info"><p>"<strong>an</strong> hour", "<strong>an</strong> umbrella", "<strong>an</strong> owl", "<strong>an</strong> igloo"</p>
+</div></p>
+<p>Use the when you know that the reader or listener knows or can identify what particular person or thing you are discussing.</p>
+<p>Examples: <div class="note info"><p>"<strong>The</strong> results were confirmed." "Did you unlock <strong>the</strong> door?"</p>
+</div></p>
+<p>You should also use <strong>the</strong> when the thing you are discussing has been mentioned previously.</p>
+<p>Example: <div class="note info"><p>"Each vector encoded a protein with <strong>a</strong> different reporter molecule. The size of <strong>the</strong> protein was..."</p>
+</div></p>
+<p>We also use <strong>the</strong> when talking about geographical features.</p>
+<p>Examples: <div class="note info"><p>"<strong>the</strong> Tropic of Capricorn", "<strong>the</strong> English channel", "<strong>the</strong> Himalayas"</p>
+</div></p>
+<p>We also use <strong>the</strong> preceding certain nouns when it is known that there is only one of something.</p>
+<p>Examples: <div class="note info"><p>"<strong>the</strong> sun", "<strong>the</strong> world", "<strong>the</strong> Imperial Palace", "<strong>the</strong> Pacific Ocean"</p>
+</div></p>
+<h2 id="use-of-respectively">Use of respectively</h2>
+<p>‘Respectively’ is an adverb that is often misused by non-native English speakers. It means “in the order given” and should only be used if your sentence would be unclear without it.</p>
+<p>Example: <div class="note info"><p>Oxygen, nitrogen and hydrogen detector flows were set at 85, 7, and 4 mL/min, respectively.</p>
+<p>The use of respectively here makes it clear that the first gas mentioned goes with the first number, the second gas goes with the second number, and the third gas with the third number.</p>
+</div></p>
+<p>More examples:</p>
+<div class="note warning"><p><strong>BAD</strong>: The two values were 143.2 and 21.6, respectively.</p>
+</div>
+<div class="note success"><p><strong>GOOD</strong>: The two values were 143.2 and 21.6.</p>
+</div>
+<div class="note warning"><p><strong>BAD</strong>: The two tubes were labeled B and S, respectively.</p>
+</div>
+<div class="note success"><p><strong>GOOD</strong>: The tubes containing blood and saline were labeled B and S, respectively.</p>
+</div>
+<h2 id="spelling">Spelling</h2>
+<p>Should you use UK or US spelling? Check the journal’s Instructions for Authors to find out which spelling the journal requires. In many cases the journal will accept either form, just remember to <strong>be consistent</strong> with the spellings throughout your manuscript.</p>
+<table>
+<thead>
+<tr class="header">
+<th>US</th>
+<th>UK</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>fiber</td>
+<td>fibre</td>
+</tr>
+<tr class="even">
+<td>center</td>
+<td>centre</td>
+</tr>
+<tr class="odd">
+<td>labeling</td>
+<td>labelling</td>
+</tr>
+<tr class="even">
+<td>color</td>
+<td>colour</td>
+</tr>
+</tbody>
+</table>
+<p><strong>TIP</strong>: <em>Microsoft Word can help you with correct spellings. Simply open your Language preferences and chose either UK or US spelling and ensure “checking spelling as you type” is selected. Misspelled words should now be underlined in red and can be corrected.</em></p>
+<h2 id="punctuation">Punctuation</h2>
+<p>The colon ":" and semicolon ";" are two punctuation marks that are often misused.</p>
+<h3 id="colon">colon</h3>
+<p>A colon is used to introduce a list or a clause that explains the clause before the colon.</p>
+<p>Example: <div class="note info"><p>There are a number of Springer Nature journals that accept manuscripts dealing with biology: <em>Central European Journal of Biology, Journal of Chemical Biology, Journal of Mathematical Biology, and Journal of Plant Biology</em>.</p>
+</div></p>
+<h3 id="semicolons">Semicolons</h3>
+<p><strong>Semicolons</strong> are used in two ways:</p>
+<ul>
+<li>To separate two independent clauses (clauses that could be complete sentences by themselves) if you do not use a connecting word like "and" or "while" between them.</li>
+<li>To separate items in a list if some items in the list have commas within them. In other words, semicolons are used instead of commas if commas would be confusing.</li>
+</ul>
+<p>Example: <div class="note info"><p>The patient was unresponsive; doctors were running everywhere carrying medical equipment.</p>
+<p>These two clauses could be separate sentences: "The patient was unresponsive. Doctors were running everywhere carrying medical equipment." However, the semicolon suggests that there is a relationship between these two sentences. You can usually tell from the context what the actual relationship is.</p>
+</div></p>
+<p>More examples:</p>
+<div class="note info"><p>She works all day as a nurse in a retirement home; in addition, she is studying in the evenings to become a doctor.</p>
+<p>Dr Benaud is a French researcher; however, he lives in Antarctica.</p>
+<p>Thousands of mites crossed the barrier from region A to region B every hour; therefore, it was not possible to count all of them.</p>
+<p>Our main findings were that uninsured patients are most likely to visit the emergency room for their health care needs; that children, the elderly, and the unemployed are the groups most affected by lack of insurance; and that the uninsured are a heavy burden on hospitals.</p>
+</div>
+<h2 id="size">Size</h2>
+<p>“Large” and “small” are generally used to express variations or changes in size, dimensions, or mass. “High” and “low” are usually used to express levels or numerical values. “Large” and “small” are often mistakenly used where “high” and “low” would be better.</p>
+<p>Examples: <div class="note warning"><p><strong>BAD</strong>: A low amount of the brain’s capacity is needed for survival instincts.</p>
+</div></p>
+<div class="note success"><p><strong>GOOD</strong>: A small amount of the brain’s capacity is needed for survival instincts.</p>
+</div>
+<div class="note warning"><p><strong>BAD</strong>: A high fluctuation in average migration of gazelles was detected between June 4 and 18.</p>
+</div>
+<div class="note success"><p><strong>GOOD</strong>: A large fluctuation in average migration of gazelles was detected between June 4 and 18.</p>
+</div>
+<h1 id="additional-materials">Additional materials</h1>
+<h2 id="online-guide">Online Guide</h2>
+<ol type="1">
+<li><p>_ The Purdue Online Writing Lab is a fantastic writing resource and has many more examples of how to make your writing concise. <strong><span class="exturl" data-url="aHR0cHM6Ly9vd2wucHVyZHVlLmVkdS9vd2wvcHVyZHVlX293bC5odG1s">Purdue Online Writing Lab<i class="fa fa-external-link-alt"></i></span></strong>_</p></li>
+<li><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuc3ByaW5nZXIuY29tL2diL2F1dGhvcnMtZWRpdG9ycy9hdXRob3JhbmRyZXZpZXdlcnR1dG9yaWFscy93cml0aW5naW5lbmdsaXNo">Author and reviewer tutorials: Writing in English<i class="fa fa-external-link-alt"></i></span></p></li>
+</ol>
+<h2 id="pdf-files">PDF files</h2>
+<ol type="1">
+<li><em>Click to download the free <span class="exturl" data-url="aHR0cHM6Ly9yZXNvdXJjZS1jbXMuc3ByaW5nZXJuYXR1cmUuY29tL3NwcmluZ2VyLWNtcy9yZXN0L3YxL2NvbnRlbnQvMTQyMzUxMzIvZGF0YS92Mg==">'Writing in English: Cheat Sheet.'<i class="fa fa-external-link-alt"></i></span></em></li>
+<li><em><span class="exturl" data-url="aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMThTcjhkei1LbXU3LXU2Q1NFalphQmc=">A Practical English Grammar<i class="fa fa-external-link-alt"></i></span> by 张道真</em></li>
+<li><em>Springer Academic Writing Books</em></li>
+</ol>
+
+<div id="hexo-douban-item1">
+    <div class="hexo-douban-item">
+        <div class="hexo-douban-picture"><img data-src="https://img1.doubanio.com/view/subject/l/public/s6984899.jpg" referrerpolicy="no-referrer"></div>
+        <div class="hexo-douban-info">
+            <div class="hexo-douban-title"><span class="exturl" data-url="aHR0cHM6Ly9ib29rLmRvdWJhbi5jb20vc3ViamVjdC82OTU5NzY4Lw=="> English for Writing Research Papers<i class="fa fa-external-link-alt"></i></span></div>
+            <div class="hexo-douban-meta">作者： Adrian Wallwork</div>
+            <div class="hexo-douban-meta">出版社： Springer </div>
+            <div class="hexo-douban-meta">出版日期：2011-04</div>
+            <div class="hexo-douban-meta">豆瓣评分：9.3</div>
+        </div>
+    </div>
+</div>
+
+<div id="hexo-douban-item1">
+    <div class="hexo-douban-item">
+        <div class="hexo-douban-picture"><img data-src="https://img1.doubanio.com/view/subject/l/public/s29636549.jpg" referrerpolicy="no-referrer"></div>
+        <div class="hexo-douban-info">
+            <div class="hexo-douban-title"><span class="exturl" data-url="aHR0cHM6Ly9ib29rLmRvdWJhbi5jb20vc3ViamVjdC8xNzUzOTcyOC8=">English for Academic Research: Grammar, Usage and Style<i class="fa fa-external-link-alt"></i></span></div>
+            <div class="hexo-douban-meta">作者： Adrian Wallwork </div>
+            <div class="hexo-douban-meta">出版社： Springer </div>
+            <div class="hexo-douban-meta">出版日期：2015-12</div>
+            <div class="hexo-douban-meta">豆瓣评分：无</div>
+        </div>
+    </div>
+</div>
+
+<div id="hexo-douban-item1">
+    <div class="hexo-douban-item">
+        <div class="hexo-douban-picture"><img data-src="https://img3.doubanio.com/view/subject/l/public/s6984901.jpg" referrerpolicy="no-referrer"></div>
+        <div class="hexo-douban-info">
+            <div class="hexo-douban-title"><span class="exturl" data-url="aHR0cHM6Ly9ib29rLmRvdWJhbi5jb20vc3ViamVjdC82OTU5NzcxLw=="> English for Academic Correspondence and Socializing<i class="fa fa-external-link-alt"></i></span></div>
+            <div class="hexo-douban-meta">作者： Adrian Wallwork</div>
+            <div class="hexo-douban-meta">出版社： Springer </div>
+            <div class="hexo-douban-meta">出版日期：2011-06</div>
+            <div class="hexo-douban-meta">豆瓣评分：无</div>
+        </div>
+    </div>
+</div>
+
+<div id="hexo-douban-item1">
+    <div class="hexo-douban-item">
+        <div class="hexo-douban-picture"><img data-src="https://img3.doubanio.com/view/subject/l/public/s24546262.jpg" referrerpolicy="no-referrer"></div>
+        <div class="hexo-douban-info">
+            <div class="hexo-douban-title"><span class="exturl" data-url="aHR0cHM6Ly9ib29rLmRvdWJhbi5jb20vc3ViamVjdC82MzgwNDIxLw=="> English for Presentations at International Conferences<i class="fa fa-external-link-alt"></i></span></div>
+            <div class="hexo-douban-meta">作者： Adrian Wallwork</div>
+            <div class="hexo-douban-meta">出版社： Springer </div>
+            <div class="hexo-douban-meta">出版日期：2010-08</div>
+            <div class="hexo-douban-meta">豆瓣评分：无</div>
+        </div>
+    </div>
+</div>
+
+<div id="hexo-douban-item1">
+    <div class="hexo-douban-item">
+        <div class="hexo-douban-picture"><img data-src="https://img1.doubanio.com/view/subject/l/public/s27222068.jpg" referrerpolicy="no-referrer"></div>
+        <div class="hexo-douban-info">
+            <div class="hexo-douban-title"><span class="exturl" data-url="aHR0cHM6Ly9ib29rLmRvdWJhbi5jb20vc3ViamVjdC8xMTIyOTk5NS8="> English for Academic Research: Vocabulary Exercises<i class="fa fa-external-link-alt"></i></span></div>
+            <div class="hexo-douban-meta">作者： Adrian Wallwork</div>
+            <div class="hexo-douban-meta">出版社： Springer </div>
+            <div class="hexo-douban-meta">出版日期：2012-09</div>
+            <div class="hexo-douban-meta">豆瓣评分：无</div>
+        </div>
+    </div>
+</div>
+
+<div id="hexo-douban-item1">
+    <div class="hexo-douban-item">
+        <div class="hexo-douban-picture"><img data-src="https://img1.doubanio.com/view/subject/l/public/s22775659.jpg" referrerpolicy="no-referrer"></div>
+        <div class="hexo-douban-info">
+            <div class="hexo-douban-title"><span class="exturl" data-url="aHR0cHM6Ly9ib29rLmRvdWJhbi5jb20vc3ViamVjdC8xMTE1NDg4MC8="> English for Academic Research: Grammar Exercises<i class="fa fa-external-link-alt"></i></span></div>
+            <div class="hexo-douban-meta">作者： Adrian Wallwork</div>
+            <div class="hexo-douban-meta">出版社： Springer </div>
+            <div class="hexo-douban-meta">出版日期：2012-09</div>
+            <div class="hexo-douban-meta">豆瓣评分：无</div>
+        </div>
+    </div>
+</div>
+
+<div id="hexo-douban-item1">
+    <div class="hexo-douban-item">
+        <div class="hexo-douban-picture"><img data-src="https://img3.doubanio.com/view/subject/l/public/s27265022.jpg" referrerpolicy="no-referrer"></div>
+        <div class="hexo-douban-info">
+            <div class="hexo-douban-title"><span class="exturl" data-url="aHR0cHM6Ly9ib29rLmRvdWJhbi5jb20vc3ViamVjdC8xMTIyOTk5Ny8="> English for Academic Research: Writing Exercises<i class="fa fa-external-link-alt"></i></span></div>
+            <div class="hexo-douban-meta">作者： Adrian Wallwork</div>
+            <div class="hexo-douban-meta">出版社： Springer </div>
+            <div class="hexo-douban-meta">出版日期：2012-10</div>
+            <div class="hexo-douban-meta">豆瓣评分：无</div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .hexo-douban-item {
+        padding-bottom: 10px;
+        position: relative;
+        clear: both;
+        min-height: 170px;
+        padding: 10px 0;
+        border-bottom: 1px #ddd solid;
+    }
+    
+    @media screen and (max-width: 600px) {
+        .hexo-douban-item {
+            width: 100%;
+        }
+    }
+    
+    .hexo-douban-picture {
+        position: absolute;
+        left: 0;
+        top: 10px;
+        width: 100px;
+    }
+    
+    .hexo-douban-info {
+        padding-left: 120px;
+    }
+    
+    .hexo-douban-meta {
+        font-size: 12px;
+        padding-right: 10px;
+    }
+    
+    .hexo-douban-comments {
+        font-size: 12px;
+    }
+</style>
+
+
+<div id="footnotes">
+<hr>
+<div id="footnotelist">
+<ol style="list-style: none; padding-left: 0; margin-left: 40px">
+<li id="fn:1">
+<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">van Weijen, Daphne “The Language of (Future) Scientific Communication” Research Trends Nov 2012 http://www.researchtrends.com/issue-31-november-2012/the-language-of-future-scientific-communication/<a href="#fnref:1" rev="footnote"> ↩︎</a></span>
+</li>
+<li id="fn:2">
+<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Gopen, George D and Swan, Judith A “The Science of Scientific Writing” American Scientist Nov-Dec 1990: 550–558 http://www.or.org/files/Gropen,%20Science%20Writing.pdf<a href="#fnref:2" rev="footnote"> ↩︎</a></span>
+</li>
+</ol>
+</div>
+</div>
+]]></content>
+      <categories>
+        <category>Study</category>
+      </categories>
+      <tags>
+        <tag>Scientific writing</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Matlab将矩阵写入txt文档中</title>
+    <url>/posts/69ac4428/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><figure class="highlight matlab"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">write_infile</span><span class="params">( fid,source_matrix )</span></span></span><br><span class="line">    <span class="comment">%  write matrix to file.上文中已经打开文件fid的情况下</span></span><br><span class="line">    [x,y]=<span class="built_in">size</span>(source_matrix);</span><br><span class="line">    <span class="keyword">for</span> <span class="built_in">i</span>=<span class="number">1</span>:x</span><br><span class="line">        <span class="keyword">for</span> <span class="built_in">j</span>=<span class="number">1</span>:y<span class="number">-1</span></span><br><span class="line">            fprintf(fid,<span class="string">&#x27;%s\t&#x27;</span>,source_matrix(<span class="built_in">i</span>,<span class="built_in">j</span>));</span><br><span class="line">        <span class="keyword">end</span></span><br><span class="line">        fprintf(fid,<span class="string">&#x27;%s\n&#x27;</span>,source_matrix(<span class="built_in">i</span>,y));<span class="comment">%每一行回车\n</span></span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure>
+<p>如果上文中没有打开文件，可以使用 filename 参数。</p>
+<figure class="highlight matlab"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">write_infile</span><span class="params">( filename,source_matrix )</span></span></span><br><span class="line"><span class="comment">%  write matrix to file</span></span><br><span class="line"></span><br><span class="line">fid=fopen(filename,<span class="string">&#x27;a&#x27;</span>);</span><br><span class="line"></span><br><span class="line">[x,y]=<span class="built_in">size</span>(source_matrix);</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> <span class="built_in">i</span>=<span class="number">1</span>:x</span><br><span class="line">    <span class="keyword">for</span> <span class="built_in">j</span>=<span class="number">1</span>:y<span class="number">-1</span></span><br><span class="line">        fprintf(fid,<span class="string">&#x27;%f\t&#x27;</span>,source_matrix(<span class="built_in">i</span>,<span class="built_in">j</span>));</span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line">    fprintf(fid,<span class="string">&#x27;%f\n&#x27;</span>,source_matrix(<span class="built_in">i</span>,y));<span class="comment">%每一行回车\n</span></span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line">fclose(fid);</span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Program</category>
+      </categories>
+      <tags>
+        <tag>Matlab</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《我们仨》</title>
+    <url>/posts/73afbf7d/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">
+<div id="hexo-douban-item1">
+    <div class="hexo-douban-item">
+        <div class="hexo-douban-picture"><img data-src="https://img3.doubanio.com/view/subject/l/public/s27509853.jpg" referrerpolicy="no-referrer"></div>
+        <div class="hexo-douban-info">
+            <div class="hexo-douban-title"><span class="exturl" data-url="aHR0cHM6Ly9ib29rLmRvdWJhbi5jb20vc3ViamVjdC8xOTk1ODA4OS8="> 我们仨<i class="fa fa-external-link-alt"></i></span></div>
+        <div class="hexo-douban-meta">作者： 杨绛 </div>
+        <div class="hexo-douban-meta">出版社： 生活·读书·新知三联书店 </div>
+        <div class="hexo-douban-meta">出版日期：2012-09</div>
+        <div class="hexo-douban-meta">豆瓣评分：9.0</div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .hexo-douban-item {
+        padding-bottom: 10px;
+        position: relative;
+        clear: both;
+        min-height: 170px;
+        padding: 10px 0;
+        border-bottom: 1px #ddd solid;
+    }
+    
+    @media screen and (max-width: 600px) {
+        .hexo-douban-item {
+            width: 100%;
+        }
+    }
+    
+    .hexo-douban-picture {
+        position: absolute;
+        left: 0;
+        top: 10px;
+        width: 100px;
+    }
+    
+    .hexo-douban-info {
+        padding-left: 120px;
+    }
+    
+    .hexo-douban-meta {
+        font-size: 12px;
+        padding-right: 10px;
+    }
+    
+    .hexo-douban-comments {
+        font-size: 12px;
+    }
+</style>
+
+
+<a id="more"></a>
+<blockquote><p>我清醒地看到以前当作“我们家”的寓所，只是旅途上的客栈而已。家在哪里，我不知道。我还在寻觅归途。</p>
+</blockquote>
+<blockquote><p>人世间不会有小说或者童话故事那样的结局:"从此，他们永远快快乐乐地一起过日子。" 人间没有单纯的快乐。快乐总夹带着烦恼和忧虑。 人间也没有永远。我们一生坎坷，暮年才有了一个可以安顿的居处。但老病相催，我们在人生道路上已走到尽头了。</p>
+</blockquote>
+<blockquote><p>我终于找到了她的医院，在苍松翠柏间。</p>
+</blockquote>
+<blockquote><p>送一程，说一声再见，又能见一面。离别拉得长，是增加痛苦还是减少痛苦呢？我算不清。但是我陪他走得愈远，愈怕从此不见。</p>
+</blockquote>
+<blockquote><p>我们如要逃跑，不是无路可走。可是一个人在紧要关头，决定他何去何从的，也许是他最基本的感情。我们从来不唱爱国调。非但不唱，还不爱听。但我们不愿逃跑，只是不愿意去父母之邦，撇不开自家人。我国是国耻重重的弱国，跑出去仰人鼻息，做二等公民，我们不愿意。我们是文化人，爱祖国的文化，爱祖国的文字，爱祖国的语言。一句话，我们是倔强的中国老百姓，不愿做外国人。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Essays</category>
+      </categories>
+      <tags>
+        <tag>Reading notes</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>读讴歌《医事：关于医的隐情与智慧》</title>
+    <url>/posts/3b141478/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">
+<div id="hexo-douban-item1">
+    <div class="hexo-douban-item">
+        <div class="hexo-douban-picture"><img data-src="https://img3.doubanio.com/view/subject/l/public/s1758991.jpg" referrerpolicy="no-referrer"></div>
+        <div class="hexo-douban-info">
+            <div class="hexo-douban-title"><span class="exturl" data-url="aHR0cHM6Ly9ib29rLmRvdWJhbi5jb20vc3ViamVjdC8xODIyODUxLw==">医事：关于医的隐情与智慧<i class="fa fa-external-link-alt"></i></span></div>
+        <div class="hexo-douban-meta">作者： 讴歌</div>
+        <div class="hexo-douban-meta">出版社： 北京出版社</div>
+        <div class="hexo-douban-meta">出版日期：2006-06</div>
+        <div class="hexo-douban-meta">豆瓣评分：7.6</div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .hexo-douban-item {
+        padding-bottom: 10px;
+        position: relative;
+        clear: both;
+        min-height: 170px;
+        padding: 10px 0;
+        border-bottom: 1px #ddd solid;
+    }
+    
+    @media screen and (max-width: 600px) {
+        .hexo-douban-item {
+            width: 100%;
+        }
+    }
+    
+    .hexo-douban-picture {
+        position: absolute;
+        left: 0;
+        top: 10px;
+        width: 100px;
+    }
+    
+    .hexo-douban-info {
+        padding-left: 120px;
+    }
+    
+    .hexo-douban-meta {
+        font-size: 12px;
+        padding-right: 10px;
+    }
+    
+    .hexo-douban-comments {
+        font-size: 12px;
+    }
+</style>
+
+<a id="more"></a>
+<p>诚如胡大一教授在序言中所说，《医事》是一本同时贴近医生和普通人的作品，对医事从不同角度进行了深入的探讨，说出了病人和医生各自想说的隐情，也道出了医事中蕴藏的智慧，为医生、病人和大众媒体提供了一个共同的理性的交流平台。</p>
+<p><strong>第一章里，作者从不同的视角阐述了医患关系的具体内涵。</strong>医患关系，顾名思义，即医方与患方的关系，是医疗服务活动中客观形成的医患双方以及与双方利益有密切关联的社会群体和个体之间的互动关系。在人类医疗历史之初，医患关系只是一种契约关系，随后让位于法律的调节，而源自西方的现代医患关系，基本性质则是一种信托模型。</p>
+<p>而今日愈加紧张的医患关系的背景也是由来已久的。从医学发展的角度来看，随着现代医学无限开放式的发展和认识层面的不断深入，人们越来越纠缠于局部和细节，而忘了最后服务于作为整体的“一个人”的初衷。疾病似乎和病人分开了，医生们更热衷于追寻疾病背后的生物、技术、细节层面的原因，更关注躯体上的问题，而非关注病人，从而忽视了病人情感和人文关怀。病人一词被分解为没有感情的词素，病人的痛苦则被转化疾病的症状和体征。</p>
+<p>从病人的角度来看，的确，医学在本质上需要冷静透彻的理性科学思维方法，但更重要的是温暖的人情和人文关怀。病人需要来自医生的关怀和鼓励，但是往往面对的却是“沉默的暴力”。当下的中国病人除了对医学和医疗服务质量不满意外，还深为由信息不对称导致的关系不平等所苦，身为弱者没有权利感，需要真相，却无处求助。</p>
+<p>从医生的角度来看，身处这个理想让位于现实的时代，在经历了农夫与蛇的教训之后，医生从病人那里也越来越得不到人情味的回报，所以渐渐开始隐藏温情趋向冷漠，采取更加稳妥的处理方式从而保护自己。</p>
+<p>中国医患关系之所以紧张，作者为我们总结了如下几条原因：</p>
+<ol type="1">
+<li>文化背景的影响，即现代医学发展的物化、分工细密与科学至上主义，导致了医患疏离，温情丧失；</li>
+<li>病人和医生不会看病，即双方在看病的沟通技能上都有多缺失；</li>
+<li>现代商业社会、医疗制度大环境的影响，从经济角度改写了医学本来的道德性质，社会的道德约束软化、边缘化；</li>
+<li>生死观、健康观这些个人问题，在中国也被简单置换为“医患关系”。</li>
+</ol>
+<p>或许目前缓解医患紧张最简单最直接的方式，就是易位而处，换位思考。</p>
+<p>当医生成为病人时，他才能真切体会到病人所面临的无助与无奈。作为医生时习惯做出攸关病人生死的决定与习惯拥有权力的自豪和荣耀，与作为病人时没有权利的无助形成了巨大的反差和对比，才能让他们意识到病人的脆弱，意识到同理心对病人的深远意义。相信除了医生之外，几乎每个人都有等一个小时，看病只花五分钟的亲身经历。</p>
+<p>当病人成为医生时，会自然地意识到“治病也治人”，更能理解病人精神和物质层面的双重要求，医生表达关心和爱护和医术一样重要。同时也会理解医生所面临的压力和苦衷，作为病人，感恩每句亲切的话语、每次仔细的检查，感谢艺精的医生赐给病人的正常生活的机会。</p>
+<p><strong>第二章里，作者从文化与时代背景入手，深入剖析了医患困境的本质和客观环境。</strong>宗教和医学，都关系到满足人类成长中的理性需要和减轻身心痛苦的需要。所不同的是，宗教是对自然力的屈服，并将其神秘化；医学则是对自然力的征服，并将其明朗化。</p>
+<p>人们对疾病的一无所知、对生命的渴望、对死亡的恐惧，使得人们习惯于把自己定位为弱者，却对医生充满着神性的期待。因为对医生有着神性的期待，在遇到不符合期望的现实时，人们产生了相较其他更强烈的怀疑，无能为力的人们只能逞言语之欢，发泄一把特别失望的情绪，遍布偏颇及无奈。</p>
+<p>然而，医生职业里的神性，需要绕开物质的烦恼，需要生存在理想主义和人道主义的土壤里。不幸的是，医生并不是神，他们首先是活生生的人，也会有人性的弱点，物质的贫乏同样会放大他们人性中劣根的一面。</p>
+<p>除了医生和病人在起着作用，背后还有隐藏着的更强大的力量——我们所处的时代和相应的复杂医疗系统。一方面是医疗政策，每个国家的医疗政策都在医学与经济的撞击中身处尴尬；另一方面则是坡脚的医学教育，门槛低，没有严格的准入制度，导致叫“医生”的队伍良莠不齐。此外，今日中国医学院，只教授医学技术课程，却不教文化、社会、伦理学、心理学等其他人文课程，从源头上就导致了中国医学生人文修养的缺失。</p>
+<p><strong>第三章和第四章里，作者分别从医生和病人的角度，阐述了蕴含在医事里的无奈和应对的智慧。</strong></p>
+<p>做一个好医生，需要智慧。</p>
+<p>现实是，医生所面临的压力是巨大的（超负荷的工作量；无法在工作和家庭之间平衡时间；经常遇上难相处的病人，病人要求多挑剔等），医生付出也是巨大的（经历了漫长的忍耐和坚持，而荣誉和价值肯定也是从下半生才开始），而往往医生得到的经济与人情回报却与付出不成正比。时代让医生曾经最需要道德支撑的职业，渐渐转向疏离、冰冷的工作和谋生手段。</p>
+<p>所以，医生需要智慧来保护好自己、应对压力，成为一个好医生。首先，在医学生阶段要经历5个方面的成长：知识的增加、躯体的成长、情感的成熟、社会判断和道德操守的提高。除了接受医德和医学技能的教育，也需要很多医学之外的东西，如沟通能力、同情心、勇敢等，以期实现科学精神和人文关怀的最佳结合。如何成为一位好医生，作者给出了一些实用的建议：如问一个非程式化的问题，不要抱怨，为某个东西计数，写点什么，改变等。</p>
+<p>此外，没有医生不犯错的，这种局限来自他作为凡人而非神的特性，也来自医学本身的局限和某些不确定性。所以，也需要智慧去建立一个事前能够发现、事后及时改正和有助于有效预防差错的长效机制，兼顾技术升级和人性弱点。</p>
+<p>做一个聪明的病人，也需要智慧。</p>
+<p>聪明的病人，选医生时先医术后人情味，求医时主动积极配合，如主动提供信息、要求得到更多信息，表达尊重与肯定，积极沟通，自己动手做能胜任的事情（如接受患者教育，阅读知识，了解身体）。</p>
+<p>当然，身为普通人的我们能做的不止于此。首先，要认识和理解西医所面临的人情和技术的困境和局限，看到医疗卫生事业存在的弊端。然后，在大环境之下，学会系统地管理自己的健康和医事，成为自己的医生。管理自己的健康，需要理念和零碎细节相结合，如建造一个健康生活方式，以获得在心理舒畅为底色的幸福情感之上的全盘的健康；又如预防和尽早发现疾病，在源头和起始阶段采取不久措施。此外，还要学会避免媒体的误导，因为新闻报道普遍存在缺乏科学常识和夸大事实的嫌疑，有的作者连起码的医学、生物背景都不具备。病人需要加深对疾病的了解，通过患者教育等方式，主动学习和积累客观全面的信息。</p>
+<p><strong>最后一章，则深入生死观、疾病观的层次，试图将人们引领至更高的境界。</strong></p>
+<p>千百年来一直流行一个取巧讨好的比喻——蕴涵着无数神奇奥妙的精巧机器，终日不知疲倦地精密运转。但事实是，身体其实有许多不完美的地方，而我们则是带着身体的一堆折中方案和不完美在生活。然而大部分人对此知之甚少，比如并不是一感觉“身体不舒服”就该去找医生，比如发热和疼痛其实也是身体自我恢复和保护的一种机制。</p>
+<p>在死亡观和疾病观方面，生命可以被延长，但永远不能与衰老、死亡脱去干系。衰老与死亡也并非偶然安排，而是“自然选择”锲而不舍的自然规律，而疾病最终源于自然选择。 此外，绝大部分的疾病都是不能根治的。我们树立正确的疾病观，剥去心中的恐惧，积极理性地看待疾病和生老病死，与其成为胆小鬼，不如走到艳阳下直面疾病。</p>
+<p>从某种角度来讲，疾病也不无好处，疾病能把人的好和坏、强和弱全部暴露出来。在走向最后的死亡过程中，疾病的穿插，让人能从与健康不同的角度去看生活看生命，从而会更加珍惜健康的时日，更懂得如何去生活。</p>
+<p>整书读完意犹未尽，因为作者并不是简单粗暴地说理，而是结合文化时代背景和各种贴近生活的实例层层深入，让读者融入情境之中感同身受，获悉与消化医事中的隐情与智慧。人文关怀，不仅仅是表面上的人文关怀这么简单，还有藏在背后的各种文化的时代的主观的客观的偶然的必然的因素。要想达到医患关系的和谐，人文关怀必不可少，然而无论是作为医生还是作为病人，我们都还有很长的路要走。个人认为《医事》为缓解当代医患关系出了一记良药，值得推荐给每一个人阅读，值得每一个人付出理解和努力。既让医生理解病人的需要，也能让病人理解医生的苦衷，在互相理解和信任的基础上建立良好的沟通，作为一个“利益共同体”，尽最大努力与疾病抗争！</p>
+]]></content>
+      <categories>
+        <category>Essays</category>
+      </categories>
+      <tags>
+        <tag>Reading notes</tag>
+        <tag>Medicine</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>日本游记</title>
+    <url>/posts/b650db2c/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="年1月14日-第1天-晴">2017年1月14日 第1天 晴</h1>
+<p>14 日一早，大家都满怀期待与新鲜感结伴赶往浦东机场，准备飞赴大阪开启日本游学之旅。上海的万里晴空让人心情舒畅，大家虽有早起的疲倦但还是掩不住兴奋。</p>
+<img data-src="/posts/b650db2c/1.jpg" class="">
+<a id="more"></a>
+<p>当地时间下午 3 点多，一行人顺利抵达关西机场，紧接着便搭乘小巴车赶往京都平安酒店。日本的天也很蓝，但是与上海不同的是这里的白云又厚又低，放眼望去几乎与海平面相接，别有一番韵味。</p>
+<img data-src="/posts/b650db2c/2.jpg" class="">
+<img data-src="/posts/b650db2c/3.jpg" class="">
+<p>一路上看着远处的蓝天白云和不时映入眼帘的汉字，大家都用好奇的目光打量着这个熟悉又陌生的国家。也许大家赶路的疲惫在车里慢慢沉淀下来，没过多久喧嚣渐止，大家都安静入睡。直到傍晚时分我们才抵达酒店，可是这时的京都却放肆地飘起了鹅毛大雪。大家非常兴奋和欣喜，毕竟在上海是很难见到这么大雪的，况且队伍里还有不少来自南方的同学。不过，高兴之余还是有几分隐忧，因为不知道雨雪天气会不会影响到后面几天的行程。</p>
+<img data-src="/posts/b650db2c/4.jpg" class="">
+<h1 id="年1月15日-第2天-大雪">2017年1月15日 第2天 大雪</h1>
+<p>在京都的第一个早上就被惊喜到了。雪花估计飘了一夜，打开窗户映入眼帘的就是银装素裹的世界，远方白雪皑皑的山脉特别让人着迷。</p>
+<img data-src="/posts/b650db2c/5.jpg" class="">
+<p>上午我们冒着大雪搭乘公交赶往金阁寺，游人出奇地多，三米左右宽的路上全都挤满了往前挪动的游客，说摩肩接踵一点都不过分。可能连本地人都想来看看雪中金阁寺的别致景色吧。金阁寺面的岸边是绝佳的观景点，可不幸的是被手持单反或者手机的游客围得水泄不通，多亏了王一帆帮忙撑伞，我才挤进去拍了几张照片。</p>
+<img data-src="/posts/b650db2c/6.jpg" class="">
+<p>这里的天气也挺有意思，雪来得快走得也快，刚才还是鹅毛大雪呢，这会就变得晴空万里了，而又过不了多久天边的乌云又裹挟着大雪卷土重来。</p>
+<img data-src="/posts/b650db2c/7.jpg" class="">
+<p>下午大家则冒着鹅毛大雪和间或的万里晴空，参观了天满宫——老师所说的“神仙”的地界。在这里第一次见识到了日本民众虔诚的信仰，右下这张图就是一位母亲站在路边，等着她的两个女儿完成许愿的仪式，祈求学业进步。还有一个让我很有感触的点就是，他们对于花草的爱护。看有人在拍梅花，我也端着相机想要去试一试，正好练习一下虚焦的技巧。可能是太过投入离得太近，无意中镜头抵到了花枝上，然后旁边的一个老奶奶连忙告诉了我，我意识到以后回了一个不好意思的笑，但是心里却是暖暖的。</p>
+<img data-src="/posts/b650db2c/8.jpg" class="">
+<img data-src="/posts/b650db2c/9.jpg" class="">
+<p>后面则步行去参观了晴明神社，供奉阴阳师晴明公的地方。我是第一次听说晴明神社，虽然这个和国内很火的和风游戏《阴阳师》有关。神社的规模和天满宫相比迷你了一些，但是也还是有很多当地人在这求签许愿。我感觉这些遍布京都大大小小的神社，就像是镶嵌在喧嚣城中的世外桃源一样，让忙碌的人们放下脚步，对话神灵和美好希冀。</p>
+<img data-src="/posts/b650db2c/10.jpg" class="">
+<img data-src="/posts/b650db2c/11.jpg" class="">
+<p>今天的最后一站则是距住所很近的同志社大学。这个校区不大，只有一条大道贯穿，砖红色的西式风格的建筑分布在大道的两边和尽头。人很少，也比较安静。</p>
+<img data-src="/posts/b650db2c/12.jpg" class="">
+<img data-src="/posts/b650db2c/13.jpg" class="">
+<h1 id="年1月16日-第3天-晴间雪">2017年1月16日 第3天 晴间雪</h1>
+<p>在京都的第二天早上，天早已放晴，一改雪中的灰蒙蒙的压抑，蔚蓝的天空给人的感觉满是清爽的凉意。今天的第一站是伏见稻荷大社，路经雪后京都御苑，提前一览清凉的雪景。</p>
+<img data-src="/posts/b650db2c/14.jpg" class="">
+<img data-src="/posts/b650db2c/15.jpg" class="">
+<p>我一直在想京都的天空到底特别在哪，为什么总是给我一种与众不同的感觉。今天再重新审视当时拍的照片，发现就像之前在大阪机场看到的白云一样，白云给人的感觉高度很低离你很近。今天也是第一次体验了京都的电车，除了慢了点，基本和我们国内的地铁并没有啥区别。去到伏见稻荷大社，又体验了一番日本风格的古典建筑，颜色比较亮，虽然给人感觉少了几分庄重，但是也多了些活泼。</p>
+<img data-src="/posts/b650db2c/16.jpg" class="">
+<img data-src="/posts/b650db2c/17.jpg" class="">
+<img data-src="/posts/b650db2c/18.jpg" class="">
+<p>说实话，在日本吃饭真的不是件容易事。清水寺边上的饭馆不仅少，店面还非常小，像我们一行十来个人在一家店里根本坐不下。最后，我们几个没有找到合适饭馆的小伙子，在全家买了份便当凑乎了一顿。午饭过后，继续参观清水寺，怎么说呢，基本和伏见稻荷是一个风格，看多了寺庙这种的还有点审美疲劳。不过，清水寺比较有意思的点是可以求姻缘签，俩同学抽到了大吉。</p>
+<img data-src="/posts/b650db2c/19.jpg" class="">
+<img data-src="/posts/b650db2c/20.jpg" class="">
+<img data-src="/posts/b650db2c/21.jpg" class="">
+<p>参观完清水寺之后还有很长时间，于是老师就带着我们去建仁寺，然后就解散自由参观。由于这两天看了太多这种寺庙，大家都有些兴味索然，最后一商量就决定结伴去三条和四条逛街啦。又是行程满满的一天，晚上回到宾馆之后大家都宅在房间里不想出来啦。</p>
+<img data-src="/posts/b650db2c/22.jpg" class="">
+<img data-src="/posts/b650db2c/23.jpg" class="">
+<h1 id="年1月17号-第4天-晴">2017年1月17号 第4天 晴</h1>
+<p>今天的主要目的地是大阪，不过在去那之前先去了位于吹田市的朝日啤酒厂参观。则会整个参观过程大概四十分钟，从啤酒花和大麦这些原材料，到发酵过程，再到自动化装罐，了解了啤酒厂的整个运作流程。最后一个环节则是品尝三杯啤酒，期间啤酒厂导游小姐姐还给大家演示了正确倒啤酒的方法。</p>
+<img data-src="/posts/b650db2c/24.jpg" class="">
+<img data-src="/posts/b650db2c/25.jpg" class="">
+<img data-src="/posts/b650db2c/26.jpg" class="">
+<p>参观啤酒厂之后，我们又乘地铁来到了大城市大阪，在京都待了这么久，刚一下地铁还真有点进城了的感觉。据说大阪最有特色的是商业街，于是我们整个下午的行程便成了自由逛街。琳琅满目的日本特色招牌，各种特色小吃， 都让大家感觉很新鲜。我和洪宇同行一起吃了章鱼小丸子，又一块去找唱片店帮他同学买 CD，后面又去无印良品买了点文具。</p>
+<img data-src="/posts/b650db2c/27.jpg" class="">
+<img data-src="/posts/b650db2c/28.jpg" class="">
+<img data-src="/posts/b650db2c/29.jpg" class="">
+<h1 id="年1月18号-第5天-晴">2017年1月18号 第5天 晴</h1>
+<img data-src="/posts/b650db2c/30.jpg" class="">
+<p>今天已经是在京都的第四天了，大家都有点疲劳了。今天一早收拾妥当就去参观文化遗产二条城，途径平安女学院，让我觉得比较有意思的是汉字在日本的使用，如果只看墙上的名称，还真看不出来这是所位于日本的学校。</p>
+<img data-src="/posts/b650db2c/31.jpg" class="">
+<p>下午来到立命馆大学，更加能够感受到中国文化对日本产生的深远影响。“立命”这一名称取自中国古典《孟子 尽心章》中的“夭寿不贰，修身以俟之，所以立命也”句。所谓“立命馆”，就是指达到这种安身立命的目标的地方。立命馆大学的国际和平纪念馆，也是日本国内为数不多的坦然承认日军侵华历史的纪念馆，值得敬佩。</p>
+<img data-src="/posts/b650db2c/32.jpg" class="">
+<img data-src="/posts/b650db2c/33.jpg" class="">
+<p>傍晚，我们一小拨人又坐了很久的公交来到岚山。其实感觉山并没有啥特别的，山上的猴子或许比较有趣，但是由于时间太晚已经闭园了。我们一行人冒着寒风在山脚下走了很久，个人感觉唯一让我不枉此行的就是周总理诗碑，大家还在诗碑前合影留念。</p>
+<img data-src="/posts/b650db2c/34.jpg" class="">
+<h1 id="年1月19号-第6天-多云">2017年1月19号 第6天 多云</h1>
+<p>说起来，京都车站也算是京都一个重要的景点。一个现代化的车站，座落在这么一个传统的城市里，本身就很特别。我们经由京都车站坐电车赶往宇治的平等院，几个小伙伴还在门口品尝了抹茶冰淇淋，吃得不亦乐乎。</p>
+<img data-src="/posts/b650db2c/35.jpg" class="">
+<p>下午则是在奈良公园看鹿，这算是日本之行里可玩性最高的项目啦。不过去公园之前路旁的和尚让我感触良多隐隐有些心疼，听带队老师说这个才是苦行清修不破戒的真和尚。</p>
+<img data-src="/posts/b650db2c/36.jpg" class="">
+<img data-src="/posts/b650db2c/37.jpg" class="">
+<img data-src="/posts/b650db2c/38.jpg" class="">
+<img data-src="/posts/b650db2c/add-1.jpg" class="">
+<p>过若草山，春日大社</p>
+<img data-src="/posts/b650db2c/39.jpg" class="">
+<h1 id="年1月20号-第7天-阴转晴">2017年1月20号 第7天 阴转晴</h1>
+<p>今天是京都的最后一天，所以行程安排的比较少，想多给大家一些时间自由地深入感受日本的风土人情。上午，我们步行前往了最后一站，京都大学。门外的京都大学试验场的牌子让人倍感亲切，真的是到哪都得考试啊。整个校园的风格也是比较西式的。</p>
+<img data-src="/posts/b650db2c/40.jpg" class="">
+<img data-src="/posts/b650db2c/41.jpg" class="">
+<img data-src="/posts/b650db2c/42.jpg" class="">
+<p>下午自由活动，我和洪宇同行，一起去压马路感受了日本街道。</p>
+<img data-src="/posts/b650db2c/43.jpg" class="">
+<img data-src="/posts/b650db2c/44.jpg" class="">
+<h1 id="年1月21号-第8天-晴">2017年1月21号 第8天 晴</h1>
+<p>在京都的最后一个早上，大家都有点小兴奋，一大早大家便收拾好行李，乘坐新干线前往期待已久的东京，中途还经过了富士山。</p>
+<img data-src="/posts/b650db2c/45.jpg" class="">
+<img data-src="/posts/b650db2c/46.jpg" class="">
+<p>到奥体中心放下行李收拾妥当之后，大家便兴致满满地冲出去探索东京了。</p>
+<img data-src="/posts/b650db2c/47.jpg" class="">
+<img data-src="/posts/b650db2c/48.jpg" class="">
+<h1 id="年1月22号-第9天-大晴">2017年1月22号 第9天 大晴</h1>
+<p>来到东京的第一个早晨，大家来到上野东京国立博物馆，准备了解一下日本的古代历史。转了一圈其实蛮失望的，毕竟和我大中华比起来，日本的古代历史不值一提，而且到处都是中国的影子。</p>
+<img data-src="/posts/b650db2c/49.jpg" class="">
+<p>吃过午饭,来到东京银座，陪同学体验了一圈熊本馆。</p>
+<img data-src="/posts/b650db2c/50.jpg" class="">
+<img data-src="/posts/b650db2c/51.jpg" class="">
+<h1 id="年1月23号-第10天-晴-大风">2017年1月23号 第10天 晴 大风</h1>
+<p>今天我们蹭了其他团的大巴车去早稻田大学参观，一个听说过很多次的学校。老师给我们讲解了一些比较有特色的建筑，其中有胡锦涛主席演讲过的大隈讲堂，还有早稻田大学最著名的政经学院，以及早庆战百周年纪念碑等。</p>
+<img data-src="/posts/b650db2c/52.jpg" class="">
+<img data-src="/posts/b650db2c/53.jpg" class="">
+<p>参观完早稻田大学，我们一行人又急忙赶往东京大学，东大算是我们此行见到的规模最大的大学。中午在东大食堂吃了午餐，味道还可以也比较实惠，但是和国内根本没法比。</p>
+<img data-src="/posts/b650db2c/54.jpg" class="">
+<img data-src="/posts/b650db2c/55.jpg" class="">
+<img data-src="/posts/b650db2c/56.jpg" class="">
+<p>下午自由活动，参观新宿和银座。</p>
+<img data-src="/posts/b650db2c/57.jpg" class="">
+<h1 id="年1月24号-第11天-晴">2017年1月24号 第11天 晴</h1>
+<p>在日本的最后一个早上了，大家都有点不舍，但是我却是归心似箭。只有身处异国他乡，才更能体会祖国和故乡的好。一早便集合坐上大巴，驱车近一个小时赶往成田机场。蔚蓝的背景下云天相接，像画一样。</p>
+<img data-src="/posts/b650db2c/58.jpg" class="">
+<img data-src="/posts/b650db2c/59.jpg" class="">
+]]></content>
+      <categories>
+        <category>Essays</category>
+      </categories>
+      <tags>
+        <tag>Travel</tag>
+        <tag>Japan</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Useful Software in Windows</title>
+    <url>/posts/fcdee756/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="文件搜索神器-everything">文件搜索神器 Everything</h1>
+<h2 id="简介">简介</h2>
+<p>Everything 是一款极速电脑文件搜索神器，能迅速地对文件进行定位，与 Windows 内置的搜索不同，Everything可以显示计算机上的每个文件和文件夹（因此命名为“Everything”）。您可以键入搜索词以限制显示哪些文件和文件夹。官网描述为“基于名称实时定位文件和目录”。它体积小巧，界面简洁易用，快速建立索引，快速搜索，同时占用极低的系统资源，实时跟踪文件变化，并且还可以通过http或ftp形式分享搜索。</p>
+<a id="more"></a>
+<img data-src="/posts/fcdee756/software-1.png" class="" title="Everything软件界面">
+<h2 id="官网">官网</h2>
+<p><span class="exturl" data-url="aHR0cDovL3d3dy52b2lkdG9vbHMuY29tLw==">http://www.voidtools.com/<i class="fa fa-external-link-alt"></i></span></p>
+<h2 id="下载地址">下载地址</h2>
+<p><span class="exturl" data-url="aHR0cDovL3d3dy52b2lkdG9vbHMuY29tL2Rvd25sb2Fkcy8=">官网<i class="fa fa-external-link-alt"></i></span></p>
+<h1 id="截图录像软件-faststone-capture">截图录像软件 FastStone Capture</h1>
+<h2 id="简介-1">简介</h2>
+<p>FastStone Capture 是一款出色的屏幕捕捉（截图）软件，它集图像捕捉、浏览、编辑、视频录制等功能于一身，功能完善、使用方便，值得推荐！软件提供多种捕捉方式，如：活动窗口、窗口/对象、矩形区域、手绘区域、整个屏幕、滚动窗口等，还具备屏幕录像机、放大镜、颜色拾取、屏幕标尺等附加功能，支持快捷键操作，此外也内置了一个相当简单好用的图片编辑功能，让我们可以针对截取的图片做些编辑与加工，加水印、边框…等。 <!-- more --> FastStone Capture 版本已支持 Windows Vista7/8/10 等操作系统，截图完后可直接将图片传送FastStone Editor编辑器，或让它自动保存、自动打印或自动用Email寄出…等，此外还可直接将你预先准备好的水印图片加上到每一张截取的图片中，并可直接在图片边缘将上方框或阴影效果，整个看起来就是超美的。</p>
+<img data-src="/posts/fcdee756/software-2.jpg" class="">
+<p>软件提供多种方式处理捕捉到的图像，如：在编辑器打开；存入剪贴板或文件；发送到打印机、邮件、Word、Excel、Powerpoint、FTP；支持自动保存捕捉内容，并可通过文件名称模板定制文件名；可输出BMP、GIF、JPG、PNG、TIF、PDF等文件格式，且输出文件夹位置也可自行设定。</p>
+<img data-src="/posts/fcdee756/software-3.jpg" class="">
+<p>软件内置功能完善的图像编辑器，除提供缩放、旋转、剪切、格式转换、调整大小等基本功能外，还可向图像中加入标题、边框和水印、文本与线条、自定义图形等内容，并可调整图像颜色和进行多种特效处理；可处理几乎所有的主流图片格式；并可调用第三方软件进行编辑。</p>
+<img data-src="/posts/fcdee756/software-4.jpg" class="">
+<h2 id="官网-1">官网</h2>
+<p><span class="exturl" data-url="aHR0cDovL3d3dy5mYXN0c3RvbmUub3JnLw==">http://www.faststone.org/<i class="fa fa-external-link-alt"></i></span></p>
+<h2 id="下载地址-1">下载地址</h2>
+<p>百度网盘链接：https://pan.baidu.com/s/1mNR9JgTbxW09H7KHoeLKQg 提取码：wzxv</p>
+<h1 id="pdf密码移除工具-advanced-pdf-password-recovery">PDF密码移除工具 advanced pdf password recovery</h1>
+<h2 id="简介-2">简介</h2>
+<p><strong>Advanced PDF Password Recovery</strong>可以破解Adobe Acrobat PDF文件的所有者密码。未破解所有者密码的PDF文件是不能被编辑与打印的。该PDF密码移除程序还可以破解用FileOpen插件加密的文件。破解可以即刻完成。破解后的文件可以用多种PDF浏览器(例如Adobe Acrobat Reader)阅读而无任何限制。支持命令行格式！专业版支持暴破、掩码、字典、密钥四种破解方式。Advanced PDF Password Recovery (<strong>APDFPR</strong>) 即可将 Adobe Acrobat PDF 文档解除锁定并移除编辑、打印、复制限制。快速有效的访问加密与受口令保护的 PDF 文档。</p>
+<p><strong>功能：</strong> 1. 支持命令行格式 2. 支持PDF文件限制直接解除 3. 支持PDF文件密码的暴力破解 4. 支持几种解密方式 5. 支持PDF最新的版本！</p>
+<img data-src="/posts/fcdee756/software-5.png" class="" title="APDFPR软件界面">
+<h2 id="官网-2">官网</h2>
+<p><span class="exturl" data-url="aHR0cHM6Ly93d3cuZWxjb21zb2Z0LmNvbS9hcGRmcHIuaHRtbD9zcmM9cHJvZ19hcGRmcHJw">https://www.elcomsoft.com/apdfpr.html?src=prog_apdfprp<i class="fa fa-external-link-alt"></i></span></p>
+<h2 id="下载地址-2">下载地址</h2>
+<p>百度网盘链接：https://pan.baidu.com/s/1bWYFJQStXwdIXZoE2m947A 提取码：wc7i</p>
+]]></content>
+      <categories>
+        <category>Tools</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown代码块支持的语言</title>
+    <url>/posts/6ab127e3/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><table>
+<thead>
+<tr class="header">
+<th>名称</th>
+<th>关键字</th>
+<th>调用的js</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>AppleScript</td>
+<td>applescript</td>
+<td>shBrushAppleScript.js</td>
+<td>/</td>
+</tr>
+<tr class="even">
+<td>ActionScript 3.0</td>
+<td>actionscript3 , as3</td>
+<td>shBrushAS3.js</td>
+<td>/</td>
+</tr>
+<tr class="odd">
+<td>Shell</td>
+<td>bash , shell</td>
+<td>shBrushBash.js</td>
+<td>/</td>
+</tr>
+<tr class="even">
+<td>ColdFusion</td>
+<td>coldfusion , cf</td>
+<td>shBrushColdFusion.js</td>
+<td>/</td>
+</tr>
+<tr class="odd">
+<td>C</td>
+<td>cpp , c</td>
+<td>shBrushCpp.js</td>
+<td>/</td>
+</tr>
+<tr class="even">
+<td>C#</td>
+<td>c# , c-sharp , csharp</td>
+<td>shBrushCSharp.js</td>
+<td>/</td>
+</tr>
+<tr class="odd">
+<td>CSS</td>
+<td>css</td>
+<td>shBrushCss.js</td>
+<td>/</td>
+</tr>
+<tr class="even">
+<td>Delphi</td>
+<td>delphi , pascal , pas</td>
+<td>shBrushDelphi.js</td>
+<td>/</td>
+</tr>
+<tr class="odd">
+<td>diff&amp;patch</td>
+<td>diff patch</td>
+<td>shBrushDiff.js</td>
+<td>用代码版本库时,遇到代码冲突,其语法就是这个.</td>
+</tr>
+<tr class="even">
+<td>Erlang</td>
+<td>erl , erlang</td>
+<td>shBrushErlang.js</td>
+<td>/</td>
+</tr>
+<tr class="odd">
+<td>Groovy</td>
+<td>groovy</td>
+<td>shBrushGroovy.js</td>
+<td>/</td>
+</tr>
+<tr class="even">
+<td>Java</td>
+<td>java</td>
+<td>shBrushJava.js</td>
+<td>/</td>
+</tr>
+<tr class="odd">
+<td>JavaFX</td>
+<td>jfx , javafx</td>
+<td>shBrushJavaFX.js</td>
+<td>/</td>
+</tr>
+<tr class="even">
+<td>JavaScript</td>
+<td>js , jscript , javascript</td>
+<td>shBrushJScript.js</td>
+<td>/</td>
+</tr>
+<tr class="odd">
+<td>JSON</td>
+<td>json</td>
+<td>/</td>
+<td>/</td>
+</tr>
+<tr class="even">
+<td>Perl</td>
+<td>perl , pl , Perl</td>
+<td>shBrushPerl.js</td>
+<td>/</td>
+</tr>
+<tr class="odd">
+<td>PHP</td>
+<td>php</td>
+<td>shBrushPhp.js</td>
+<td>/</td>
+</tr>
+<tr class="even">
+<td>text</td>
+<td>text , plain</td>
+<td>shBrushPlain.js</td>
+<td>就是普通文本.</td>
+</tr>
+<tr class="odd">
+<td>Python</td>
+<td>py , python</td>
+<td>shBrushPython.js</td>
+<td>/</td>
+</tr>
+<tr class="even">
+<td>Ruby</td>
+<td>ruby , rails , ror , rb</td>
+<td>shBrushRuby.js</td>
+<td>/</td>
+</tr>
+<tr class="odd">
+<td>SASS&amp;SCSS</td>
+<td>sass , scss</td>
+<td>shBrushSass.js</td>
+<td>/</td>
+</tr>
+<tr class="even">
+<td>Scala</td>
+<td>scala</td>
+<td>shBrushScala.js</td>
+<td>/</td>
+</tr>
+<tr class="odd">
+<td>SQL</td>
+<td>sql</td>
+<td>shBrushSql.js</td>
+<td>/</td>
+</tr>
+<tr class="even">
+<td>Visual Basic</td>
+<td>vb , vbnet</td>
+<td>shBrushVb.js</td>
+<td>/</td>
+</tr>
+<tr class="odd">
+<td>XML</td>
+<td>xml , xhtml , xslt , html</td>
+<td>shBrushXml.js</td>
+<td>/</td>
+</tr>
+<tr class="even">
+<td>Objective C</td>
+<td>objc , obj-c</td>
+<td>shBrushObjectiveC.js</td>
+<td>/</td>
+</tr>
+<tr class="odd">
+<td>F#</td>
+<td>f# f-sharp , fsharp</td>
+<td>shBrushFSharp.js</td>
+<td>/</td>
+</tr>
+<tr class="even">
+<td>/</td>
+<td>xpp , dynamics-xpp</td>
+<td>shBrushDynamics.js</td>
+<td>/</td>
+</tr>
+<tr class="odd">
+<td>R</td>
+<td>r , s , splus</td>
+<td>shBrushR.js</td>
+<td>/</td>
+</tr>
+<tr class="even">
+<td>matlab</td>
+<td>matlab</td>
+<td>shBrushMatlab.js</td>
+<td>/</td>
+</tr>
+<tr class="odd">
+<td>swift</td>
+<td>swift</td>
+<td>shBrushSwift.js</td>
+<td>/</td>
+</tr>
+<tr class="even">
+<td>GO</td>
+<td>go , golang</td>
+<td>shBrushGo.js</td>
+<td>/</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+      <categories>
+        <category>Tools</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
       </tags>
   </entry>
 </search>
