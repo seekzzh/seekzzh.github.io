@@ -158,13 +158,6 @@
   </url>
   
   <url>
-    <loc>https://seekzzh.site/tags/Abaqus/</loc>
-    <lastmod>2020-12-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://seekzzh.site/tags/Travel/</loc>
     <lastmod>2020-12-26</lastmod>
     <changefreq>daily</changefreq>
@@ -173,6 +166,27 @@
   
   <url>
     <loc>https://seekzzh.site/tags/Taiwan/</loc>
+    <lastmod>2020-12-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://seekzzh.site/tags/Abaqus/</loc>
+    <lastmod>2020-12-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://seekzzh.site/tags/NONMEM/</loc>
+    <lastmod>2020-12-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://seekzzh.site/tags/Quantitative-Pharmacology/</loc>
     <lastmod>2020-12-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -193,13 +207,6 @@
   </url>
   
   <url>
-    <loc>https://seekzzh.site/tags/Git/</loc>
-    <lastmod>2020-12-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://seekzzh.site/tags/TJU/</loc>
     <lastmod>2020-12-26</lastmod>
     <changefreq>daily</changefreq>
@@ -208,6 +215,13 @@
   
   <url>
     <loc>https://seekzzh.site/tags/Photos/</loc>
+    <lastmod>2020-12-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://seekzzh.site/tags/Git/</loc>
     <lastmod>2020-12-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -242,13 +256,6 @@
   </url>
   
   <url>
-    <loc>https://seekzzh.site/tags/PowerPoint/</loc>
-    <lastmod>2020-12-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://seekzzh.site/tags/Chinese/</loc>
     <lastmod>2020-12-26</lastmod>
     <changefreq>daily</changefreq>
@@ -256,14 +263,14 @@
   </url>
   
   <url>
-    <loc>https://seekzzh.site/tags/Life/</loc>
+    <loc>https://seekzzh.site/tags/PowerPoint/</loc>
     <lastmod>2020-12-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://seekzzh.site/tags/NONMEM/</loc>
+    <loc>https://seekzzh.site/tags/Life/</loc>
     <lastmod>2020-12-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

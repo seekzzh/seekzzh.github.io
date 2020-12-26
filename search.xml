@@ -42,42 +42,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Abaqus-Common Commands</title>
-    <url>/posts/c0718fce/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol type="1">
-<li><strong>提交任务：</strong> <code>abaqus job=jobname1 int</code> 或 <code>abaqus job=jobname1 int</code></li>
-<li><strong>双精度提交：</strong> <code>abaqus job=jobname1 double int</code></li>
-<li><strong>任务暂停：</strong> <code>abaqus suspend job=jobname1 int</code> (可恢复)</li>
-<li><strong>恢复运算：</strong> <code>abaqus resume job=jobname1 int</code></li>
-<li><strong>结束任务：</strong> <code>abaqus terminate job=jobname1 int</code> <a id="more"></a></li>
-<li><strong>Restart 重启动计算：</strong> <code>abaqus job=jobname1 oldjob=jobname2 int</code></li>
-<li><strong>打开 CAE 界面：</strong> <code>abaqus cae</code></li>
-<li><strong>打开 VIEWER 后处理界面：</strong> <code>abaqus viewer</code></li>
-<li><strong>查看 ABAQUS 帮助文件：</strong> <code>abaqus doc</code></li>
-<li><strong>查看 cmd 命令帮助：</strong> <code>abaqus help</code></li>
-<li><strong>顺次运行几个 inp 后自动关机：</strong>
-<ul>
-<li><code>Call abaqus job=job_1 int</code></li>
-<li><code>Call abaqus job=job_2 int</code></li>
-<li><code>Shutdown -s</code></li>
-</ul></li>
-<li><strong>运算之前 datacheck:</strong> <code>abaqus job=xxx datcheck</code></li>
-<li><strong>定义所需的最大内存：</strong> <code>abaqus job=xxx memory=memory-size</code></li>
-<li><strong>提交一个子程序、双精度、多 CPU 运算：</strong>
-<ul>
-<li><code>Abaqus job=jobname user=user_xxx.for cpus=4</code></li>
-<li><code>Abaqus job=jobname user= user_xxx.for cpus=8 int</code></li>
-</ul></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Study</category>
-      </categories>
-      <tags>
-        <tag>Abaqus</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Memory of Taipei</title>
     <url>/posts/977b8b8c/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><img data-src="/posts/977b8b8c/9.jpg" class="" title="西門町">
@@ -472,6 +436,42 @@
       </tags>
   </entry>
   <entry>
+    <title>Abaqus-Common Commands</title>
+    <url>/posts/c0718fce/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol type="1">
+<li><strong>提交任务：</strong> <code>abaqus job=jobname1 int</code> 或 <code>abaqus job=jobname1 int</code></li>
+<li><strong>双精度提交：</strong> <code>abaqus job=jobname1 double int</code></li>
+<li><strong>任务暂停：</strong> <code>abaqus suspend job=jobname1 int</code> (可恢复)</li>
+<li><strong>恢复运算：</strong> <code>abaqus resume job=jobname1 int</code></li>
+<li><strong>结束任务：</strong> <code>abaqus terminate job=jobname1 int</code> <a id="more"></a></li>
+<li><strong>Restart 重启动计算：</strong> <code>abaqus job=jobname1 oldjob=jobname2 int</code></li>
+<li><strong>打开 CAE 界面：</strong> <code>abaqus cae</code></li>
+<li><strong>打开 VIEWER 后处理界面：</strong> <code>abaqus viewer</code></li>
+<li><strong>查看 ABAQUS 帮助文件：</strong> <code>abaqus doc</code></li>
+<li><strong>查看 cmd 命令帮助：</strong> <code>abaqus help</code></li>
+<li><strong>顺次运行几个 inp 后自动关机：</strong>
+<ul>
+<li><code>Call abaqus job=job_1 int</code></li>
+<li><code>Call abaqus job=job_2 int</code></li>
+<li><code>Shutdown -s</code></li>
+</ul></li>
+<li><strong>运算之前 datacheck:</strong> <code>abaqus job=xxx datcheck</code></li>
+<li><strong>定义所需的最大内存：</strong> <code>abaqus job=xxx memory=memory-size</code></li>
+<li><strong>提交一个子程序、双精度、多 CPU 运算：</strong>
+<ul>
+<li><code>Abaqus job=jobname user=user_xxx.for cpus=4</code></li>
+<li><code>Abaqus job=jobname user= user_xxx.for cpus=8 int</code></li>
+</ul></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Study</category>
+      </categories>
+      <tags>
+        <tag>Abaqus</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Abaqus-Compatibility With Fortran and Visual Studio</title>
     <url>/posts/813e3d74/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Abaqus如果需要使用用户子程序必须调用Intel Fortran，而Intel Fortran又必须在Visual Studio的环境下运行。三者之间存在两两兼容的问题，必须引起注意。</p>
@@ -631,177 +631,63 @@
       </tags>
   </entry>
   <entry>
-    <title>Introduction to VTK (Visualization Toolkit)</title>
-    <url>/posts/676d6fe2/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="概述">概述</h1>
-<p>VTK<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="W.J.Schroeder,K.M.Martin,W.E.Lorensen,The Visualization Toolkit—An 0bject Oriented Approach to 3D Graphics,Prentice Hall,Upper Saddle River,NJ,1996.
-">[1]</span></a></sup> (visualization Toolkit)可视化类库是一套免费的、 源代码公开的软件工具包，是美国 Kitware 公司基于面向对象的编程技术设计和开发的，可用于图像处理、三维图形学及可视化程序设计。 VTK 被设计成一个工具包(Toolkit)而非一个系统，它是一个独立的目标库，可以很容易嵌入到任何一种开发工具中，并在此基础上开发自己的库函数，从而建立独立的大型应用系统。 VTK 由 C++类库和包括 Tcl/Tk， Java 以及 Python 的编译界面层组成。这种层次结构使得开发人员能够根据需要选择自己熟悉的工具语言进行开发，并且这些语言都有自己的 GUI 开发支持。</p>
-<a id="more"></a>
-<p>VTK 把图形图像和可视化领域内许多常用的算法封装起来， 并屏蔽了可视化开发过程中经常遇到的一些细节，这极大地方便了广大研究人员和开发人员。在图像处理和可视化方面， VTK 具有其他软件包无法比拟的优点。它作为一种流行的图像应用软件开发平台广泛应用于科学研究和工程领域。</p>
-<h1 id="特点">特点</h1>
-<p>VTK 是一套优秀的三维可视化图形系统，近年来广泛受到重视和应用。它具有如下一些鲜明的技术特点<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="石玉.基于 VTK 的可视化技术研究与实现[D].西安建筑科技大学,2009.6.
-">[2]</span></a></sup> ：</p>
-<ol type="1">
-<li>VTK 最引入注目的特点是源代码公开，它可满足不同用户的需求。由于它的源代码开放，世界各地的许多研究机构和个人在用它进行教学、研究和可视化系统的开发，使它受到广泛的支持，促使其代码持续更新，因此得到了不断的完善和改进。</li>
-<li>VTK 支持 c++、 Tcl、 Java、 Python 等多种语言环境，并具有多种程序语言之间的代码转换功能。</li>
-<li>VTK 封装了目前许多优秀的三维数据场可视化算法，提供了全面的功能支持，可方便地实现对数据集进行各种操作和变换。用户可用 VTK 实现任何图像的处理功能，如二维和三维图形图像的可视化计算、体绘制、图像分割、图像配准等。</li>
-<li>VTK 生成的三维图像方便交互，代码编写量少，而且代码重用性好。</li>
-<li>VTK 既可以在 Windows 系统中使用，也可以在 Unix 系统中使用，具有平台无关性和良好的可移植性。</li>
-<li>VTK 支持丰富的数据类型，可以对多种数据类型进行处理。</li>
-</ol>
-<h1 id="框架结构">框架结构</h1>
-<p>VTK 采用面向对象的设计方法， 它包括图形模型和可视化模型两种不同的对象模型。图形模型是三维图形的抽象，可视化模型是可视化的数据流程模型<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="Schroeder W,Martin K,Lorensen B.The Visualization Toolkit an Object-oriented Approach to 3D Graphics[M].Prentice Hall:Kitware Inc,2002.
-">[3]</span></a></sup>。</p>
-<p>图形模型表现了三维图形系统的本质特征， 主要用来将数据集的几何形状展示为直观的三维图形，并对属性、照相机、灯光、渲染窗口等属性进行设置和操作，实现图像生成和用户交互的功能。可用于二维、三维等一般图形的处理，它主要有 9 种基本对象<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="许庆功,李昌华.VTK 框架结构与运行机制的探讨[J].洛阳理工学院学报(自然科学版),2008,18(1):67-70.
-">[4]</span></a></sup>：</p>
-<ol type="1">
-<li><strong>属性</strong>：说明几何物体的一些特性，如光照特性、反射强度、物体的灰度、物体的绘制样式、着色模式等，以实现具有真实感的三维图形的绘制。</li>
-<li><strong>角色</strong>：代表渲染场景中的绘制对象实体，可以实现对角色的缩放，而且角色的位置、方向、渲染特性、引用、纹理映射等属性可以通过参数调节来设置。</li>
-<li><strong>变换</strong>：是一个堆栈，里面放置了 4×4 的变换矩阵，可以对堆栈进行平移、缩放、旋转等各种操作，一般在栈的顶部进行。</li>
-<li><strong>映射</strong>：指定了图形库中基本图元和渲染数据之间的联系，它的主要任务是把可视化过程中的数据对象转换为几何图元， 一个或多个角色可使用相同的映射，有多个参数对映射进行控制。</li>
-<li><strong>照相机</strong>：用来定义视点位置、聚焦点位置和其他一些相关属性，调用者可根据需要来设置参数。</li>
-<li><strong>灯光</strong>：可在场景中照亮绘制对象，可通过调用参数对灯光的位置、灯光的状态、照射角度、光照强度以及颜色等进行改变，并支持点光源和平行光源。当场景中的角色与光线发生作用时，就可以通过照相机进行观察。</li>
-<li><strong>渲染控制器</strong>：创建渲染窗口，定义坐标计算方法，此方法与设备无关。</li>
-<li><strong>渲染器</strong>：主要用于控制目标的渲染过程，对光源、照相机和绘制对象的位置、属性等进行管理，提供了观察坐标系、显示坐标系和世界坐标系三者之间的转换。完成渲染后，需要把渲染器加载到渲染窗口中进行显示。</li>
-<li><strong>渲染窗口</strong>：是用户图形界面，用于在显示设备上生成一个窗口，可以设置渲染窗口的大小、产生立体显示效果等，多个图像渲染器可以绘制到单个图像渲染窗口中，同时也可以创建多个图像渲染窗口。</li>
-</ol>
-<p>可视化模型采用了数据流程模型<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="黄姗姗,王博亮,闵小平.基于 VTK 的可视化技术的研究[J].中国数字医学,2008,3(1): 31-34.
-">[5]</span></a></sup>，在此模型中，各个模块是在网络中连接的，对数据的一系列操作利用模块来实现。这种模型的特点是适用于不同的数据类型和不同的算法，所以灵活性很强。 VTK 使用数据流方法把原始信息转换成图形数据。在此方法中有两个基本对象：数据对象(Data Object)和流程对象(Process Object)。</p>
-<p>VTK 采用的是流水线(pipe line)机制，支持有规则或无规则的点阵(Point sets)、图像(Image)、体元数据(Volume)等多种数据类型，并且可以很方便地实现这些数据类型之间的相互转换。在 VTK 类库中，提供了灵活丰富的用于读取各种数据格式的文件及其相互转换的类，如 vtkBmpReader( 位图读取类 ) ，vtkJpegReader(Jpeg 图像读取类)等从 vtkimageReader 继承而来的用于读取图像的类<sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="吴松峻，彭复员． 基于 VTK 的二维轮廓线的三维可视化重建[J].计算机与现代化,2004,(10):111-113.
-">[6]</span></a></sup>。</p>
-
-<p>大体框架如图所示。其中， Source 是整个流水线的开始，首先通过读入文件等方式产生源数据。滤波器(Filter)可以有若干个数据输入，并可以产生若干个数据输出，是一个相对独立的计算模块，功能是对数据作各种变换。 Mapper 将 Filter 处理后的数据转换为图形数据，实现由数据到图形的映射关系，是可视化流水线和图形模型之间的接口。只有映射关系很明显是不行的，要想看到真实的图像，还需要 Actor，其作用就是实体化由 Mapper 得到的映射关系，使人们能够看到最终的绘制结果。 Actor 还可以控制图像的显示属性，以使图像显示地更为逼真，这是通过调用属性对象(VTKProperty)来实现的。下一步就是由 Render 和 Renderwindow 来将图像显示在电脑窗口上。 通过调用它们提供的图形引擎和电脑视窗系统之间的接口，绘制出的图形就可以在窗口中得以显示。 RenderWindowInteractor 用来实现使用者与图像的交互，这样就可以通过鼠标操作使图像旋转，方便从各个角度对图像进行观察。</p>
+    <title>在Windows上安装NONMEM+PsN+Pirana</title>
+    <url>/posts/dd757ff/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="windows环境配置-1">Windows环境配置 <sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[GINPP计划](https://ginpp.tingjieguo.com/docs/env/win/)">[1]</span></a></sup></h1>
+<h2 id="安装fortran编译器">安装Fortran编译器</h2>
+<blockquote>
+<p>  编译，是指从源代码（通常为高级语言）到能直接被计算机或虚拟机执行的目标代码（通常为低级语言或机器语言）的翻译过程。顾名思义，Fortran编译器是用来编译Fortran语言的程序。（注：Fortran是Formula Translation的缩写，即数学公式翻译器，是出现很早的一门语言，主要面向数值计算。）目前有许多不同版本的Fortran编译器，Windows平台上最常用的是基于微软Visual Studio并集成了一整套IDE的商业Fortran编译器，如CVF(Compad Visual Fortran)与IVF(Intel Visual Fortran)等，此外还有一些非商业的、基于命令行的编译器，如gfortran/g95等。</p>
+<p>  这里推荐使用GCC (the GNU Compiler Collection)，它是由GNU计划推出的编译器套件，其中编译Fortran的子程序叫GFortran。NONMEM 7.4的安装包里也附带GCC安装程序，版本为4.6.0，建议初学者直接使用。注意：与最新版Strawberry Perl（从5.26.2.1版本开始）绑定安装的gfortran不能用于Windows 10 上运行NONMEM，在测试安装 NONMEM时会发生未知原因的崩溃 <sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[PsN官网](https://uupharmacometrics.github.io/PsN/install.html)">[2]</span></a></sup>。</p>
+</blockquote>
+<p><img data-src="https://img-blog.csdnimg.cn/20200630221352653.png#pic_center" alt="在这里插入图片描述" />   NONMEM 7.4.3自带的GCC默认路径为<code>nm743CD/compilers</code>，安装过程非常简单，双击<code>gfortran-windows-460.exe</code>随后按提示操作即可。</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200630221528772.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述" />   安装结束后，可以检查一下GCC是否安装成功。首先可以查看系统环境变量的Path项，如果安装成功则会将gfortran可执行文件的路径自动加入Path中，如：<code>C:\Program Files (x86)\gfortran\bin</code>。从Windows的搜索框中找到启动命令提示行cmd或Windows Powershell，输入命令：<code>gfortran --version</code>或<code>gfortran -v</code>，如果安装正确会出现类似下面的返回信息。第一行GNU Fortran后面数字即为版本号，NONMEM直到<code>7.4.4</code>版本自带的GCC版本均为<code>4.6.0</code>。</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200630221749465.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述" />   <strong>注意</strong>：由于NONMEM在安装过程中需要使用gfortran编译源文件，之后尽量不要再更换GCC版本，GCC可能会不兼容不同版本GCC编译的程序。</p>
+<h2 id="配置perl环境">配置Perl环境</h2>
+<h3 id="安装perl解释器">安装Perl解释器</h3>
+<p>  </p>
+<blockquote>
+<p>  Perl常见的有ActivePerl和Strawberry Perl两大发行版，两个版本主要的使用区别是模块管理不同。其中ActivePerl（5.24版本之前）在Windows系统下使用ppm工具来管理Perl模块，但ppm的资源库在中国没有镜像，网络质量差的情况下容易出错；Strawberry Perl保持了Linux下的风格，采用cpan管理Perl模块，cpan在全球有丰富的镜像，在中国大陆也有10多个镜像，使用体验会好很多，但缺点是某些模块管理不够高效，忽略网络质量的情况下不如ppm快。PsN网站上推荐初学者使用Strawberry Perl，但是5.26.2.1版本以后自带的gfortran与NONMEM不兼容，因此接下来内容还是以ActivePerl为例。</p>
+</blockquote>
+<p>  ActivePerl也有许多版本，PsN官方要求Perl版本不低于<code>5.10.1</code>，但是因为<code>5.26</code>及以后版本不再绑定安装ppm (Perl Package Manager)，因此为了便于后续的包安装，这里从ActivePerl官网下载5.24.2版本的ActivePerl进行安装。安装好Perl之后，也可以测试一下安装是否成功，打开cmd，输入命令：<code>perl --version与ppm --version</code>，如果安装成功则会返回如下信息：</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200630222550546.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述" /> ### 安装Perl模块   安装好ActivePerl之后，还需要再额外安装一些Perl的模块，PsN的某些功能需要调用这些模块。以管理员身份运行cmd，依次输入以下命令：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ppm install Math-Random</span><br><span class="line">ppm install MooseX-Params-Validate</span><br><span class="line">ppm install Statistics-Distributions</span><br><span class="line">ppm install XML-LibXML</span><br></pre></td></tr></table></figure>
+<p>安装成功或失败后均有相应返回信息提示。</p>
+<h1 id="nonmem安装">NONMEM安装</h1>
+<h2 id="nonmem安装源文件">NONMEM安装源文件</h2>
+<p>  NONMEM在安装过程中需要调用gfortran编译源文件，因此在开始安装之前，必须确认gfortran已经正确安装。首先认识一下NONMEM安装文件夹里的一些内容：根目录下有许多文件名以install开头的文件，这些是对应不同操作系统安装NONMEM时需要直接运行的程序。对Windows而言，需要运行的是<code>SETUP74.bat</code>，这其实是一个批处理文件。<code>nonmem.lic</code>是NONMEM的授权文件，即使用许可证，建议在安装NONMEM前先将授权文件拷贝至安装文件根目录下。<code>readme_743.pdf</code>是官方的说明文档。剩下的文件或文件夹中，除了前面已经说过的compiler文件夹外，其余的可以暂时先不管。</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200630223047742.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述" /> ## 安装NONMEM   进入NONMEM安装文件的根目录，右击<code>SETUP74.bat</code>对其中的批处理脚本进行修改，其中：<code>defcdd</code>表示来源路径，即NONMEM安装文件根目录的地址，根据实际情况决定； <code>defh</code>表示目标路径，即安装NONMEM的位置，同样根据实际情况而决定；<code>deff</code>表示编译器。这里假设NONMEM安装源文件根目录路径为<code>c:\nm743CD</code>，目标文件夹为<code>c:\nm743</code>，编译器为gfortran，则<code>SETUP74.bat</code>做以下修改：</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200630223355883.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述" /> 修改完bat文件之后，右击<code>SETUP74.bat</code>文件管理员身份运行，如果运行成功则会如下图所显示，最后一行的提示<code>Continue (y/n)? [y]</code>，直接回车即可。之后的过程就比较简单了，大多时间是在等待以及根据提示的默认选项按回车。</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200630223612491.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述" />   在进行到Step 9时，在目标路径的根目录下可以找到progress.txt文件，打开这个文件可以看到完成进度。这一步是在编译源文件，比较费时，这一步骤可以反映计算机CPU的性能。</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200630223755163.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述" />   安装脚本的最后一步则是测试，会提示<code>Do you want to test the installation?</code>，建议输入<code>y</code>测试安装是否成功。最后，还需要将有效的授权文件<code>nonmem.lic</code>粘贴至license文件夹覆盖原许可证，否则在后续计算过程中会提示NONMEM许可证过期而无法启动运算。至此，NONMEM安装就全部结束了。</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20200630224005599.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述" /> # NONMEM辅助软件安装 ## PsN(Perl speaks NONMEM)安装   在成功配置Perl环境后，就可以安装PsN了。从<span class="exturl" data-url="aHR0cHM6Ly91dXBoYXJtYWNvbWV0cmljcy5naXRodWIuaW8vUHNOL2Rvd25sb2FkLmh0bWw=">PsN官网<i class="fa fa-external-link-alt"></i></span>下载压缩包，解压后打开PsN的根目录（默认名为PsN-Source），启动文件为<code>setup.pl</code>，右键选择以管理员身份运行即开始安装。通常情况下此时是可以直接运行该文件的，但有时也会出现系统不识别该类型文件的情况，若之前已经测试过Perl成功安装的话，此时可以尝试命令行安装方式：以管理员身份打开<code>cmd</code>，进入PsN安装文件根目录<code>cd x:\..\PsN-Source</code>，输入命令：<code>perl setup.pl</code>。</p>
+<p>  在安装过程中，根据提示输入<code>y</code>或<code>n</code>，然后回车，多数情况下输入y。若之前在计算机上安装过PsN，可能会提示询问是否保留原有的psn.conf文件，建议输入n，让程序新建一个<code>psn.conf</code>，这个文件里记录了一些配置信息，包括NONMEM版本、路径以及计算模型时的选项。安装程序会自动搜索NONMEM所在的路径，并自动设置好<code>psn.conf</code>，但之前也发现如果NONMEM装在比较深的目录下，PsN安装程序可能搜索不到，需要手动输入NONMEM的安装路径。这样PsN就安装好了。</p>
+<h2 id="pirana安装">Pirana安装</h2>
+<p>  Pirana的安装较为简单，从<span class="exturl" data-url="aHR0cHM6Ly9scC5jZXJ0YXJhLmNvbS9XRkRvd25sb2FkUGlyYW5hLmh0bWw=">Pirana官网<i class="fa fa-external-link-alt"></i></span>下载安装程序<code>pirana_2.9.9_windows.exe</code>，运行然后按提示操作即可。通常情况下在安装过后无需配置就可以直接使用了，但是还是需要进一步确认下。首先是将Pirana与NONMEM关联，选择File，如下图所示一般都是自动关联好。点击Local NONMEM installations栏目右上角的搜索按钮，即可让Pirana自动搜索或手动指定NONMEM的安装路径。</p>
+<figure>
+<img data-src="https://img-blog.csdnimg.cn/20200630224557900.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述" /><figcaption aria-hidden="true">在这里插入图片描述</figcaption>
+</figure>
+<p>  有时还需要手动设置PsN可执行文件的路径，选择PsN栏目如果PsN executable location为空，则需要手动填写Perl安装目录下的bin文件夹路径。</p>
+<img data-src="https://img-blog.csdnimg.cn/20200630224710775.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述" />   最后，如果Pirana提示许可证到期部分功能被限制，则需要点击Helplicence file，选择有效的pirana.lic文件路径，进行许可证安装。安装成功后，在HelpPirana即可查看过期时间等授权信息。
 <div id="footnotes">
 <hr>
 <div id="footnotelist">
 <ol style="list-style: none; padding-left: 0; margin-left: 40px">
 <li id="fn:1">
-<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">W.J.Schroeder,K.M.Martin,W.E.Lorensen,The Visualization Toolkit—An 0bject Oriented Approach to 3D Graphics,Prentice Hall,Upper Saddle River,NJ,1996.<a href="#fnref:1" rev="footnote"> ↩︎</a></span>
+<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><span class="exturl" data-url="aHR0cHM6Ly9naW5wcC50aW5namllZ3VvLmNvbS9kb2NzL2Vudi93aW4v">GINPP计划<i class="fa fa-external-link-alt"></i></span><a href="#fnref:1" rev="footnote"> ↩︎</a></span>
 </li>
 <li id="fn:2">
-<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">石玉.基于 VTK 的可视化技术研究与实现[D].西安建筑科技大学,2009.6.<a href="#fnref:2" rev="footnote"> ↩︎</a></span>
-</li>
-<li id="fn:3">
-<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Schroeder W,Martin K,Lorensen B.The Visualization Toolkit an Object-oriented Approach to 3D Graphics[M].Prentice Hall:Kitware Inc,2002.<a href="#fnref:3" rev="footnote"> ↩︎</a></span>
-</li>
-<li id="fn:4">
-<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">许庆功,李昌华.VTK 框架结构与运行机制的探讨[J].洛阳理工学院学报(自然科学版),2008,18(1):67-70.<a href="#fnref:4" rev="footnote"> ↩︎</a></span>
-</li>
-<li id="fn:5">
-<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">黄姗姗,王博亮,闵小平.基于 VTK 的可视化技术的研究[J].中国数字医学,2008,3(1): 31-34.<a href="#fnref:5" rev="footnote"> ↩︎</a></span>
-</li>
-<li id="fn:6">
-<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">吴松峻，彭复员． 基于 VTK 的二维轮廓线的三维可视化重建[J].计算机与现代化,2004,(10):111-113.<a href="#fnref:6" rev="footnote"> ↩︎</a></span>
+<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><span class="exturl" data-url="aHR0cHM6Ly91dXBoYXJtYWNvbWV0cmljcy5naXRodWIuaW8vUHNOL2luc3RhbGwuaHRtbA==">PsN官网<i class="fa fa-external-link-alt"></i></span><a href="#fnref:2" rev="footnote"> ↩︎</a></span>
 </li>
 </ol>
 </div>
 </div>
 ]]></content>
       <categories>
-        <category>Program</category>
-      </categories>
-      <tags>
-        <tag>VTK</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Abaqus-Unit</title>
-    <url>/posts/364e06ce/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><table>
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 14%" />
-<col style="width: 21%" />
-<col style="width: 14%" />
-<col style="width: 17%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;"><strong>Quantity</strong></th>
-<th style="text-align: center;"><strong>SI</strong></th>
-<th style="text-align: center;"><strong>SI (mm)</strong></th>
-<th style="text-align: center;"><strong>US Unit (ft)</strong></th>
-<th style="text-align: center;"><strong>US Unit (inch)</strong></th>
-<th style="text-align: center;"><strong>(Lxcad)cm</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><strong>Length</strong></td>
-<td style="text-align: center;"><span class="math display">\[m\]</span></td>
-<td style="text-align: center;"><span class="math display">\[mm\]</span></td>
-<td style="text-align: center;"><span class="math display">\[ft\]</span></td>
-<td style="text-align: center;"><span class="math display">\[in\]</span></td>
-<td style="text-align: center;"><span class="math display">\[cm\]</span></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Force</strong></td>
-<td style="text-align: center;"><span class="math display">\[N\]</span></td>
-<td style="text-align: center;"><span class="math display">\[N\]</span></td>
-<td style="text-align: center;"><span class="math display">\[lbf\]</span></td>
-<td style="text-align: center;"><span class="math display">\[lbf\]</span></td>
-<td style="text-align: center;"><span class="math display">\[N\]</span></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Mass</strong></td>
-<td style="text-align: center;"><span class="math display">\[kg\]</span></td>
-<td style="text-align: center;"><span class="math display">\[tonne   (10^3 kg)\]</span></td>
-<td style="text-align: center;"><span class="math display">\[slug\]</span></td>
-<td style="text-align: center;"><span class="math display">\[lbf\ s^2/in\]</span></td>
-<td style="text-align: center;"><span class="math display">\[(10^2 kg)\]</span></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Time</strong></td>
-<td style="text-align: center;"><span class="math display">\[s\]</span></td>
-<td style="text-align: center;"><span class="math display">\[s\]</span></td>
-<td style="text-align: center;"><span class="math display">\[s\]</span></td>
-<td style="text-align: center;"><span class="math display">\[s\]</span></td>
-<td style="text-align: center;"><span class="math display">\[s\]</span></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Stress</strong></td>
-<td style="text-align: center;"><span class="math display">\[Pa   (N/m^2)\]</span></td>
-<td style="text-align: center;"><span class="math display">\[MPa   (N/mm^2)\]</span></td>
-<td style="text-align: center;"><span class="math display">\[lbf/ft^2\]</span></td>
-<td style="text-align: center;"><span class="math display">\[psi (lbf/in^2)\]</span></td>
-<td style="text-align: center;"><span class="math display">\[N/cm^2\]</span></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Energy</strong></td>
-<td style="text-align: center;"><span class="math display">\[J\]</span></td>
-<td style="text-align: center;"><span class="math display">\[mJ   (10^{–3 }J)\]</span></td>
-<td style="text-align: center;"><span class="math display">\[ft\   lbf\]</span></td>
-<td style="text-align: center;"><span class="math display">\[in\   lbf\]</span></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Density</strong></td>
-<td style="text-align: center;"><span class="math display">\[kg/m^3\]</span></td>
-<td style="text-align: center;"><span class="math display">\[tonne/mm^3(10^{12})\]</span></td>
-<td style="text-align: center;"><span class="math display">\[slug/ft^3\]</span></td>
-<td style="text-align: center;"><span class="math display">\[lbf\   s^2/in^4\]</span></td>
-<td style="text-align: center;"><span class="math display">\[10^2 kg/cm^3(10^8)\]</span></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Ace</strong></td>
-<td style="text-align: center;"><span class="math display">\[m/s^2\]</span></td>
-<td style="text-align: center;"><span class="math display">\[mm/s^2\]</span></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"><span class="math display">\[cm/s^2\]</span></td>
-</tr>
-</tbody>
-</table>
-<blockquote>
-<p>建议采用国际单位制</p>
-</blockquote>
-]]></content>
-      <categories>
         <category>Study</category>
       </categories>
       <tags>
-        <tag>Abaqus</tag>
+        <tag>NONMEM</tag>
+        <tag>Quantitative Pharmacology</tag>
       </tags>
   </entry>
   <entry>
@@ -987,6 +873,193 @@
       </tags>
   </entry>
   <entry>
+    <title>Abaqus-Unit</title>
+    <url>/posts/364e06ce/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><table>
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 14%" />
+<col style="width: 21%" />
+<col style="width: 14%" />
+<col style="width: 17%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Quantity</strong></th>
+<th style="text-align: center;"><strong>SI</strong></th>
+<th style="text-align: center;"><strong>SI (mm)</strong></th>
+<th style="text-align: center;"><strong>US Unit (ft)</strong></th>
+<th style="text-align: center;"><strong>US Unit (inch)</strong></th>
+<th style="text-align: center;"><strong>(Lxcad)cm</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Length</strong></td>
+<td style="text-align: center;"><span class="math display">\[m\]</span></td>
+<td style="text-align: center;"><span class="math display">\[mm\]</span></td>
+<td style="text-align: center;"><span class="math display">\[ft\]</span></td>
+<td style="text-align: center;"><span class="math display">\[in\]</span></td>
+<td style="text-align: center;"><span class="math display">\[cm\]</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Force</strong></td>
+<td style="text-align: center;"><span class="math display">\[N\]</span></td>
+<td style="text-align: center;"><span class="math display">\[N\]</span></td>
+<td style="text-align: center;"><span class="math display">\[lbf\]</span></td>
+<td style="text-align: center;"><span class="math display">\[lbf\]</span></td>
+<td style="text-align: center;"><span class="math display">\[N\]</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Mass</strong></td>
+<td style="text-align: center;"><span class="math display">\[kg\]</span></td>
+<td style="text-align: center;"><span class="math display">\[tonne   (10^3 kg)\]</span></td>
+<td style="text-align: center;"><span class="math display">\[slug\]</span></td>
+<td style="text-align: center;"><span class="math display">\[lbf\ s^2/in\]</span></td>
+<td style="text-align: center;"><span class="math display">\[(10^2 kg)\]</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Time</strong></td>
+<td style="text-align: center;"><span class="math display">\[s\]</span></td>
+<td style="text-align: center;"><span class="math display">\[s\]</span></td>
+<td style="text-align: center;"><span class="math display">\[s\]</span></td>
+<td style="text-align: center;"><span class="math display">\[s\]</span></td>
+<td style="text-align: center;"><span class="math display">\[s\]</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Stress</strong></td>
+<td style="text-align: center;"><span class="math display">\[Pa   (N/m^2)\]</span></td>
+<td style="text-align: center;"><span class="math display">\[MPa   (N/mm^2)\]</span></td>
+<td style="text-align: center;"><span class="math display">\[lbf/ft^2\]</span></td>
+<td style="text-align: center;"><span class="math display">\[psi (lbf/in^2)\]</span></td>
+<td style="text-align: center;"><span class="math display">\[N/cm^2\]</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Energy</strong></td>
+<td style="text-align: center;"><span class="math display">\[J\]</span></td>
+<td style="text-align: center;"><span class="math display">\[mJ   (10^{–3 }J)\]</span></td>
+<td style="text-align: center;"><span class="math display">\[ft\   lbf\]</span></td>
+<td style="text-align: center;"><span class="math display">\[in\   lbf\]</span></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Density</strong></td>
+<td style="text-align: center;"><span class="math display">\[kg/m^3\]</span></td>
+<td style="text-align: center;"><span class="math display">\[tonne/mm^3(10^{12})\]</span></td>
+<td style="text-align: center;"><span class="math display">\[slug/ft^3\]</span></td>
+<td style="text-align: center;"><span class="math display">\[lbf\   s^2/in^4\]</span></td>
+<td style="text-align: center;"><span class="math display">\[10^2 kg/cm^3(10^8)\]</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Ace</strong></td>
+<td style="text-align: center;"><span class="math display">\[m/s^2\]</span></td>
+<td style="text-align: center;"><span class="math display">\[mm/s^2\]</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><span class="math display">\[cm/s^2\]</span></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>建议采用国际单位制</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Study</category>
+      </categories>
+      <tags>
+        <tag>Abaqus</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Introduction to VTK (Visualization Toolkit)</title>
+    <url>/posts/676d6fe2/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="概述">概述</h1>
+<p>VTK<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="W.J.Schroeder,K.M.Martin,W.E.Lorensen,The Visualization Toolkit—An 0bject Oriented Approach to 3D Graphics,Prentice Hall,Upper Saddle River,NJ,1996.
+">[1]</span></a></sup> (visualization Toolkit)可视化类库是一套免费的、 源代码公开的软件工具包，是美国 Kitware 公司基于面向对象的编程技术设计和开发的，可用于图像处理、三维图形学及可视化程序设计。 VTK 被设计成一个工具包(Toolkit)而非一个系统，它是一个独立的目标库，可以很容易嵌入到任何一种开发工具中，并在此基础上开发自己的库函数，从而建立独立的大型应用系统。 VTK 由 C++类库和包括 Tcl/Tk， Java 以及 Python 的编译界面层组成。这种层次结构使得开发人员能够根据需要选择自己熟悉的工具语言进行开发，并且这些语言都有自己的 GUI 开发支持。</p>
+<a id="more"></a>
+<p>VTK 把图形图像和可视化领域内许多常用的算法封装起来， 并屏蔽了可视化开发过程中经常遇到的一些细节，这极大地方便了广大研究人员和开发人员。在图像处理和可视化方面， VTK 具有其他软件包无法比拟的优点。它作为一种流行的图像应用软件开发平台广泛应用于科学研究和工程领域。</p>
+<h1 id="特点">特点</h1>
+<p>VTK 是一套优秀的三维可视化图形系统，近年来广泛受到重视和应用。它具有如下一些鲜明的技术特点<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="石玉.基于 VTK 的可视化技术研究与实现[D].西安建筑科技大学,2009.6.
+">[2]</span></a></sup> ：</p>
+<ol type="1">
+<li>VTK 最引入注目的特点是源代码公开，它可满足不同用户的需求。由于它的源代码开放，世界各地的许多研究机构和个人在用它进行教学、研究和可视化系统的开发，使它受到广泛的支持，促使其代码持续更新，因此得到了不断的完善和改进。</li>
+<li>VTK 支持 c++、 Tcl、 Java、 Python 等多种语言环境，并具有多种程序语言之间的代码转换功能。</li>
+<li>VTK 封装了目前许多优秀的三维数据场可视化算法，提供了全面的功能支持，可方便地实现对数据集进行各种操作和变换。用户可用 VTK 实现任何图像的处理功能，如二维和三维图形图像的可视化计算、体绘制、图像分割、图像配准等。</li>
+<li>VTK 生成的三维图像方便交互，代码编写量少，而且代码重用性好。</li>
+<li>VTK 既可以在 Windows 系统中使用，也可以在 Unix 系统中使用，具有平台无关性和良好的可移植性。</li>
+<li>VTK 支持丰富的数据类型，可以对多种数据类型进行处理。</li>
+</ol>
+<h1 id="框架结构">框架结构</h1>
+<p>VTK 采用面向对象的设计方法， 它包括图形模型和可视化模型两种不同的对象模型。图形模型是三维图形的抽象，可视化模型是可视化的数据流程模型<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="Schroeder W,Martin K,Lorensen B.The Visualization Toolkit an Object-oriented Approach to 3D Graphics[M].Prentice Hall:Kitware Inc,2002.
+">[3]</span></a></sup>。</p>
+<p>图形模型表现了三维图形系统的本质特征， 主要用来将数据集的几何形状展示为直观的三维图形，并对属性、照相机、灯光、渲染窗口等属性进行设置和操作，实现图像生成和用户交互的功能。可用于二维、三维等一般图形的处理，它主要有 9 种基本对象<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="许庆功,李昌华.VTK 框架结构与运行机制的探讨[J].洛阳理工学院学报(自然科学版),2008,18(1):67-70.
+">[4]</span></a></sup>：</p>
+<ol type="1">
+<li><strong>属性</strong>：说明几何物体的一些特性，如光照特性、反射强度、物体的灰度、物体的绘制样式、着色模式等，以实现具有真实感的三维图形的绘制。</li>
+<li><strong>角色</strong>：代表渲染场景中的绘制对象实体，可以实现对角色的缩放，而且角色的位置、方向、渲染特性、引用、纹理映射等属性可以通过参数调节来设置。</li>
+<li><strong>变换</strong>：是一个堆栈，里面放置了 4×4 的变换矩阵，可以对堆栈进行平移、缩放、旋转等各种操作，一般在栈的顶部进行。</li>
+<li><strong>映射</strong>：指定了图形库中基本图元和渲染数据之间的联系，它的主要任务是把可视化过程中的数据对象转换为几何图元， 一个或多个角色可使用相同的映射，有多个参数对映射进行控制。</li>
+<li><strong>照相机</strong>：用来定义视点位置、聚焦点位置和其他一些相关属性，调用者可根据需要来设置参数。</li>
+<li><strong>灯光</strong>：可在场景中照亮绘制对象，可通过调用参数对灯光的位置、灯光的状态、照射角度、光照强度以及颜色等进行改变，并支持点光源和平行光源。当场景中的角色与光线发生作用时，就可以通过照相机进行观察。</li>
+<li><strong>渲染控制器</strong>：创建渲染窗口，定义坐标计算方法，此方法与设备无关。</li>
+<li><strong>渲染器</strong>：主要用于控制目标的渲染过程，对光源、照相机和绘制对象的位置、属性等进行管理，提供了观察坐标系、显示坐标系和世界坐标系三者之间的转换。完成渲染后，需要把渲染器加载到渲染窗口中进行显示。</li>
+<li><strong>渲染窗口</strong>：是用户图形界面，用于在显示设备上生成一个窗口，可以设置渲染窗口的大小、产生立体显示效果等，多个图像渲染器可以绘制到单个图像渲染窗口中，同时也可以创建多个图像渲染窗口。</li>
+</ol>
+<p>可视化模型采用了数据流程模型<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="黄姗姗,王博亮,闵小平.基于 VTK 的可视化技术的研究[J].中国数字医学,2008,3(1): 31-34.
+">[5]</span></a></sup>，在此模型中，各个模块是在网络中连接的，对数据的一系列操作利用模块来实现。这种模型的特点是适用于不同的数据类型和不同的算法，所以灵活性很强。 VTK 使用数据流方法把原始信息转换成图形数据。在此方法中有两个基本对象：数据对象(Data Object)和流程对象(Process Object)。</p>
+<p>VTK 采用的是流水线(pipe line)机制，支持有规则或无规则的点阵(Point sets)、图像(Image)、体元数据(Volume)等多种数据类型，并且可以很方便地实现这些数据类型之间的相互转换。在 VTK 类库中，提供了灵活丰富的用于读取各种数据格式的文件及其相互转换的类，如 vtkBmpReader( 位图读取类 ) ，vtkJpegReader(Jpeg 图像读取类)等从 vtkimageReader 继承而来的用于读取图像的类<sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="吴松峻，彭复员． 基于 VTK 的二维轮廓线的三维可视化重建[J].计算机与现代化,2004,(10):111-113.
+">[6]</span></a></sup>。</p>
+
+<p>大体框架如图所示。其中， Source 是整个流水线的开始，首先通过读入文件等方式产生源数据。滤波器(Filter)可以有若干个数据输入，并可以产生若干个数据输出，是一个相对独立的计算模块，功能是对数据作各种变换。 Mapper 将 Filter 处理后的数据转换为图形数据，实现由数据到图形的映射关系，是可视化流水线和图形模型之间的接口。只有映射关系很明显是不行的，要想看到真实的图像，还需要 Actor，其作用就是实体化由 Mapper 得到的映射关系，使人们能够看到最终的绘制结果。 Actor 还可以控制图像的显示属性，以使图像显示地更为逼真，这是通过调用属性对象(VTKProperty)来实现的。下一步就是由 Render 和 Renderwindow 来将图像显示在电脑窗口上。 通过调用它们提供的图形引擎和电脑视窗系统之间的接口，绘制出的图形就可以在窗口中得以显示。 RenderWindowInteractor 用来实现使用者与图像的交互，这样就可以通过鼠标操作使图像旋转，方便从各个角度对图像进行观察。</p>
+<div id="footnotes">
+<hr>
+<div id="footnotelist">
+<ol style="list-style: none; padding-left: 0; margin-left: 40px">
+<li id="fn:1">
+<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">W.J.Schroeder,K.M.Martin,W.E.Lorensen,The Visualization Toolkit—An 0bject Oriented Approach to 3D Graphics,Prentice Hall,Upper Saddle River,NJ,1996.<a href="#fnref:1" rev="footnote"> ↩︎</a></span>
+</li>
+<li id="fn:2">
+<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">石玉.基于 VTK 的可视化技术研究与实现[D].西安建筑科技大学,2009.6.<a href="#fnref:2" rev="footnote"> ↩︎</a></span>
+</li>
+<li id="fn:3">
+<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Schroeder W,Martin K,Lorensen B.The Visualization Toolkit an Object-oriented Approach to 3D Graphics[M].Prentice Hall:Kitware Inc,2002.<a href="#fnref:3" rev="footnote"> ↩︎</a></span>
+</li>
+<li id="fn:4">
+<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">许庆功,李昌华.VTK 框架结构与运行机制的探讨[J].洛阳理工学院学报(自然科学版),2008,18(1):67-70.<a href="#fnref:4" rev="footnote"> ↩︎</a></span>
+</li>
+<li id="fn:5">
+<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">黄姗姗,王博亮,闵小平.基于 VTK 的可视化技术的研究[J].中国数字医学,2008,3(1): 31-34.<a href="#fnref:5" rev="footnote"> ↩︎</a></span>
+</li>
+<li id="fn:6">
+<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">吴松峻，彭复员． 基于 VTK 的二维轮廓线的三维可视化重建[J].计算机与现代化,2004,(10):111-113.<a href="#fnref:6" rev="footnote"> ↩︎</a></span>
+</li>
+</ol>
+</div>
+</div>
+]]></content>
+      <categories>
+        <category>Program</category>
+      </categories>
+      <tags>
+        <tag>VTK</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Sakura of Tongji University</title>
+    <url>/posts/b674a5b4/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="http://wx2.sinaimg.cn/large/005Awdnjly1fxmzlr51u5j318t0u0npj.jpg" alt="Sakura Road" /></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="http://wx3.sinaimg.cn/large/005Awdnjly1fxmzjwvefhj318t0u07wl.jpg" alt="Sakura" /></div><div class="group-picture-column"><img data-src="http://wx2.sinaimg.cn/large/005Awdnjly1fxmzmbmpuhj318t0u0npg.jpg" alt="Sakura Cluster" /></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="http://wx1.sinaimg.cn/large/005Awdnjly1fxmzmwrsfnj318t0u07wn.jpg" alt="Sakura" /></div><div class="group-picture-column"><img data-src="http://wx2.sinaimg.cn/large/005Awdnjly1fxmzmhfepnj318t0u0hdy.jpg" alt="Malus Halliana" /></div><div class="group-picture-column"><img data-src="http://wx3.sinaimg.cn/large/005Awdnjly1fxmzmldzsij31400u0wzo.jpg" alt="Cat" /></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="http://wx3.sinaimg.cn/large/005Awdnjly1fxmzmr9nklj318t0u0b2d.jpg" alt="Bauhinia" /></div><div class="group-picture-column"><img data-src="http://wx4.sinaimg.cn/large/005Awdnjly1fxmzniqcg0j318t0u0hdy.jpg" alt="Honeysuckle" /></div><div class="group-picture-column"><img data-src="http://wx4.sinaimg.cn/large/005Awdnjly1fxmznnp1s8j318t0u0b2e.jpg" alt="Honeysuckle" /></div></div></div>
+]]></content>
+      <categories>
+        <category>Photograph</category>
+      </categories>
+      <tags>
+        <tag>TJU</tag>
+        <tag>Photos</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Migrating Code Repository but Retaining Commit History</title>
     <url>/posts/b21c482c/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="作用">作用</h2>
@@ -1028,19 +1101,6 @@
       </categories>
       <tags>
         <tag>Git</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Sakura of Tongji University</title>
-    <url>/posts/b674a5b4/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="http://wx2.sinaimg.cn/large/005Awdnjly1fxmzlr51u5j318t0u0npj.jpg" alt="Sakura Road" /></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="http://wx3.sinaimg.cn/large/005Awdnjly1fxmzjwvefhj318t0u07wl.jpg" alt="Sakura" /></div><div class="group-picture-column"><img data-src="http://wx2.sinaimg.cn/large/005Awdnjly1fxmzmbmpuhj318t0u0npg.jpg" alt="Sakura Cluster" /></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="http://wx1.sinaimg.cn/large/005Awdnjly1fxmzmwrsfnj318t0u07wn.jpg" alt="Sakura" /></div><div class="group-picture-column"><img data-src="http://wx2.sinaimg.cn/large/005Awdnjly1fxmzmhfepnj318t0u0hdy.jpg" alt="Malus Halliana" /></div><div class="group-picture-column"><img data-src="http://wx3.sinaimg.cn/large/005Awdnjly1fxmzmldzsij31400u0wzo.jpg" alt="Cat" /></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="http://wx3.sinaimg.cn/large/005Awdnjly1fxmzmr9nklj318t0u0b2d.jpg" alt="Bauhinia" /></div><div class="group-picture-column"><img data-src="http://wx4.sinaimg.cn/large/005Awdnjly1fxmzniqcg0j318t0u0hdy.jpg" alt="Honeysuckle" /></div><div class="group-picture-column"><img data-src="http://wx4.sinaimg.cn/large/005Awdnjly1fxmznnp1s8j318t0u0b2e.jpg" alt="Honeysuckle" /></div></div></div>
-]]></content>
-      <categories>
-        <category>Photograph</category>
-      </categories>
-      <tags>
-        <tag>TJU</tag>
-        <tag>Photos</tag>
       </tags>
   </entry>
   <entry>
@@ -1306,6 +1366,27 @@
       </tags>
   </entry>
   <entry>
+    <title>守候那片泥土</title>
+    <url>/posts/7ff06ee/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>我静静地站着，等待那身影的匆匆走过，等待着鸟儿们放声高歌，等待着花儿的盛开与闭合。我，一个人，等待着......</p>
+<p>清晨，任由风儿顽皮的游戏在身旁，只是沉默着站立。忽然，远方，两个蹦蹦跳跳的孩子手拉手，走进我的视线，他们时而欢歌，时而舞蹈，时而嬉闹。他们的存在，让这荒凉的世界充满了欢乐，让这纯粹的土路冒着一些童年的朝气。渐渐地，目送着他们的背影，消失在远方，再也不回来。</p>
+<a id="more"></a>
+<p>想念那远去的清新，想念那穿越亘古银铃般的歌声。于是，带着失落的情绪，缓缓转过己有些酸疼的头颅，向那来时的希望回首。就在回首的一刹那间，仿佛有一个世界从我的指尖轻轻划过——</p>
+<p>清晨已经毫不吝啬地离去，接踵而至的是正午的热烈与急切。阳光穿透我的皮肤，将血液点燃，于是，我的整个心胸潮涌澎湃。就在那阳光下，一对恋人牵手走过，他们彼此娇嗲地对望，青春的灵动使他们年轻美丽。那紧握着的手向世界宣告爱的不离不弃。他们踩着炙热的泥土缓缓从我的面前走过，也带着对这片泥土的挚爱，走向他们的未来。</p>
+<p>我不能幻想他们能停下脚步，只是在为他们的坚定与萌动而祝福。</p>
+<p>又不知过了多久，当空的太阳渐渐偏离头顶，从另一个角度照亮了这条似乎走不完的路，于是，我的目光，又定格在那路的尽头——一对中年夫妇的中间的一位老婆婆身上，那老婆婆白发苍苍，步履蹒跚，依稀从那老婆婆的眼中，可以看到对身旁的年轻人的爱怜与对行为的寄托，他们一家和谐而完美，他们为这条路制造了一道风景。不得不使我的眼光紧随其后，生怕遗漏了哪怕一秒的美好片段。于是，他们留下一串串欢乐，我也留下一行行思索。</p>
+<p>多希望太阳慢些回家，我不想让自己的眼睛带着失落沉睡又一个夜晚。于是这条路，再一次满足了我。刚送走那一家，又迎来一对比刚才的老婆婆更衰老夫妇，他们背对着阳光，走向那曾经升起太阳的地方，走向那已走出孩童青年与壮年的路的一头，他们彼此搀扶，彼此依恋，彼此在黄昏下诉说人生的真谛，他们的背影渐渐远去，我努力地将这生命的暮年送下最后一程。</p>
+<p>忽然，在我的身边飞起一只鸟儿，它使我身上的已经扎根许久的叶子纷纷落下，而它，竟轻轻地衔起一片树叶，陪伴老夫妇一起走下去。此时，我分明看到，那夫妇的身旁满是光亮，照亮了久久等待后的茫然。 于是，我懂了。我决定用一生守候这片自己扎根的泥土。</p>
+<p>第二天清晨，我又在那老夫妇离开的尽头，看到两个蹦蹦跳跳的孩子，手拉着手，留下一路欢歌。</p>
+]]></content>
+      <categories>
+        <category>Essays</category>
+      </categories>
+      <tags>
+        <tag>Chinese</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Change the Export Resolution of a PowerPoint Slide</title>
     <url>/posts/3b673594/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="question-how-to-change-the-export-resolution-of-a-powerpoint-slide-to-be-1000-dpi">Question: How to change the export resolution of a PowerPoint slide to be 1000 dpi?</h1>
@@ -1450,27 +1531,6 @@
       </tags>
   </entry>
   <entry>
-    <title>守候那片泥土</title>
-    <url>/posts/7ff06ee/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>我静静地站着，等待那身影的匆匆走过，等待着鸟儿们放声高歌，等待着花儿的盛开与闭合。我，一个人，等待着......</p>
-<p>清晨，任由风儿顽皮的游戏在身旁，只是沉默着站立。忽然，远方，两个蹦蹦跳跳的孩子手拉手，走进我的视线，他们时而欢歌，时而舞蹈，时而嬉闹。他们的存在，让这荒凉的世界充满了欢乐，让这纯粹的土路冒着一些童年的朝气。渐渐地，目送着他们的背影，消失在远方，再也不回来。</p>
-<a id="more"></a>
-<p>想念那远去的清新，想念那穿越亘古银铃般的歌声。于是，带着失落的情绪，缓缓转过己有些酸疼的头颅，向那来时的希望回首。就在回首的一刹那间，仿佛有一个世界从我的指尖轻轻划过——</p>
-<p>清晨已经毫不吝啬地离去，接踵而至的是正午的热烈与急切。阳光穿透我的皮肤，将血液点燃，于是，我的整个心胸潮涌澎湃。就在那阳光下，一对恋人牵手走过，他们彼此娇嗲地对望，青春的灵动使他们年轻美丽。那紧握着的手向世界宣告爱的不离不弃。他们踩着炙热的泥土缓缓从我的面前走过，也带着对这片泥土的挚爱，走向他们的未来。</p>
-<p>我不能幻想他们能停下脚步，只是在为他们的坚定与萌动而祝福。</p>
-<p>又不知过了多久，当空的太阳渐渐偏离头顶，从另一个角度照亮了这条似乎走不完的路，于是，我的目光，又定格在那路的尽头——一对中年夫妇的中间的一位老婆婆身上，那老婆婆白发苍苍，步履蹒跚，依稀从那老婆婆的眼中，可以看到对身旁的年轻人的爱怜与对行为的寄托，他们一家和谐而完美，他们为这条路制造了一道风景。不得不使我的眼光紧随其后，生怕遗漏了哪怕一秒的美好片段。于是，他们留下一串串欢乐，我也留下一行行思索。</p>
-<p>多希望太阳慢些回家，我不想让自己的眼睛带着失落沉睡又一个夜晚。于是这条路，再一次满足了我。刚送走那一家，又迎来一对比刚才的老婆婆更衰老夫妇，他们背对着阳光，走向那曾经升起太阳的地方，走向那已走出孩童青年与壮年的路的一头，他们彼此搀扶，彼此依恋，彼此在黄昏下诉说人生的真谛，他们的背影渐渐远去，我努力地将这生命的暮年送下最后一程。</p>
-<p>忽然，在我的身边飞起一只鸟儿，它使我身上的已经扎根许久的叶子纷纷落下，而它，竟轻轻地衔起一片树叶，陪伴老夫妇一起走下去。此时，我分明看到，那夫妇的身旁满是光亮，照亮了久久等待后的茫然。 于是，我懂了。我决定用一生守候这片自己扎根的泥土。</p>
-<p>第二天清晨，我又在那老夫妇离开的尽头，看到两个蹦蹦跳跳的孩子，手拉着手，留下一路欢歌。</p>
-]]></content>
-      <categories>
-        <category>Essays</category>
-      </categories>
-      <tags>
-        <tag>Chinese</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>你好，张先生</title>
     <url>/posts/10c5835/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><img data-src="/posts/10c5835/precious_moment.jpg" class="" width="1000">
@@ -1498,65 +1558,6 @@
       </categories>
       <tags>
         <tag>Life</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>在Windows上安装NONMEM+PsN+Pirana</title>
-    <url>/posts/dd757ff/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="windows环境配置-1">Windows环境配置 <sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[GINPP计划](https://ginpp.tingjieguo.com/docs/env/win/)">[1]</span></a></sup></h1>
-<h2 id="安装fortran编译器">安装Fortran编译器</h2>
-<blockquote>
-<p>  编译，是指从源代码（通常为高级语言）到能直接被计算机或虚拟机执行的目标代码（通常为低级语言或机器语言）的翻译过程。顾名思义，Fortran编译器是用来编译Fortran语言的程序。（注：Fortran是Formula Translation的缩写，即数学公式翻译器，是出现很早的一门语言，主要面向数值计算。）目前有许多不同版本的Fortran编译器，Windows平台上最常用的是基于微软Visual Studio并集成了一整套IDE的商业Fortran编译器，如CVF(Compad Visual Fortran)与IVF(Intel Visual Fortran)等，此外还有一些非商业的、基于命令行的编译器，如gfortran/g95等。</p>
-<p>  这里推荐使用GCC (the GNU Compiler Collection)，它是由GNU计划推出的编译器套件，其中编译Fortran的子程序叫GFortran。NONMEM 7.4的安装包里也附带GCC安装程序，版本为4.6.0，建议初学者直接使用。注意：与最新版Strawberry Perl（从5.26.2.1版本开始）绑定安装的gfortran不能用于Windows 10 上运行NONMEM，在测试安装 NONMEM时会发生未知原因的崩溃 <sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[PsN官网](https://uupharmacometrics.github.io/PsN/install.html)">[2]</span></a></sup>。</p>
-</blockquote>
-<p><img data-src="https://img-blog.csdnimg.cn/20200630221352653.png#pic_center" alt="在这里插入图片描述" />   NONMEM 7.4.3自带的GCC默认路径为<code>nm743CD/compilers</code>，安装过程非常简单，双击<code>gfortran-windows-460.exe</code>随后按提示操作即可。</p>
-<p><img data-src="https://img-blog.csdnimg.cn/20200630221528772.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述" />   安装结束后，可以检查一下GCC是否安装成功。首先可以查看系统环境变量的Path项，如果安装成功则会将gfortran可执行文件的路径自动加入Path中，如：<code>C:\Program Files (x86)\gfortran\bin</code>。从Windows的搜索框中找到启动命令提示行cmd或Windows Powershell，输入命令：<code>gfortran --version</code>或<code>gfortran -v</code>，如果安装正确会出现类似下面的返回信息。第一行GNU Fortran后面数字即为版本号，NONMEM直到<code>7.4.4</code>版本自带的GCC版本均为<code>4.6.0</code>。</p>
-<p><img data-src="https://img-blog.csdnimg.cn/20200630221749465.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述" />   <strong>注意</strong>：由于NONMEM在安装过程中需要使用gfortran编译源文件，之后尽量不要再更换GCC版本，GCC可能会不兼容不同版本GCC编译的程序。</p>
-<h2 id="配置perl环境">配置Perl环境</h2>
-<h3 id="安装perl解释器">安装Perl解释器</h3>
-<p>  </p>
-<blockquote>
-<p>  Perl常见的有ActivePerl和Strawberry Perl两大发行版，两个版本主要的使用区别是模块管理不同。其中ActivePerl（5.24版本之前）在Windows系统下使用ppm工具来管理Perl模块，但ppm的资源库在中国没有镜像，网络质量差的情况下容易出错；Strawberry Perl保持了Linux下的风格，采用cpan管理Perl模块，cpan在全球有丰富的镜像，在中国大陆也有10多个镜像，使用体验会好很多，但缺点是某些模块管理不够高效，忽略网络质量的情况下不如ppm快。PsN网站上推荐初学者使用Strawberry Perl，但是5.26.2.1版本以后自带的gfortran与NONMEM不兼容，因此接下来内容还是以ActivePerl为例。</p>
-</blockquote>
-<p>  ActivePerl也有许多版本，PsN官方要求Perl版本不低于<code>5.10.1</code>，但是因为<code>5.26</code>及以后版本不再绑定安装ppm (Perl Package Manager)，因此为了便于后续的包安装，这里从ActivePerl官网下载5.24.2版本的ActivePerl进行安装。安装好Perl之后，也可以测试一下安装是否成功，打开cmd，输入命令：<code>perl --version与ppm --version</code>，如果安装成功则会返回如下信息：</p>
-<p><img data-src="https://img-blog.csdnimg.cn/20200630222550546.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述" /> ### 安装Perl模块   安装好ActivePerl之后，还需要再额外安装一些Perl的模块，PsN的某些功能需要调用这些模块。以管理员身份运行cmd，依次输入以下命令：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ppm install Math-Random</span><br><span class="line">ppm install MooseX-Params-Validate</span><br><span class="line">ppm install Statistics-Distributions</span><br><span class="line">ppm install XML-LibXML</span><br></pre></td></tr></table></figure>
-<p>安装成功或失败后均有相应返回信息提示。</p>
-<h1 id="nonmem安装">NONMEM安装</h1>
-<h2 id="nonmem安装源文件">NONMEM安装源文件</h2>
-<p>  NONMEM在安装过程中需要调用gfortran编译源文件，因此在开始安装之前，必须确认gfortran已经正确安装。首先认识一下NONMEM安装文件夹里的一些内容：根目录下有许多文件名以install开头的文件，这些是对应不同操作系统安装NONMEM时需要直接运行的程序。对Windows而言，需要运行的是<code>SETUP74.bat</code>，这其实是一个批处理文件。<code>nonmem.lic</code>是NONMEM的授权文件，即使用许可证，建议在安装NONMEM前先将授权文件拷贝至安装文件根目录下。<code>readme_743.pdf</code>是官方的说明文档。剩下的文件或文件夹中，除了前面已经说过的compiler文件夹外，其余的可以暂时先不管。</p>
-<p><img data-src="https://img-blog.csdnimg.cn/20200630223047742.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述" /> ## 安装NONMEM   进入NONMEM安装文件的根目录，右击<code>SETUP74.bat</code>对其中的批处理脚本进行修改，其中：<code>defcdd</code>表示来源路径，即NONMEM安装文件根目录的地址，根据实际情况决定； <code>defh</code>表示目标路径，即安装NONMEM的位置，同样根据实际情况而决定；<code>deff</code>表示编译器。这里假设NONMEM安装源文件根目录路径为<code>c:\nm743CD</code>，目标文件夹为<code>c:\nm743</code>，编译器为gfortran，则<code>SETUP74.bat</code>做以下修改：</p>
-<p><img data-src="https://img-blog.csdnimg.cn/20200630223355883.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述" /> 修改完bat文件之后，右击<code>SETUP74.bat</code>文件管理员身份运行，如果运行成功则会如下图所显示，最后一行的提示<code>Continue (y/n)? [y]</code>，直接回车即可。之后的过程就比较简单了，大多时间是在等待以及根据提示的默认选项按回车。</p>
-<p><img data-src="https://img-blog.csdnimg.cn/20200630223612491.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述" />   在进行到Step 9时，在目标路径的根目录下可以找到progress.txt文件，打开这个文件可以看到完成进度。这一步是在编译源文件，比较费时，这一步骤可以反映计算机CPU的性能。</p>
-<p><img data-src="https://img-blog.csdnimg.cn/20200630223755163.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述" />   安装脚本的最后一步则是测试，会提示<code>Do you want to test the installation?</code>，建议输入<code>y</code>测试安装是否成功。最后，还需要将有效的授权文件<code>nonmem.lic</code>粘贴至license文件夹覆盖原许可证，否则在后续计算过程中会提示NONMEM许可证过期而无法启动运算。至此，NONMEM安装就全部结束了。</p>
-<p><img data-src="https://img-blog.csdnimg.cn/20200630224005599.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述" /> # NONMEM辅助软件安装 ## PsN(Perl speaks NONMEM)安装   在成功配置Perl环境后，就可以安装PsN了。从<span class="exturl" data-url="aHR0cHM6Ly91dXBoYXJtYWNvbWV0cmljcy5naXRodWIuaW8vUHNOL2Rvd25sb2FkLmh0bWw=">PsN官网<i class="fa fa-external-link-alt"></i></span>下载压缩包，解压后打开PsN的根目录（默认名为PsN-Source），启动文件为<code>setup.pl</code>，右键选择以管理员身份运行即开始安装。通常情况下此时是可以直接运行该文件的，但有时也会出现系统不识别该类型文件的情况，若之前已经测试过Perl成功安装的话，此时可以尝试命令行安装方式：以管理员身份打开<code>cmd</code>，进入PsN安装文件根目录<code>cd x:\..\PsN-Source</code>，输入命令：<code>perl setup.pl</code>。</p>
-<p>  在安装过程中，根据提示输入<code>y</code>或<code>n</code>，然后回车，多数情况下输入y。若之前在计算机上安装过PsN，可能会提示询问是否保留原有的psn.conf文件，建议输入n，让程序新建一个<code>psn.conf</code>，这个文件里记录了一些配置信息，包括NONMEM版本、路径以及计算模型时的选项。安装程序会自动搜索NONMEM所在的路径，并自动设置好<code>psn.conf</code>，但之前也发现如果NONMEM装在比较深的目录下，PsN安装程序可能搜索不到，需要手动输入NONMEM的安装路径。这样PsN就安装好了。</p>
-<h2 id="pirana安装">Pirana安装</h2>
-<p>  Pirana的安装较为简单，从<span class="exturl" data-url="aHR0cHM6Ly9scC5jZXJ0YXJhLmNvbS9XRkRvd25sb2FkUGlyYW5hLmh0bWw=">Pirana官网<i class="fa fa-external-link-alt"></i></span>下载安装程序<code>pirana_2.9.9_windows.exe</code>，运行然后按提示操作即可。通常情况下在安装过后无需配置就可以直接使用了，但是还是需要进一步确认下。首先是将Pirana与NONMEM关联，选择File，如下图所示一般都是自动关联好。点击Local NONMEM installations栏目右上角的搜索按钮，即可让Pirana自动搜索或手动指定NONMEM的安装路径。</p>
-<figure>
-<img data-src="https://img-blog.csdnimg.cn/20200630224557900.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述" /><figcaption aria-hidden="true">在这里插入图片描述</figcaption>
-</figure>
-<p>  有时还需要手动设置PsN可执行文件的路径，选择PsN栏目如果PsN executable location为空，则需要手动填写Perl安装目录下的bin文件夹路径。</p>
-<img data-src="https://img-blog.csdnimg.cn/20200630224710775.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNDQ3MTgxNw==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述" />   最后，如果Pirana提示许可证到期部分功能被限制，则需要点击Helplicence file，选择有效的pirana.lic文件路径，进行许可证安装。安装成功后，在HelpPirana即可查看过期时间等授权信息。
-<div id="footnotes">
-<hr>
-<div id="footnotelist">
-<ol style="list-style: none; padding-left: 0; margin-left: 40px">
-<li id="fn:1">
-<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><span class="exturl" data-url="aHR0cHM6Ly9naW5wcC50aW5namllZ3VvLmNvbS9kb2NzL2Vudi93aW4v">GINPP计划<i class="fa fa-external-link-alt"></i></span><a href="#fnref:1" rev="footnote"> ↩︎</a></span>
-</li>
-<li id="fn:2">
-<span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><span class="exturl" data-url="aHR0cHM6Ly91dXBoYXJtYWNvbWV0cmljcy5naXRodWIuaW8vUHNOL2luc3RhbGwuaHRtbA==">PsN官网<i class="fa fa-external-link-alt"></i></span><a href="#fnref:2" rev="footnote"> ↩︎</a></span>
-</li>
-</ol>
-</div>
-</div>
-]]></content>
-      <categories>
-        <category>Study</category>
-      </categories>
-      <tags>
-        <tag>NONMEM</tag>
       </tags>
   </entry>
 </search>
