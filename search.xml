@@ -42,232 +42,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Memory of Taipei</title>
-    <url>/posts/977b8b8c/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><img data-src="/posts/977b8b8c/9.jpg" class="" title="西門町">
-<a id="more"></a>
-<img data-src="/posts/977b8b8c/1.jpg" class="" title="浦東機場">
-<img data-src="/posts/977b8b8c/2.jpg" class="" title="桃園機場">
-<img data-src="/posts/977b8b8c/3.jpg" class="" title="慈佑宮">
-<img data-src="/posts/977b8b8c/5.jpg" class="" title="天后宮">
-<img data-src="/posts/977b8b8c/7.jpg" class="" title="商業街">
-<img data-src="/posts/977b8b8c/8.jpg" class="" title="街頭小吃">
-<img data-src="/posts/977b8b8c/10.jpg" class="" title="自由廣場">
-<img data-src="/posts/977b8b8c/11.jpg" class="" title="台北地鐵">
-<img data-src="/posts/977b8b8c/12.jpg" class="" title="機車牌照">
-<img data-src="/posts/977b8b8c/13.jpg" class="" title="颱風過後">
-<img data-src="/posts/977b8b8c/14.jpg" class="" title="保齡球">
-<img data-src="/posts/977b8b8c/15.jpg" class="" title="台科校園">
-<img data-src="/posts/977b8b8c/16.jpg" class="" title="PBL">
-<img data-src="/posts/977b8b8c/17.jpg" class="" title="PBL">
-<img data-src="/posts/977b8b8c/18.jpg" class="" title="PBL">
-<img data-src="/posts/977b8b8c/19.JPG" class="" title="PBL">
-<img data-src="/posts/977b8b8c/20.jpg" class="" title="PBL">
-]]></content>
-      <categories>
-        <category>Life</category>
-      </categories>
-      <tags>
-        <tag>Travel</tag>
-        <tag>Taiwan</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Abaqus-Common Commands</title>
-    <url>/posts/c0718fce/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol type="1">
-<li><strong>提交任务：</strong> <code>abaqus job=jobname1 int</code> 或 <code>abaqus job=jobname1 int</code></li>
-<li><strong>双精度提交：</strong> <code>abaqus job=jobname1 double int</code></li>
-<li><strong>任务暂停：</strong> <code>abaqus suspend job=jobname1 int</code> (可恢复)</li>
-<li><strong>恢复运算：</strong> <code>abaqus resume job=jobname1 int</code></li>
-<li><strong>结束任务：</strong> <code>abaqus terminate job=jobname1 int</code> <a id="more"></a></li>
-<li><strong>Restart 重启动计算：</strong> <code>abaqus job=jobname1 oldjob=jobname2 int</code></li>
-<li><strong>打开 CAE 界面：</strong> <code>abaqus cae</code></li>
-<li><strong>打开 VIEWER 后处理界面：</strong> <code>abaqus viewer</code></li>
-<li><strong>查看 ABAQUS 帮助文件：</strong> <code>abaqus doc</code></li>
-<li><strong>查看 cmd 命令帮助：</strong> <code>abaqus help</code></li>
-<li><strong>顺次运行几个 inp 后自动关机：</strong>
-<ul>
-<li><code>Call abaqus job=job_1 int</code></li>
-<li><code>Call abaqus job=job_2 int</code></li>
-<li><code>Shutdown -s</code></li>
-</ul></li>
-<li><strong>运算之前 datacheck:</strong> <code>abaqus job=xxx datcheck</code></li>
-<li><strong>定义所需的最大内存：</strong> <code>abaqus job=xxx memory=memory-size</code></li>
-<li><strong>提交一个子程序、双精度、多 CPU 运算：</strong>
-<ul>
-<li><code>Abaqus job=jobname user=user_xxx.for cpus=4</code></li>
-<li><code>Abaqus job=jobname user= user_xxx.for cpus=8 int</code></li>
-</ul></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Study</category>
-      </categories>
-      <tags>
-        <tag>Abaqus</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Abaqus-Compatibility With Fortran and Visual Studio</title>
-    <url>/posts/813e3d74/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Abaqus如果需要使用用户子程序必须调用Intel Fortran，而Intel Fortran又必须在Visual Studio的环境下运行。三者之间存在两两兼容的问题，必须引起注意。</p>
-<h1 id="abaqus与intel-fortran及visual-studio的兼容关系">Abaqus与Intel Fortran及Visual Studio的兼容关系</h1>
-<table>
-<thead>
-<tr class="header">
-<th>Abaqus 版本</th>
-<th>兼容的 Intel Fortran</th>
-<th>兼容的 Visual Studio</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>6.8</td>
-<td>v9.1, v10.0, v10.1及以上</td>
-<td>2005</td>
-</tr>
-<tr class="even">
-<td>6.9</td>
-<td>v9.1, v10.0, v10.1及以上</td>
-<td>2005, 2008</td>
-</tr>
-<tr class="odd">
-<td>6.10</td>
-<td>v10.1, v11.0, v11.1及以上</td>
-<td>2008, 2010</td>
-</tr>
-<tr class="even">
-<td>6.11</td>
-<td>v10.1, v11.0, v11.1及以上</td>
-<td>2008, 2010</td>
-</tr>
-<tr class="odd">
-<td>6.12</td>
-<td>v10.1, v11.0, v11.1及以上</td>
-<td>2008, 2010</td>
-</tr>
-<tr class="even">
-<td>6.13</td>
-<td>v10.1, v11.0, v11.1及以上</td>
-<td>2008, 2010, 2012</td>
-</tr>
-</tbody>
-</table>
-<a id="more"></a>
-<h1 id="visual-studio各版本代号的对应关系">Visual Studio各版本代号的对应关系</h1>
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: center;">名字</th>
-<th style="text-align: center;">版本号</th>
-<th style="text-align: center;">简称</th>
-<th style="text-align: center;">全称</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">msvc70</td>
-<td style="text-align: center;">VC7.0</td>
-<td style="text-align: center;">VS2002</td>
-<td style="text-align: center;">Microsoft Visual Studio <strong>2002</strong></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">msvc71</td>
-<td style="text-align: center;">VC7.1</td>
-<td style="text-align: center;">VS2003</td>
-<td style="text-align: center;">Microsoft Visual Studio <strong>2003</strong></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">msvc80</td>
-<td style="text-align: center;">VC8.0</td>
-<td style="text-align: center;">VS2005</td>
-<td style="text-align: center;">Microsoft Visual Studio <strong>2005</strong></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">msvc90</td>
-<td style="text-align: center;">VC9.0</td>
-<td style="text-align: center;">VS2008</td>
-<td style="text-align: center;">Microsoft Visual Studio <strong>2008</strong></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"></td>
-<td style="text-align: center;">VC10.0</td>
-<td style="text-align: center;">VS2010</td>
-<td style="text-align: center;">Microsoft Visual Studio <strong>2010</strong></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"></td>
-<td style="text-align: center;">VC11.0</td>
-<td style="text-align: center;">VS2012</td>
-<td style="text-align: center;">Microsoft Visual Studio <strong>2012</strong></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"></td>
-<td style="text-align: center;">VC12.0</td>
-<td style="text-align: center;">VS2013</td>
-<td style="text-align: center;">Microsoft Visual Studio <strong>2013</strong></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"></td>
-<td style="text-align: center;">VC13.0</td>
-<td style="text-align: center;">VS2014</td>
-<td style="text-align: center;">Microsoft Visual Studio <strong>2014</strong></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"></td>
-<td style="text-align: center;">VC14.0</td>
-<td style="text-align: center;">VS2015</td>
-<td style="text-align: center;">Microsoft Visual Studio <strong>2015</strong></td>
-</tr>
-</tbody>
-</table>
-<h1 id="fortran与visual-studio的兼容关系">Fortran与Visual Studio的兼容关系</h1>
-<table>
-<thead>
-<tr class="header">
-<th>Intel Fortran 版本</th>
-<th>兼容的Visual Studio</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>v10.0</td>
-<td>2003, 2005</td>
-</tr>
-<tr class="even">
-<td>v10.1 (10.1.019之后)</td>
-<td>2003, 2005, 2008</td>
-</tr>
-<tr class="odd">
-<td>v11.0, v11.1</td>
-<td>2003, 2005, 2008</td>
-</tr>
-<tr class="even">
-<td>v12.0, v12.1 (XE2011)</td>
-<td>2005, 2008, 2010</td>
-</tr>
-<tr class="odd">
-<td>v13.0 (XE2013)</td>
-<td>2008, 2010, 2012</td>
-</tr>
-</tbody>
-</table>
-<h3 id="推荐搭配">推荐搭配</h3>
-<ul>
-<li><code>Abaqus 6.9</code> + <code>VS2005</code> + <code>Intel Fortran 9.1/10.0/10.1</code></li>
-<li><code>Abaqus 6.10/6.11/6.12</code> + <code>VS2008</code> + <code>Intel Fortran 10.1</code></li>
-<li><code>Abaqus 6.13/6.14</code> + <code>VS2012</code> + <code>Intel Fortran XE2013 SP1</code></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Study</category>
-      </categories>
-      <tags>
-        <tag>Abaqus</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Useful Dutch Words in Daily Life</title>
     <url>/posts/3cda8bc5/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><img data-src="/posts/3cda8bc5/Dutch-words.jpg" class="">
@@ -628,6 +402,232 @@
       </categories>
       <tags>
         <tag>Dutch</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Memory of Taipei</title>
+    <url>/posts/977b8b8c/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><img data-src="/posts/977b8b8c/9.jpg" class="" title="西門町">
+<a id="more"></a>
+<img data-src="/posts/977b8b8c/1.jpg" class="" title="浦東機場">
+<img data-src="/posts/977b8b8c/2.jpg" class="" title="桃園機場">
+<img data-src="/posts/977b8b8c/3.jpg" class="" title="慈佑宮">
+<img data-src="/posts/977b8b8c/5.jpg" class="" title="天后宮">
+<img data-src="/posts/977b8b8c/7.jpg" class="" title="商業街">
+<img data-src="/posts/977b8b8c/8.jpg" class="" title="街頭小吃">
+<img data-src="/posts/977b8b8c/10.jpg" class="" title="自由廣場">
+<img data-src="/posts/977b8b8c/11.jpg" class="" title="台北地鐵">
+<img data-src="/posts/977b8b8c/12.jpg" class="" title="機車牌照">
+<img data-src="/posts/977b8b8c/13.jpg" class="" title="颱風過後">
+<img data-src="/posts/977b8b8c/14.jpg" class="" title="保齡球">
+<img data-src="/posts/977b8b8c/15.jpg" class="" title="台科校園">
+<img data-src="/posts/977b8b8c/16.jpg" class="" title="PBL">
+<img data-src="/posts/977b8b8c/17.jpg" class="" title="PBL">
+<img data-src="/posts/977b8b8c/18.jpg" class="" title="PBL">
+<img data-src="/posts/977b8b8c/19.JPG" class="" title="PBL">
+<img data-src="/posts/977b8b8c/20.jpg" class="" title="PBL">
+]]></content>
+      <categories>
+        <category>Life</category>
+      </categories>
+      <tags>
+        <tag>Travel</tag>
+        <tag>Taiwan</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Abaqus-Common Commands</title>
+    <url>/posts/c0718fce/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol type="1">
+<li><strong>提交任务：</strong> <code>abaqus job=jobname1 int</code> 或 <code>abaqus job=jobname1 int</code></li>
+<li><strong>双精度提交：</strong> <code>abaqus job=jobname1 double int</code></li>
+<li><strong>任务暂停：</strong> <code>abaqus suspend job=jobname1 int</code> (可恢复)</li>
+<li><strong>恢复运算：</strong> <code>abaqus resume job=jobname1 int</code></li>
+<li><strong>结束任务：</strong> <code>abaqus terminate job=jobname1 int</code> <a id="more"></a></li>
+<li><strong>Restart 重启动计算：</strong> <code>abaqus job=jobname1 oldjob=jobname2 int</code></li>
+<li><strong>打开 CAE 界面：</strong> <code>abaqus cae</code></li>
+<li><strong>打开 VIEWER 后处理界面：</strong> <code>abaqus viewer</code></li>
+<li><strong>查看 ABAQUS 帮助文件：</strong> <code>abaqus doc</code></li>
+<li><strong>查看 cmd 命令帮助：</strong> <code>abaqus help</code></li>
+<li><strong>顺次运行几个 inp 后自动关机：</strong>
+<ul>
+<li><code>Call abaqus job=job_1 int</code></li>
+<li><code>Call abaqus job=job_2 int</code></li>
+<li><code>Shutdown -s</code></li>
+</ul></li>
+<li><strong>运算之前 datacheck:</strong> <code>abaqus job=xxx datcheck</code></li>
+<li><strong>定义所需的最大内存：</strong> <code>abaqus job=xxx memory=memory-size</code></li>
+<li><strong>提交一个子程序、双精度、多 CPU 运算：</strong>
+<ul>
+<li><code>Abaqus job=jobname user=user_xxx.for cpus=4</code></li>
+<li><code>Abaqus job=jobname user= user_xxx.for cpus=8 int</code></li>
+</ul></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Study</category>
+      </categories>
+      <tags>
+        <tag>Abaqus</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Abaqus-Compatibility With Fortran and Visual Studio</title>
+    <url>/posts/813e3d74/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Abaqus如果需要使用用户子程序必须调用Intel Fortran，而Intel Fortran又必须在Visual Studio的环境下运行。三者之间存在两两兼容的问题，必须引起注意。</p>
+<h1 id="abaqus与intel-fortran及visual-studio的兼容关系">Abaqus与Intel Fortran及Visual Studio的兼容关系</h1>
+<table>
+<thead>
+<tr class="header">
+<th>Abaqus 版本</th>
+<th>兼容的 Intel Fortran</th>
+<th>兼容的 Visual Studio</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>6.8</td>
+<td>v9.1, v10.0, v10.1及以上</td>
+<td>2005</td>
+</tr>
+<tr class="even">
+<td>6.9</td>
+<td>v9.1, v10.0, v10.1及以上</td>
+<td>2005, 2008</td>
+</tr>
+<tr class="odd">
+<td>6.10</td>
+<td>v10.1, v11.0, v11.1及以上</td>
+<td>2008, 2010</td>
+</tr>
+<tr class="even">
+<td>6.11</td>
+<td>v10.1, v11.0, v11.1及以上</td>
+<td>2008, 2010</td>
+</tr>
+<tr class="odd">
+<td>6.12</td>
+<td>v10.1, v11.0, v11.1及以上</td>
+<td>2008, 2010</td>
+</tr>
+<tr class="even">
+<td>6.13</td>
+<td>v10.1, v11.0, v11.1及以上</td>
+<td>2008, 2010, 2012</td>
+</tr>
+</tbody>
+</table>
+<a id="more"></a>
+<h1 id="visual-studio各版本代号的对应关系">Visual Studio各版本代号的对应关系</h1>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">名字</th>
+<th style="text-align: center;">版本号</th>
+<th style="text-align: center;">简称</th>
+<th style="text-align: center;">全称</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">msvc70</td>
+<td style="text-align: center;">VC7.0</td>
+<td style="text-align: center;">VS2002</td>
+<td style="text-align: center;">Microsoft Visual Studio <strong>2002</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">msvc71</td>
+<td style="text-align: center;">VC7.1</td>
+<td style="text-align: center;">VS2003</td>
+<td style="text-align: center;">Microsoft Visual Studio <strong>2003</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">msvc80</td>
+<td style="text-align: center;">VC8.0</td>
+<td style="text-align: center;">VS2005</td>
+<td style="text-align: center;">Microsoft Visual Studio <strong>2005</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">msvc90</td>
+<td style="text-align: center;">VC9.0</td>
+<td style="text-align: center;">VS2008</td>
+<td style="text-align: center;">Microsoft Visual Studio <strong>2008</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"></td>
+<td style="text-align: center;">VC10.0</td>
+<td style="text-align: center;">VS2010</td>
+<td style="text-align: center;">Microsoft Visual Studio <strong>2010</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"></td>
+<td style="text-align: center;">VC11.0</td>
+<td style="text-align: center;">VS2012</td>
+<td style="text-align: center;">Microsoft Visual Studio <strong>2012</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"></td>
+<td style="text-align: center;">VC12.0</td>
+<td style="text-align: center;">VS2013</td>
+<td style="text-align: center;">Microsoft Visual Studio <strong>2013</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"></td>
+<td style="text-align: center;">VC13.0</td>
+<td style="text-align: center;">VS2014</td>
+<td style="text-align: center;">Microsoft Visual Studio <strong>2014</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"></td>
+<td style="text-align: center;">VC14.0</td>
+<td style="text-align: center;">VS2015</td>
+<td style="text-align: center;">Microsoft Visual Studio <strong>2015</strong></td>
+</tr>
+</tbody>
+</table>
+<h1 id="fortran与visual-studio的兼容关系">Fortran与Visual Studio的兼容关系</h1>
+<table>
+<thead>
+<tr class="header">
+<th>Intel Fortran 版本</th>
+<th>兼容的Visual Studio</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>v10.0</td>
+<td>2003, 2005</td>
+</tr>
+<tr class="even">
+<td>v10.1 (10.1.019之后)</td>
+<td>2003, 2005, 2008</td>
+</tr>
+<tr class="odd">
+<td>v11.0, v11.1</td>
+<td>2003, 2005, 2008</td>
+</tr>
+<tr class="even">
+<td>v12.0, v12.1 (XE2011)</td>
+<td>2005, 2008, 2010</td>
+</tr>
+<tr class="odd">
+<td>v13.0 (XE2013)</td>
+<td>2008, 2010, 2012</td>
+</tr>
+</tbody>
+</table>
+<h3 id="推荐搭配">推荐搭配</h3>
+<ul>
+<li><code>Abaqus 6.9</code> + <code>VS2005</code> + <code>Intel Fortran 9.1/10.0/10.1</code></li>
+<li><code>Abaqus 6.10/6.11/6.12</code> + <code>VS2008</code> + <code>Intel Fortran 10.1</code></li>
+<li><code>Abaqus 6.13/6.14</code> + <code>VS2012</code> + <code>Intel Fortran XE2013 SP1</code></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Study</category>
+      </categories>
+      <tags>
+        <tag>Abaqus</tag>
       </tags>
   </entry>
   <entry>
@@ -1091,6 +1091,19 @@
       </tags>
   </entry>
   <entry>
+    <title>Sakura of Tongji University</title>
+    <url>/posts/b674a5b4/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="http://wx2.sinaimg.cn/large/005Awdnjly1fxmzlr51u5j318t0u0npj.jpg" alt="Sakura Road" /></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="http://wx3.sinaimg.cn/large/005Awdnjly1fxmzjwvefhj318t0u07wl.jpg" alt="Sakura" /></div><div class="group-picture-column"><img data-src="http://wx2.sinaimg.cn/large/005Awdnjly1fxmzmbmpuhj318t0u0npg.jpg" alt="Sakura Cluster" /></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="http://wx1.sinaimg.cn/large/005Awdnjly1fxmzmwrsfnj318t0u07wn.jpg" alt="Sakura" /></div><div class="group-picture-column"><img data-src="http://wx2.sinaimg.cn/large/005Awdnjly1fxmzmhfepnj318t0u0hdy.jpg" alt="Malus Halliana" /></div><div class="group-picture-column"><img data-src="http://wx3.sinaimg.cn/large/005Awdnjly1fxmzmldzsij31400u0wzo.jpg" alt="Cat" /></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="http://wx3.sinaimg.cn/large/005Awdnjly1fxmzmr9nklj318t0u0b2d.jpg" alt="Bauhinia" /></div><div class="group-picture-column"><img data-src="http://wx4.sinaimg.cn/large/005Awdnjly1fxmzniqcg0j318t0u0hdy.jpg" alt="Honeysuckle" /></div><div class="group-picture-column"><img data-src="http://wx4.sinaimg.cn/large/005Awdnjly1fxmznnp1s8j318t0u0b2e.jpg" alt="Honeysuckle" /></div></div></div>
+]]></content>
+      <categories>
+        <category>Photograph</category>
+      </categories>
+      <tags>
+        <tag>TJU</tag>
+        <tag>Photos</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Matlab将矩阵写入txt文档中</title>
     <url>/posts/69ac4428/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><figure class="highlight matlab"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">write_infile</span><span class="params">( fid,source_matrix )</span></span></span><br><span class="line">    <span class="comment">%  write matrix to file.上文中已经打开文件fid的情况下</span></span><br><span class="line">    [x,y]=<span class="built_in">size</span>(source_matrix);</span><br><span class="line">    <span class="keyword">for</span> <span class="built_in">i</span>=<span class="number">1</span>:x</span><br><span class="line">        <span class="keyword">for</span> <span class="built_in">j</span>=<span class="number">1</span>:y<span class="number">-1</span></span><br><span class="line">            fprintf(fid,<span class="string">&#x27;%s\t&#x27;</span>,source_matrix(<span class="built_in">i</span>,<span class="built_in">j</span>));</span><br><span class="line">        <span class="keyword">end</span></span><br><span class="line">        fprintf(fid,<span class="string">&#x27;%s\n&#x27;</span>,source_matrix(<span class="built_in">i</span>,y));<span class="comment">%每一行回车\n</span></span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure>
@@ -1102,19 +1115,6 @@
       </categories>
       <tags>
         <tag>Matlab</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Sakura of Tongji University</title>
-    <url>/posts/b674a5b4/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="http://wx2.sinaimg.cn/large/005Awdnjly1fxmzlr51u5j318t0u0npj.jpg" alt="Sakura Road" /></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="http://wx3.sinaimg.cn/large/005Awdnjly1fxmzjwvefhj318t0u07wl.jpg" alt="Sakura" /></div><div class="group-picture-column"><img data-src="http://wx2.sinaimg.cn/large/005Awdnjly1fxmzmbmpuhj318t0u0npg.jpg" alt="Sakura Cluster" /></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="http://wx1.sinaimg.cn/large/005Awdnjly1fxmzmwrsfnj318t0u07wn.jpg" alt="Sakura" /></div><div class="group-picture-column"><img data-src="http://wx2.sinaimg.cn/large/005Awdnjly1fxmzmhfepnj318t0u0hdy.jpg" alt="Malus Halliana" /></div><div class="group-picture-column"><img data-src="http://wx3.sinaimg.cn/large/005Awdnjly1fxmzmldzsij31400u0wzo.jpg" alt="Cat" /></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="http://wx3.sinaimg.cn/large/005Awdnjly1fxmzmr9nklj318t0u0b2d.jpg" alt="Bauhinia" /></div><div class="group-picture-column"><img data-src="http://wx4.sinaimg.cn/large/005Awdnjly1fxmzniqcg0j318t0u0hdy.jpg" alt="Honeysuckle" /></div><div class="group-picture-column"><img data-src="http://wx4.sinaimg.cn/large/005Awdnjly1fxmznnp1s8j318t0u0b2e.jpg" alt="Honeysuckle" /></div></div></div>
-]]></content>
-      <categories>
-        <category>Photograph</category>
-      </categories>
-      <tags>
-        <tag>TJU</tag>
-        <tag>Photos</tag>
       </tags>
   </entry>
   <entry>
@@ -1565,6 +1565,105 @@
       </tags>
   </entry>
   <entry>
+    <title>Windows Terminal安装、美化与在当前路径打开</title>
+    <url>/posts/383c5143/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="安装">安装</h2>
+<p>在Win 10应用商店搜索Windows Terminal即可安装。</p>
+<h2 id="美化">美化</h2>
+<p>具体配置教程可前往<span class="exturl" data-url="aHR0cHM6Ly9kb2NzLm1pY3Jvc29mdC5jb20vZW4tdXMvd2luZG93cy90ZXJtaW5hbC9jdXN0b21pemUtc2V0dGluZ3MvcHJvZmlsZS1zZXR0aW5ncw==">官方文档<i class="fa fa-external-link-alt"></i></span>查看。</p>
+<a id="more"></a>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&quot;profiles&quot;:</span><br><span class="line">&#123;</span><br><span class="line">    <span class="attr">&quot;defaults&quot;</span>:</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment">// Put settings here that you want to apply to all profiles.</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="attr">&quot;list&quot;</span>:</span><br><span class="line">    [</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="comment">// Make changes here to the powershell.exe profile.</span></span><br><span class="line">            <span class="attr">&quot;guid&quot;</span>: <span class="string">&quot;&#123;61c54bbd-c2c6-5271-96e7-009a87ff44bf&#125;&quot;</span>,</span><br><span class="line">            <span class="attr">&quot;name&quot;</span>: <span class="string">&quot;Windows PowerShell&quot;</span>,</span><br><span class="line">            <span class="attr">&quot;commandline&quot;</span>: <span class="string">&quot;powershell.exe&quot;</span>,</span><br><span class="line">            <span class="attr">&quot;hidden&quot;</span>: <span class="literal">false</span>,</span><br><span class="line">            <span class="attr">&quot;startingDirectory&quot;</span>:<span class="literal">null</span>,</span><br><span class="line">            <span class="attr">&quot;acrylicOpacity&quot;</span>: <span class="number">0.8</span>, <span class="comment">//背景透明度</span></span><br><span class="line">        	<span class="attr">&quot;useAcrylic&quot;</span>: <span class="literal">true</span>, <span class="comment">// 启用毛玻璃</span></span><br><span class="line">       	    <span class="attr">&quot;background&quot;</span>: <span class="string">&quot;#000000&quot;</span>,</span><br><span class="line">       	    <span class="comment">//&quot;backgroundImage&quot;: &quot;C://terminal_Bg.jpg&quot;,</span></span><br><span class="line">        	<span class="comment">//&quot;backgroundImageOpacity&quot;: 0.6,</span></span><br><span class="line">            <span class="attr">&quot;colorScheme&quot;</span>: <span class="string">&quot;AdventureTime&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;closeOnExit&quot;</span>: <span class="literal">true</span>,</span><br><span class="line">        <span class="attr">&quot;cursorColor&quot;</span>: <span class="string">&quot;#FFFFFF&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;fontFace&quot;</span>: <span class="string">&quot;Delugia Nerd Font&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;tabTitle&quot;</span>: <span class="string">&quot;Powershell&quot;</span>,</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="comment">// Make changes here to the cmd.exe profile.</span></span><br><span class="line">            <span class="attr">&quot;guid&quot;</span>: <span class="string">&quot;&#123;0caa0dad-35be-5f56-a8ff-afceeeaa6101&#125;&quot;</span>,</span><br><span class="line">            <span class="attr">&quot;name&quot;</span>: <span class="string">&quot;Command Prompt&quot;</span>,</span><br><span class="line">            <span class="attr">&quot;commandline&quot;</span>: <span class="string">&quot;cmd.exe&quot;</span>,</span><br><span class="line">            <span class="attr">&quot;hidden&quot;</span>: <span class="literal">false</span>,</span><br><span class="line">            <span class="attr">&quot;startingDirectory&quot;</span>:<span class="literal">null</span>,</span><br><span class="line">            <span class="attr">&quot;acrylicOpacity&quot;</span>: <span class="number">0.8</span>, <span class="comment">//背景透明度</span></span><br><span class="line">        	<span class="attr">&quot;useAcrylic&quot;</span>: <span class="literal">true</span>, <span class="comment">// 启用毛玻璃</span></span><br><span class="line">        	<span class="attr">&quot;background&quot;</span>: <span class="string">&quot;#000000&quot;</span>,</span><br><span class="line">       	    <span class="comment">//&quot;backgroundImage&quot;: &quot;C://terminal_Bg.jpg&quot;,</span></span><br><span class="line">        	<span class="comment">//&quot;backgroundImageOpacity&quot;: 0.6,</span></span><br><span class="line">            <span class="attr">&quot;colorScheme&quot;</span>: <span class="string">&quot;AdventureTime&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;closeOnExit&quot;</span>: <span class="literal">true</span>,</span><br><span class="line">        <span class="attr">&quot;cursorColor&quot;</span>: <span class="string">&quot;#FFFFFF&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;fontFace&quot;</span>: <span class="string">&quot;Delugia Nerd Font&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;tabTitle&quot;</span>: <span class="string">&quot;Powershell&quot;</span>,</span><br><span class="line"></span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="attr">&quot;guid&quot;</span>: <span class="string">&quot;&#123;b453ae62-4e3d-5e58-b989-0a998ec441b8&#125;&quot;</span>,</span><br><span class="line">            <span class="attr">&quot;hidden&quot;</span>: <span class="literal">false</span>,</span><br><span class="line">            <span class="attr">&quot;name&quot;</span>: <span class="string">&quot;Azure Cloud Shell&quot;</span>,</span><br><span class="line">            <span class="attr">&quot;source&quot;</span>: <span class="string">&quot;Windows.Terminal.Azure&quot;</span></span><br><span class="line">        &#125;</span><br><span class="line">    ]</span><br><span class="line">&#125;,</span><br><span class="line"></span><br><span class="line"><span class="comment">// Add custom color schemes to this array.</span></span><br><span class="line"><span class="comment">// To learn more about color schemes, visit https://aka.ms/terminal-color-schemes</span></span><br><span class="line"><span class="comment">// Add custom color schemes to this array</span></span><br><span class="line">&quot;schemes&quot;: [&#123;</span><br><span class="line">        &quot;name&quot;: &quot;3024 Day&quot;,</span><br><span class="line">        &quot;black&quot;: &quot;#090300&quot;,</span><br><span class="line">        &quot;red&quot;: &quot;#db2d20&quot;,</span><br><span class="line">        &quot;green&quot;: &quot;#01a252&quot;,</span><br><span class="line">        &quot;yellow&quot;: &quot;#fded02&quot;,</span><br><span class="line">        &quot;blue&quot;: &quot;#01a0e4&quot;,</span><br><span class="line">        &quot;purple&quot;: &quot;#a16a94&quot;,</span><br><span class="line">        &quot;cyan&quot;: &quot;#b5e4f4&quot;,</span><br><span class="line">        &quot;white&quot;: &quot;#a5a2a2&quot;,</span><br><span class="line">        &quot;brightBlack&quot;: &quot;#5c5855&quot;,</span><br><span class="line">        &quot;brightRed&quot;: &quot;#e8bbd0&quot;,</span><br><span class="line">        &quot;brightGreen&quot;: &quot;#3a3432&quot;,</span><br><span class="line">        &quot;brightYellow&quot;: &quot;#4a4543&quot;,</span><br><span class="line">        &quot;brightBlue&quot;: &quot;#807d7c&quot;,</span><br><span class="line">        &quot;brightPurple&quot;: &quot;#d6d5d4&quot;,</span><br><span class="line">        &quot;brightCyan&quot;: &quot;#cdab53&quot;,</span><br><span class="line">        &quot;brightWhite&quot;: &quot;#f7f7f7&quot;,</span><br><span class="line">        &quot;background&quot;: &quot;#f7f7f7&quot;,</span><br><span class="line">        &quot;foreground&quot;: &quot;#4a4543&quot;</span><br><span class="line">    &#125;,</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="attr">&quot;name&quot;</span>: <span class="string">&quot;AdventureTime&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;black&quot;</span>: <span class="string">&quot;#050404&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;red&quot;</span>: <span class="string">&quot;#bd0013&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;green&quot;</span>: <span class="string">&quot;#4ab118&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;yellow&quot;</span>: <span class="string">&quot;#e7741e&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;blue&quot;</span>: <span class="string">&quot;#0f4ac6&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;purple&quot;</span>: <span class="string">&quot;#665993&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;cyan&quot;</span>: <span class="string">&quot;#70a598&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;white&quot;</span>: <span class="string">&quot;#f8dcc0&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;brightBlack&quot;</span>: <span class="string">&quot;#4e7cbf&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;brightRed&quot;</span>: <span class="string">&quot;#fc5f5a&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;brightGreen&quot;</span>: <span class="string">&quot;#9eff6e&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;brightYellow&quot;</span>: <span class="string">&quot;#efc11a&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;brightBlue&quot;</span>: <span class="string">&quot;#1997c6&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;brightPurple&quot;</span>: <span class="string">&quot;#9b5953&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;brightCyan&quot;</span>: <span class="string">&quot;#c8faf4&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;brightWhite&quot;</span>: <span class="string">&quot;#f6f5fb&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;background&quot;</span>: <span class="string">&quot;#1f1d45&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;foreground&quot;</span>: <span class="string">&quot;#f8dcc0&quot;</span></span><br><span class="line">    &#125;</span><br><span class="line">],</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h2 id="右键在当前位置打开">右键在当前位置打开</h2>
+<h3 id="手动配置">手动配置</h3>
+<ol type="1">
+<li><p>Win+R 键，输入<code>regedit</code>，运行注册表编辑器；</p></li>
+<li><p>手动查找或在注册表窗口上面直接输入<code>\HKEY_CLASSES_ROOT\Directory\Background\shell</code>找到这个注册表路径；</p></li>
+<li><p>选中shell文件，右键新建项，命名为wt，并设置(默认)值为你想要的名称，如 <code>Windows Terminal Here</code>；</p></li>
+<li><p>再新建字符串值<code>Icon</code>即显示图标，并将值设设置<code>C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_&lt;version&gt;\WindowsTerminal.exe</code></p>
+<p>注意：<version>值看你安装的具体版本，可通过Everything搜索查证，或者设置为cmd的图标<code>C:\Windows\System32\cmd.exe</code>免去更新的麻烦，再或者设置自己的图标，不影响使用。</p></li>
+<li><p>如需要将这个命令置顶，则添加新字符串值<code>Position</code>，值为<code>Top</code></p></li>
+<li><p>右键新建项<code>command</code>，默认值<code>cmd /c set CURRENT_PATH="%V" &amp; start C:\Users\[username]\AppData\Local\Microsoft\WindowsApps\wt.exe</code></p>
+<p>这里的路径是Terminal的路径，一般将<code>[username]</code>修改成自己的用户名即可。</p></li>
+<li><p>打开设置后在<code>profiles&gt;list&gt;</code>中选取你默认的终端，一般默认是<code>Windows PowerShell</code>，在其中添加一行配置<code>"startingDirectory":null</code>，目的是从当前目录打开。</p></li>
+</ol>
+<h3 id="脚本配置">脚本配置</h3>
+<p>待补充···</p>
+]]></content>
+      <categories>
+        <category>Tools</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>Terminal</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Use PyCharm Smartly</title>
+    <url>/posts/aa0db985/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><img data-src="/posts/aa0db985/pycharm.png" class="" width="1000">
+<a id="more"></a>
+<h2 id="key-promoter-x">Key Promoter X</h2>
+<p>新手必装插件！当在IDE内部的按钮上使用鼠标时，<code>Key Promoter X</code>会显示应该使用的键盘快捷键，提供了一种简单的方法来学习如何用键盘按键代替繁琐的鼠标工作，并有助于过渡到更快的无鼠标开发。对于没有快捷方式的按钮，<code>Key Promoter X</code>会提示直接创建一个。</p>
+<h2 id="markdown">Markdown</h2>
+<p>PyCharm默认没有安装Markdown插件的，安装方法有两种：</p>
+<p>1、第一种，打开一个 MD 的文档，PyCharm 就会提示安装它。</p>
+<p>2、从插件商店中搜索安装。</p>
+<h2 id="codeglance">CodeGlance</h2>
+<p>在 PyCharm 中使用预览滚动条。</p>
+<h2 id="regextester">RegexTester</h2>
+<p>安装完成后，无需重启 PyCharm ，点击 PyCharm 界面左下方的小矩形按钮，就能找到 Regex Tester 选项。匹配到的字符串背景会被高亮，右上方还有一些选项如大小写敏感，多行模式等，可根据需要进行选择。Regex Tester 还提供了Split，Replace功能等。</p>
+<h2 id="profile">Profile</h2>
+<p>在 Python 中有许多模块可以帮助你分析并找出你的项目中哪里出现了性能问题。</p>
+<p>比如，常用的模块有 cProfile，在某些框架中，也内置了中间件帮助你进行性能分析，比如 Django ，WSGI。做为Python 的第一 IDE， PyCharm 本身就支持了这项功能。而且使用非常方便，小白。假设现在要分析如下这段代码的性能损耗情况，找出到底哪个函数耗时最多.</p>
+<figure class="highlight py"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> time</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">fun1</span>():</span></span><br><span class="line">    time.sleep(<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">fun2</span>():</span></span><br><span class="line">    time.sleep(<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">fun3</span>():</span></span><br><span class="line">    time.sleep(<span class="number">2</span>)</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">fun4</span>():</span></span><br><span class="line">    time.sleep(<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">fun5</span>():</span></span><br><span class="line">    time.sleep(<span class="number">1</span>)</span><br><span class="line">    fun4()</span><br><span class="line"></span><br><span class="line">fun1()</span><br><span class="line">fun2()</span><br><span class="line">fun3()</span><br><span class="line">fun5()</span><br></pre></td></tr></table></figure>
+<p>点击 Run -&gt; Profile '程序' ，即可进行性能分析。</p>
+<img data-src="/posts/aa0db985/profile.png" class="" width="600">
+<p>运行完毕后，会自动跳出一个性能统计界面，由Name、Call Count、Time(ms)、Own Time(ms) ，4列组成一个表格。</p>
+<img data-src="/posts/aa0db985/profile_result.png" class="" width="600">
+<ol type="1">
+<li><p>表头Name显示被调用的模块或者函数；Call Count显示被调用的次数；Time(ms)显示运行时间和时间百分比，时间单位为毫秒（ms）。</p></li>
+<li><p>点击表头上的小三角可以升序或降序排列表格。</p></li>
+<li><p>在Name这一个列中双击某一行可以跳转到对应的代码。</p></li>
+<li><p>以fun4这一行举例：fun4被调用了一次，运行时间为1000ms，占整个运行时间的16.7%</p></li>
+</ol>
+<p>点击 Call Graph（调用关系图）界面直观展示了各函数直接的调用关系、运行时间和时间百分比，见下图。</p>
+<img data-src="/posts/aa0db985/profile_graph.png" class="" width="600">
+<p>右上角的4个按钮表示放大、缩小、真实大小、合适大小；</p>
+<ol type="1">
+<li><p>箭头表示调用关系，由调用者指向被调用者；</p></li>
+<li><p>矩形的左上角显示模块或者函数的名称，右上角显示被调用的次数；</p></li>
+<li><p>矩形中间显示运行时间和时间百分比；</p></li>
+<li><p>矩形的颜色表示运行时间或者时间百分比大小的趋势：红色 &gt; 黄绿色 &gt; 绿色，由图可以看出fun3的矩形为黄绿色，fun1为绿色，所有fun3运行时间比fun1长。</p></li>
+<li><p>从图中可以看出Test.py直接调用了fun3、fun1、fun2和fun5函数；fun5函数直接调用了fun4函数；fun1、fun2、fun3、fun4和fun5都直接调用了print以及sleep函数；整个测试代码运行的总时间为6006ms，其中fun3的运行时间为1999ms，所占的时间百分比为33.3%，也就是 1999ms / 6006ms = 33.3%。</p></li>
+</ol>
+<h2 id="json-parse">Json Parse</h2>
+<p>在开发过程中，经常会把校验一串 JSON 字符串是否合法，打开 https://tool.lu/json/ 这个在线网站，直接美化来校验，只有 JSON 格式都正确无误合法的，才能够美化。</p>
+<img data-src="/posts/aa0db985/json.png" class="" width="800">
+<h2 id="inspect-code">Inspect Code</h2>
+<p>对于编译型的语言，如 Java，需要将代码编译成机器可识别的语言才可运行，在编译过程中，就可以通过分析或检查源程序的语法、结构、过程、接口等来检查程序的正确性，找出代码隐藏的错误和缺陷。这个过程叫做静态代码分析检查。</p>
+<p>那对于 Python 这种解释型的语言来说，代码是边运行边翻译的，不需要经过编译这个过程。很多肉眼无法一下子看出的错误，通常都是跑一下（反正跑一下这么方便）才能发现。</p>
+<p>由于Python 运行是如此的方便，以至于我们都不太需要关注静态分析工具。</p>
+<p>但也不是说，静态分析工具完全没有用武之地，我认为还是有。</p>
+<p>如果你的编码能力还没有很成熟，代码中可以有许许多多的隐藏bug，由于 Python 是运行到的时候才解释，导致一次运行只能发现一个错误，要发现100个bug，要运行100次，数字有点夸大，其实就是想说，如果这么多的错误都能通过一次静态检查发现就立马修改，开发调试的效率就可以有所提升。当然啦，并不是说所有的错误静态分析都能提前发现，这点希望你不要误解。</p>
+<p>做为 Python 最强 IDE，PyCharm本身内置了这个功能，不需要你安装任何插件。</p>
+<p>你只需要像下面这样点击项目文件夹，然后右键，选择 Inspect Code，就可以开启静态检查。</p>
+<img data-src="/posts/aa0db985/inspect_code.png" class="" width="800">
+<h2 id="auto-pep8">Auto PEP8</h2>
+<hr />
+<blockquote>
+<p>参考 https://mp.weixin.qq.com/s/j-417uMITlfhr-hnX2k33w</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Tools</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>PyCharm</tag>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Markdown代码块支持的语言</title>
     <url>/posts/6ab127e3/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><table>
@@ -1831,23 +1930,6 @@
       </tags>
   </entry>
   <entry>
-    <title>你为什么总比我走得快</title>
-    <url>/posts/6ba5afe6/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><img data-src="/posts/6ba5afe6/watch.jpg" class="">
-<a id="more"></a>
-<p>年幼时，我问他为什么走得比我快，他说他想成为我的奥特曼，时刻保护我，帮我打死小怪兽。</p>
-<p>青年时，我问他为什么走得比我快，他说他想让我知道，山外青山楼外楼，走在我前面、比我优秀的人还有很多。</p>
-<p>终于有一天，我长大了，跪在他的坟冢前，质问他为什么又走得比我快，隐约间我听到他说“因为这个世界太暗太冷，我想尽早过来为你照明点灯”。</p>
-]]></content>
-      <categories>
-        <category>Essays</category>
-      </categories>
-      <tags>
-        <tag>Life</tag>
-        <tag>Original</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>《我们仨》</title>
     <url>/posts/73afbf7d/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">
@@ -1919,6 +2001,23 @@
       </categories>
       <tags>
         <tag>Reading notes</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>你为什么总比我走得快</title>
+    <url>/posts/6ba5afe6/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><img data-src="/posts/6ba5afe6/watch.jpg" class="">
+<a id="more"></a>
+<p>年幼时，我问他为什么走得比我快，他说他想成为我的奥特曼，时刻保护我，帮我打死小怪兽。</p>
+<p>青年时，我问他为什么走得比我快，他说他想让我知道，山外青山楼外楼，走在我前面、比我优秀的人还有很多。</p>
+<p>终于有一天，我长大了，跪在他的坟冢前，质问他为什么又走得比我快，隐约间我听到他说“因为这个世界太暗太冷，我想尽早过来为你照明点灯”。</p>
+]]></content>
+      <categories>
+        <category>Essays</category>
+      </categories>
+      <tags>
+        <tag>Life</tag>
+        <tag>Original</tag>
       </tags>
   </entry>
   <entry>
@@ -2525,36 +2624,47 @@
       </tags>
   </entry>
   <entry>
-    <title>Windows Terminal安装、美化与在当前路径打开</title>
-    <url>/posts/383c5143/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="安装">安装</h2>
-<p>在Win 10应用商店搜索Windows Terminal即可安装。</p>
-<h2 id="美化">美化</h2>
-<p>具体配置教程可前往<span class="exturl" data-url="aHR0cHM6Ly9kb2NzLm1pY3Jvc29mdC5jb20vZW4tdXMvd2luZG93cy90ZXJtaW5hbC9jdXN0b21pemUtc2V0dGluZ3MvcHJvZmlsZS1zZXR0aW5ncw==">官方文档<i class="fa fa-external-link-alt"></i></span>查看。</p>
+    <title>SSH Key Setup for Github &amp; Coding</title>
+    <url>/posts/27b676c2/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="功能介绍">功能介绍</h2>
+<p>Github, CODING 支持使用 SSH 协议来访问 Git 仓库，提供账户 SSH 公钥和项目 SSH 公钥设置。</p>
+<p>一个 SSH 公钥文件，如果和 Github 账户关联，便称为<strong>账户 SSH 公钥</strong>，配置后拥有账户下所有项目的读写权限；如果和某一个项目关联，则称为<strong>部署公钥</strong>，<strong>配置后默认拥有该项目的只读权限</strong>。</p>
 <a id="more"></a>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&quot;profiles&quot;:</span><br><span class="line">&#123;</span><br><span class="line">    <span class="attr">&quot;defaults&quot;</span>:</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment">// Put settings here that you want to apply to all profiles.</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="attr">&quot;list&quot;</span>:</span><br><span class="line">    [</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="comment">// Make changes here to the powershell.exe profile.</span></span><br><span class="line">            <span class="attr">&quot;guid&quot;</span>: <span class="string">&quot;&#123;61c54bbd-c2c6-5271-96e7-009a87ff44bf&#125;&quot;</span>,</span><br><span class="line">            <span class="attr">&quot;name&quot;</span>: <span class="string">&quot;Windows PowerShell&quot;</span>,</span><br><span class="line">            <span class="attr">&quot;commandline&quot;</span>: <span class="string">&quot;powershell.exe&quot;</span>,</span><br><span class="line">            <span class="attr">&quot;hidden&quot;</span>: <span class="literal">false</span>,</span><br><span class="line">            <span class="attr">&quot;startingDirectory&quot;</span>:<span class="literal">null</span>,</span><br><span class="line">            <span class="attr">&quot;acrylicOpacity&quot;</span>: <span class="number">0.8</span>, <span class="comment">//背景透明度</span></span><br><span class="line">        	<span class="attr">&quot;useAcrylic&quot;</span>: <span class="literal">true</span>, <span class="comment">// 启用毛玻璃</span></span><br><span class="line">       	    <span class="attr">&quot;background&quot;</span>: <span class="string">&quot;#000000&quot;</span>,</span><br><span class="line">       	    <span class="comment">//&quot;backgroundImage&quot;: &quot;C://terminal_Bg.jpg&quot;,</span></span><br><span class="line">        	<span class="comment">//&quot;backgroundImageOpacity&quot;: 0.6,</span></span><br><span class="line">            <span class="attr">&quot;colorScheme&quot;</span>: <span class="string">&quot;AdventureTime&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;closeOnExit&quot;</span>: <span class="literal">true</span>,</span><br><span class="line">        <span class="attr">&quot;cursorColor&quot;</span>: <span class="string">&quot;#FFFFFF&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;fontFace&quot;</span>: <span class="string">&quot;Delugia Nerd Font&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;tabTitle&quot;</span>: <span class="string">&quot;Powershell&quot;</span>,</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="comment">// Make changes here to the cmd.exe profile.</span></span><br><span class="line">            <span class="attr">&quot;guid&quot;</span>: <span class="string">&quot;&#123;0caa0dad-35be-5f56-a8ff-afceeeaa6101&#125;&quot;</span>,</span><br><span class="line">            <span class="attr">&quot;name&quot;</span>: <span class="string">&quot;Command Prompt&quot;</span>,</span><br><span class="line">            <span class="attr">&quot;commandline&quot;</span>: <span class="string">&quot;cmd.exe&quot;</span>,</span><br><span class="line">            <span class="attr">&quot;hidden&quot;</span>: <span class="literal">false</span>,</span><br><span class="line">            <span class="attr">&quot;startingDirectory&quot;</span>:<span class="literal">null</span>,</span><br><span class="line">            <span class="attr">&quot;acrylicOpacity&quot;</span>: <span class="number">0.8</span>, <span class="comment">//背景透明度</span></span><br><span class="line">        	<span class="attr">&quot;useAcrylic&quot;</span>: <span class="literal">true</span>, <span class="comment">// 启用毛玻璃</span></span><br><span class="line">        	<span class="attr">&quot;background&quot;</span>: <span class="string">&quot;#000000&quot;</span>,</span><br><span class="line">       	    <span class="comment">//&quot;backgroundImage&quot;: &quot;C://terminal_Bg.jpg&quot;,</span></span><br><span class="line">        	<span class="comment">//&quot;backgroundImageOpacity&quot;: 0.6,</span></span><br><span class="line">            <span class="attr">&quot;colorScheme&quot;</span>: <span class="string">&quot;AdventureTime&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;closeOnExit&quot;</span>: <span class="literal">true</span>,</span><br><span class="line">        <span class="attr">&quot;cursorColor&quot;</span>: <span class="string">&quot;#FFFFFF&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;fontFace&quot;</span>: <span class="string">&quot;Delugia Nerd Font&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;tabTitle&quot;</span>: <span class="string">&quot;Powershell&quot;</span>,</span><br><span class="line"></span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="attr">&quot;guid&quot;</span>: <span class="string">&quot;&#123;b453ae62-4e3d-5e58-b989-0a998ec441b8&#125;&quot;</span>,</span><br><span class="line">            <span class="attr">&quot;hidden&quot;</span>: <span class="literal">false</span>,</span><br><span class="line">            <span class="attr">&quot;name&quot;</span>: <span class="string">&quot;Azure Cloud Shell&quot;</span>,</span><br><span class="line">            <span class="attr">&quot;source&quot;</span>: <span class="string">&quot;Windows.Terminal.Azure&quot;</span></span><br><span class="line">        &#125;</span><br><span class="line">    ]</span><br><span class="line">&#125;,</span><br><span class="line"></span><br><span class="line"><span class="comment">// Add custom color schemes to this array.</span></span><br><span class="line"><span class="comment">// To learn more about color schemes, visit https://aka.ms/terminal-color-schemes</span></span><br><span class="line"><span class="comment">// Add custom color schemes to this array</span></span><br><span class="line">&quot;schemes&quot;: [&#123;</span><br><span class="line">        &quot;name&quot;: &quot;3024 Day&quot;,</span><br><span class="line">        &quot;black&quot;: &quot;#090300&quot;,</span><br><span class="line">        &quot;red&quot;: &quot;#db2d20&quot;,</span><br><span class="line">        &quot;green&quot;: &quot;#01a252&quot;,</span><br><span class="line">        &quot;yellow&quot;: &quot;#fded02&quot;,</span><br><span class="line">        &quot;blue&quot;: &quot;#01a0e4&quot;,</span><br><span class="line">        &quot;purple&quot;: &quot;#a16a94&quot;,</span><br><span class="line">        &quot;cyan&quot;: &quot;#b5e4f4&quot;,</span><br><span class="line">        &quot;white&quot;: &quot;#a5a2a2&quot;,</span><br><span class="line">        &quot;brightBlack&quot;: &quot;#5c5855&quot;,</span><br><span class="line">        &quot;brightRed&quot;: &quot;#e8bbd0&quot;,</span><br><span class="line">        &quot;brightGreen&quot;: &quot;#3a3432&quot;,</span><br><span class="line">        &quot;brightYellow&quot;: &quot;#4a4543&quot;,</span><br><span class="line">        &quot;brightBlue&quot;: &quot;#807d7c&quot;,</span><br><span class="line">        &quot;brightPurple&quot;: &quot;#d6d5d4&quot;,</span><br><span class="line">        &quot;brightCyan&quot;: &quot;#cdab53&quot;,</span><br><span class="line">        &quot;brightWhite&quot;: &quot;#f7f7f7&quot;,</span><br><span class="line">        &quot;background&quot;: &quot;#f7f7f7&quot;,</span><br><span class="line">        &quot;foreground&quot;: &quot;#4a4543&quot;</span><br><span class="line">    &#125;,</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="attr">&quot;name&quot;</span>: <span class="string">&quot;AdventureTime&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;black&quot;</span>: <span class="string">&quot;#050404&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;red&quot;</span>: <span class="string">&quot;#bd0013&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;green&quot;</span>: <span class="string">&quot;#4ab118&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;yellow&quot;</span>: <span class="string">&quot;#e7741e&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;blue&quot;</span>: <span class="string">&quot;#0f4ac6&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;purple&quot;</span>: <span class="string">&quot;#665993&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;cyan&quot;</span>: <span class="string">&quot;#70a598&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;white&quot;</span>: <span class="string">&quot;#f8dcc0&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;brightBlack&quot;</span>: <span class="string">&quot;#4e7cbf&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;brightRed&quot;</span>: <span class="string">&quot;#fc5f5a&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;brightGreen&quot;</span>: <span class="string">&quot;#9eff6e&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;brightYellow&quot;</span>: <span class="string">&quot;#efc11a&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;brightBlue&quot;</span>: <span class="string">&quot;#1997c6&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;brightPurple&quot;</span>: <span class="string">&quot;#9b5953&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;brightCyan&quot;</span>: <span class="string">&quot;#c8faf4&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;brightWhite&quot;</span>: <span class="string">&quot;#f6f5fb&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;background&quot;</span>: <span class="string">&quot;#1f1d45&quot;</span>,</span><br><span class="line">        <span class="attr">&quot;foreground&quot;</span>: <span class="string">&quot;#f8dcc0&quot;</span></span><br><span class="line">    &#125;</span><br><span class="line">],</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h2 id="右键在当前位置打开">右键在当前位置打开</h2>
-<h3 id="手动配置">手动配置</h3>
+<p>SSH 协议的 Git 仓库地址示例如下图所示：</p>
+<figure class="highlight fortran"><table><tr><td class="code"><pre><span class="line">git@e<span class="number">.</span>coding<span class="number">.</span>net:<span class="built_in">team</span>-<span class="keyword">name</span>/project-<span class="keyword">name</span><span class="number">.</span>git</span><br></pre></td></tr></table></figure>
+<h2 id="生成公钥">生成公钥</h2>
+<p>打开命令行终端输入 <code>ssh-keygen -m PEM -t rsa -b 4096 -C "your.email@example.com"</code>( 您的邮箱)，连续点击 Enter 键即可。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -b 4096 -C &quot;your.email@example.com&quot;</span><br><span class="line"><span class="meta">#</span><span class="bash"> Creates a new ssh key, using the provided email as a label</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> Generating public/private rsa key pair.</span></span><br><span class="line">Enter file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]  // 推荐使用默认地址</span><br><span class="line">Enter passphrase (empty for no passphrase):   //此处点击 Enter 键即可，也可以填写密码，填写密码后每次使用 SSH 方式推送代码时都会要求输入密码，由于这个 Key 也不是用于军事目的，所以也无需设置密码。</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>若您需要使用多个 SSH 密钥对（您可能同时在多个代码托管平台工作），在提示“Enter file in which to save the key” 时，输入一个新的文件名称就不会覆盖默认的密钥对。</p>
+</blockquote>
+<p>成功之后显示如下信息：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Your identification has been saved <span class="keyword">in</span> /Users/you/.ssh/id_rsa.</span><br><span class="line"><span class="comment"># Your public key has been saved in /Users/you/.ssh/id_rsa.pub.</span></span><br><span class="line"><span class="comment"># The key fingerprint is:</span></span><br><span class="line"><span class="comment"># 01:0f:f4:3b:ca:85:d6:17:a1:7d:f0:68:9d:f0:a2:db your.email@example.com</span></span><br></pre></td></tr></table></figure>
+<h2 id="添加公钥">添加公钥</h2>
+<p>CODING 提供账户 SSH 公钥和项目 SSH 公钥设置。本质上账户公钥和部署公钥是一样的，只是关联的方式不同。</p>
+<p>一个 SSH 公钥文件，如果和 CODING 账户关联，便称为账户 SSH 公钥，配置后拥有账户下所有项目的读写权限；如果和某一个项目关联，则称为部署公钥，配置后默认拥有该项目的只读权限。</p>
+<h3 id="添加账户公钥">添加账户公钥</h3>
 <ol type="1">
-<li><p>Win+R 键，输入<code>regedit</code>，运行注册表编辑器；</p></li>
-<li><p>手动查找或在注册表窗口上面直接输入<code>\HKEY_CLASSES_ROOT\Directory\Background\shell</code>找到这个注册表路径；</p></li>
-<li><p>选中shell文件，右键新建项，命名为wt，并设置(默认)值为你想要的名称，如 <code>Windows Terminal Here</code>；</p></li>
-<li><p>再新建字符串值<code>Icon</code>即显示图标，并将值设设置<code>C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_&lt;version&gt;\WindowsTerminal.exe</code></p>
-<p>注意：<version>值看你安装的具体版本，可通过Everything搜索查证，或者设置为cmd的图标<code>C:\Windows\System32\cmd.exe</code>免去更新的麻烦，再或者设置自己的图标，不影响使用。</p></li>
-<li><p>如需要将这个命令置顶，则添加新字符串值<code>Position</code>，值为<code>Top</code></p></li>
-<li><p>右键新建项<code>command</code>，默认值<code>cmd /c set CURRENT_PATH="%V" &amp; start C:\Users\[username]\AppData\Local\Microsoft\WindowsApps\wt.exe</code></p>
-<p>这里的路径是Terminal的路径，一般将<code>[username]</code>修改成自己的用户名即可。</p></li>
-<li><p>打开设置后在<code>profiles&gt;list&gt;</code>中选取你默认的终端，一般默认是<code>Windows PowerShell</code>，在其中添加一行配置<code>"startingDirectory":null</code>，目的是从当前目录打开。</p></li>
+<li><p>在终端输入 <code>open ~/.ssh</code>，用文本编辑器打开 <code>id_rsa.pub</code> 文件（此处是生成公钥的默认名称，如果生成公钥时采用了其他名称，打开相对应的文件即可），复制全部内容。</p></li>
+<li><p>登录 CODING ，点击右上角【个人设置】，选择菜单【SSH 公钥】，点击【新增公钥】按钮</p></li>
+<li><p>将第一步中复制的内容填写到【公钥内容】一栏，公钥名称按需填写即可。</p></li>
+<li><p>设定公钥有效期，可选择具体日期或设置永久有效。</p></li>
+<li><p>点击【添加】，然后输入账户密码即可成功添加公钥。</p></li>
+<li><p>完成后在命令行测试，首次建立链接会要求信任主机。命令 <code>ssh -T git@e.coding.net</code></p></li>
 </ol>
-<h3 id="脚本配置">脚本配置</h3>
-<p>待补充···</p>
+<h3 id="添加部署公钥">添加部署公钥</h3>
+<p>大致同上...</p>
+<blockquote>
+<p>部署公钥默认拥有该项目的只读权限，如果需要获取推送权限，请勾选部署公钥设置里的【授予推送权限】。</p>
+</blockquote>
 ]]></content>
       <categories>
-        <category>Tools</category>
+        <category>Program</category>
       </categories>
       <tags>
-        <tag>Windows</tag>
-        <tag>Terminal</tag>
+        <tag>Git</tag>
+        <tag>Github</tag>
+        <tag>Coding</tag>
       </tags>
   </entry>
 </search>

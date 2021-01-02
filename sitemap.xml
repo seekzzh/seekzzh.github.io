@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://seekzzh.site/posts/27b676c2/</loc>
+    
+    <lastmod>2021-01-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://seekzzh.site/posts/aa0db985/</loc>
+    
+    <lastmod>2021-01-02</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://seekzzh.site/posts/383c5143/</loc>
     
     <lastmod>2021-01-02</lastmod>
@@ -277,13 +291,6 @@
   </url>
   
   <url>
-    <loc>https://seekzzh.site/tags/Matlab/</loc>
-    <lastmod>2021-01-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://seekzzh.site/tags/TJU/</loc>
     <lastmod>2021-01-02</lastmod>
     <changefreq>daily</changefreq>
@@ -292,6 +299,13 @@
   
   <url>
     <loc>https://seekzzh.site/tags/Photos/</loc>
+    <lastmod>2021-01-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://seekzzh.site/tags/Matlab/</loc>
     <lastmod>2021-01-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -333,6 +347,27 @@
   </url>
   
   <url>
+    <loc>https://seekzzh.site/tags/Terminal/</loc>
+    <lastmod>2021-01-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://seekzzh.site/tags/PyCharm/</loc>
+    <lastmod>2021-01-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://seekzzh.site/tags/Python/</loc>
+    <lastmod>2021-01-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://seekzzh.site/tags/Markdown/</loc>
     <lastmod>2021-01-02</lastmod>
     <changefreq>daily</changefreq>
@@ -354,14 +389,14 @@
   </url>
   
   <url>
-    <loc>https://seekzzh.site/tags/Original/</loc>
+    <loc>https://seekzzh.site/tags/Reading-notes/</loc>
     <lastmod>2021-01-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://seekzzh.site/tags/Reading-notes/</loc>
+    <loc>https://seekzzh.site/tags/Original/</loc>
     <lastmod>2021-01-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -389,7 +424,14 @@
   </url>
   
   <url>
-    <loc>https://seekzzh.site/tags/Terminal/</loc>
+    <loc>https://seekzzh.site/tags/Github/</loc>
+    <lastmod>2021-01-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://seekzzh.site/tags/Coding/</loc>
     <lastmod>2021-01-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
